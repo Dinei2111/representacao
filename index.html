@@ -4,10 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Catálogo de produtos</title>
-<meta name="description" content="Catálogo de produtos com pedido direto pelo WhatsApp.">
+<meta name="description" content="Catálogo de produtos com pedido pelo site e acompanhamento de status.">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📦</text></svg>">
 <script src="config.js"></script>
+<script src="assets/vendor/supabase.js"></script>
+<script src="precos.js"></script>
+<script src="sistema.js"></script>
 </head>
 <body>
 
@@ -18,7 +21,7 @@
       <span id="marca-chamada"></span>
     </div>
     <div class="topo-acoes">
-      <button id="btn-precos" class="btn-secundario" type="button">🔒 Ver preços</button>
+      <a id="btn-conta" class="btn-secundario" href="conta.html">Entrar</a>
       <button id="btn-pedido" class="btn-primario" type="button">
         Meu pedido <span id="contador" class="contador">0</span>
       </button>
@@ -36,6 +39,11 @@
   </div>
 </header>
 
+<p id="aviso-aprovacao" class="faixa-aviso" hidden>
+  Seu cadastro está em análise. Assim que for aprovado, os preços aparecem e você
+  consegue fechar pedidos.
+</p>
+
 <div class="corpo">
   <aside id="categorias" class="categorias" aria-label="Categorias"></aside>
 
@@ -49,6 +57,7 @@
 
 <footer class="rodape">
   <p id="rodape-texto"></p>
+  <p><a href="politica.html">Política comercial, garantia e devoluções</a></p>
   <p class="creditos">Imagens e descrições reproduzidas do catálogo do fabricante.</p>
 </footer>
 
@@ -66,28 +75,21 @@
   </header>
   <div id="pedido-itens" class="painel-corpo"></div>
   <footer class="painel-rodape">
-    <div class="campos">
-      <input id="cliente-nome" placeholder="Seu nome / loja" autocomplete="organization">
-      <input id="cliente-cidade" placeholder="Cidade / UF" autocomplete="address-level2">
-    </div>
+    <input id="pedido-observacao" placeholder="Observação para o pedido (opcional)">
     <div id="pedido-total" class="total"></div>
+    <p class="ajuda">Venda em caixa fechada, somente à vista.
+      <a href="politica.html">Ver política comercial</a></p>
     <div class="painel-botoes">
       <button id="limpar-pedido" class="btn-secundario" type="button">Limpar</button>
-      <button id="enviar-pedido" class="btn-whats" type="button">Enviar pelo WhatsApp</button>
+      <button id="concluir-pedido" class="btn-whats" type="button">Concluir pedido</button>
     </div>
   </footer>
 </dialog>
 
-<!-- senha da tabela -->
-<dialog id="senha" class="ficha estreita">
+<!-- pedido registrado -->
+<dialog id="confirmacao" class="ficha estreita">
   <button class="fechar" data-fechar type="button" aria-label="Fechar">✕</button>
-  <h2>Tabela de preços</h2>
-  <p class="ajuda">Os preços são liberados para clientes cadastrados. Digite a senha recebida.</p>
-  <form id="form-senha">
-    <input id="campo-senha" type="password" placeholder="Senha" autocomplete="current-password" required>
-    <p id="erro-senha" class="erro" hidden>Senha incorreta.</p>
-    <button class="btn-primario" type="submit">Liberar preços</button>
-  </form>
+  <div id="confirmacao-conteudo"></div>
 </dialog>
 
 <script src="app.js"></script>

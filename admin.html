@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📋</text></svg>">
+<script src="config.js"></script>
+<script src="assets/vendor/supabase.js"></script>
+<script src="precos.js"></script>
+<script src="sistema.js"></script>
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-linha">
+    <div class="marca">
+      <strong id="marca-nome">Painel</strong>
+      <span>Pedidos e cadastros</span>
+    </div>
+    <div class="topo-acoes">
+      <a class="btn-secundario" href="index.html">← Catálogo</a>
+      <button id="btn-sair" class="btn-secundario" type="button" hidden>Sair</button>
+    </div>
+  </div>
+</header>
+
+<main class="conteudo">
+  <p id="sem-acesso" class="vazio" hidden>
+    Esta área é do representante. <a href="conta.html">Entrar com a conta de administrador</a>.
+  </p>
+
+  <div id="painel" hidden>
+    <section>
+      <h2 class="titulo-secao">Cadastros aguardando aprovação <span id="n-pendentes"></span></h2>
+      <div id="lista-clientes"></div>
+    </section>
+
+    <section>
+      <h2 class="titulo-secao">Pedidos</h2>
+      <div class="filtros-status" id="filtros-status"></div>
+      <div id="lista-pedidos"></div>
+    </section>
+  </div>
+</main>
+
+<script src="admin.js"></script>
+</body>
+</html>

@@ -249,8 +249,6 @@ dialog::backdrop { background: rgba(12, 22, 38, .55); }
 .acoes-ficha { display: flex; gap: 8px; align-items: center; margin-top: 14px; }
 
 .ajuda { color: var(--suave); font-size: 13.5px; margin: 0 0 12px; }
-#form-senha { display: flex; flex-direction: column; gap: 10px; }
-#form-senha input { padding: 10px 12px; border: 1px solid var(--borda); border-radius: 8px; }
 .erro { color: #dc2626; margin: 0; font-size: 13px; }
 
 /* ---------- painel do pedido ---------- */
@@ -309,4 +307,112 @@ dialog::backdrop { background: rgba(12, 22, 38, .55); }
   .corpo { padding: 0 12px; margin-top: 12px; }
   .campos { grid-template-columns: 1fr; }
   .ficha { padding: 18px 14px; }
+}
+
+/* ================= promoções, caixas e telas de conta/painel ================= */
+
+.selo-promo { background: #dc2626; }
+.card-caixa { font-size: 11.5px; color: var(--suave); }
+.card-preco s { color: var(--suave); font-weight: 500; font-size: 13px; }
+.faixas { font-size: 11.5px; color: var(--verde); }
+.qtd-mini .un { padding: 0 8px 0 2px; font-size: 12px; color: var(--suave); }
+.item-pedido .sub { font-size: 12px; color: var(--suave); margin-top: 4px; }
+
+.faixa-aviso {
+  margin: 0;
+  padding: 10px 16px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 13.5px;
+  text-align: center;
+}
+
+.conteudo.estreita { max-width: 720px; margin: 20px auto; padding: 0 16px; }
+.conteudo { max-width: 1400px; margin: 0 auto; padding: 0 16px; }
+.titulo-secao { font-size: 16px; margin: 24px 0 10px; }
+
+.cartao {
+  background: var(--branco);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: var(--sombra);
+}
+.cartao h2 { margin: 0 0 8px; font-size: 17px; }
+
+.abas { display: flex; gap: 6px; margin-bottom: 12px; }
+.aba {
+  flex: 1;
+  padding: 9px;
+  border: 1px solid var(--borda);
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+}
+.aba[aria-current="true"] { background: var(--cor); color: #fff; border-color: var(--cor); font-weight: 600; }
+
+.formulario { display: grid; gap: 10px; }
+.formulario label { display: grid; gap: 4px; font-size: 13px; color: var(--suave); }
+.formulario input {
+  padding: 9px 11px;
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  font-size: 15px;
+  color: var(--texto);
+}
+.formulario input:focus { outline: 2px solid var(--cor); }
+.dupla { display: grid; grid-template-columns: 2fr 1fr; gap: 10px; }
+
+.sucesso { color: var(--verde); font-weight: 600; margin: 6px 0 0; }
+.aviso-inline { color: #b45309; font-weight: 600; margin: 6px 0 0; }
+
+.pedido-topo { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.etiqueta { color: #fff; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.acoes-status { display: grid; gap: 6px; justify-items: end; }
+.acoes-status select {
+  padding: 6px 10px;
+  border: 2px solid var(--borda);
+  border-radius: 999px;
+  font-weight: 600;
+  background: #fff;
+  cursor: pointer;
+}
+
+.tabela { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13.5px; }
+.tabela td { padding: 7px 4px; border-bottom: 1px solid var(--borda); vertical-align: top; }
+.tabela .num { text-align: right; white-space: nowrap; }
+.tabela tfoot td { border: 0; padding-top: 10px; font-weight: 600; }
+
+.linha-tempo { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; font-size: 13px; }
+.linha-tempo li { display: flex; align-items: center; gap: 8px; }
+.linha-tempo small { color: var(--suave); }
+.ponto { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+
+.linha-cliente { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+
+.filtros-status { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.filtros-status button {
+  padding: 6px 13px;
+  border: 1px solid var(--borda);
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+}
+.filtros-status button[aria-current="true"] { background: var(--cor); color: #fff; border-color: var(--cor); }
+
+details summary { cursor: pointer; color: var(--cor); font-size: 13.5px; margin-top: 10px; }
+
+.texto-legal { max-width: 760px; margin: 24px auto; padding: 0 16px 60px; }
+.texto-legal h2 { font-size: 16px; margin: 26px 0 8px; color: var(--cor); }
+.texto-legal ul { margin: 0; padding-left: 20px; }
+.texto-legal li { margin: 5px 0; }
+
+#pedido-observacao { padding: 9px 11px; border: 1px solid var(--borda); border-radius: 8px; }
+
+@media (max-width: 560px) {
+  .pedido-topo { flex-direction: column; }
+  .acoes-status { justify-items: start; }
+  .linha-cliente { flex-direction: column; align-items: stretch; }
 }

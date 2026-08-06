@@ -34,7 +34,9 @@ DIR_BUILD = RAIZ / "build"
 DIR_IMG = RAIZ / "assets" / "produtos"
 
 # --- classificacao por fonte -------------------------------------------------
-RE_CODIGO = re.compile(r"^[A-Z0-9]{1,6}-[A-Z0-9][A-Z0-9/.\-+ ]*$")
+# com prefixo ('KP-SL80', 'KP-552/220v') ou sem prefixo ('GT210/1G', 'SL7013/1.5M')
+RE_CODIGO = re.compile(r"^(?:[A-Z0-9]{1,6}-[A-Z0-9][A-Za-z0-9/.\-+ ]*"
+                       r"|[A-Z]{1,4}\d[A-Za-z0-9/.\-+]*)$")
 RE_PRECO = re.compile(r"^\d{1,3}(?:[.\s]?\d{3})*,\d{2}$")
 RE_QTD = re.compile(r"^\d{1,4}$")
 RE_ROTULO_PRECO = re.compile(r"^(R\$|CX|PÇS?|PCS?|UN|\d{1,3})$", re.I)
@@ -44,7 +46,10 @@ RUIDO_NOME = {"R$", "CX", "LANÇAMENTO", "LANCAMENTO", "NOVO", "UN", "PÇ", "PC"
 # selo "COMPRE O COMBO" no canto do tile: nao e nome, nem spec, nem limite da foto
 RUIDO_SELO = {"COMPRE O", "COMPRE", "COMBO", "O"}
 
+# faixa de corpo de fonte em que os codigos aparecem (ha codigos em 7pt)
+FONTE_COD = (6.8, 10.5)
 LARGURA_PAG = 595.276
+LARGURA_COLUNA = 143.0    # 4 colunas de produto por página
 MARGEM_DIR = 578.0
 FUNDO_PAG = 826.0
 
@@ -97,12 +102,12 @@ def coletar_spans(pagina) -> list[dict]:
 
 
 def eh_codigo(sp: dict) -> bool:
-    return (sp["fonte"].startswith("Dinamit") and 7.4 <= sp["tam"] <= 10.5
+    return (sp["fonte"].startswith("Dinamit") and FONTE_COD[0] <= sp["tam"] <= FONTE_COD[1]
             and bool(RE_CODIGO.match(sp["texto"])))
 
 
 def eh_qtd(sp: dict) -> bool:
-    return (sp["fonte"].startswith("Dinamit") and 7.4 <= sp["tam"] <= 10.5
+    return (sp["fonte"].startswith("Dinamit") and FONTE_COD[0] <= sp["tam"] <= FONTE_COD[1]
             and bool(RE_QTD.match(sp["texto"])))
 
 
@@ -118,6 +123,27 @@ def eh_cabecalho(sp: dict) -> bool:
             and not RE_CODIGO.match(sp["texto"]))
 
 
+def remover_sobreposicoes(spans: list[dict]) -> list[dict]:
+    """Descarta os duplicados que o layout imprime por cima do codigo.
+
+    O InDesign desenha 'RG-SW49' e, sobreposto, os pedacos 'RG' e 'SW49'. Sem
+    isso, aceitar codigos sem prefixo criaria dezenas de produtos fantasmas.
+    """
+    din = [sp for sp in spans
+           if sp["fonte"].startswith("Dinamit") and FONTE_COD[0] <= sp["tam"] <= FONTE_COD[1]]
+    sobras = set()
+    for a in din:
+        for b in din:
+            if a is b or id(b) in sobras:
+                continue
+            if (b["x0"] - 0.6 <= a["x0"] and a["x1"] <= b["x1"] + 0.6
+                    and abs(a["y0"] - b["y0"]) <= 1.5
+                    and (a["x1"] - a["x0"]) < (b["x1"] - b["x0"]) - 0.5):
+                sobras.add(id(a))
+                break
+    return [sp for sp in spans if id(sp) not in sobras]
+
+
 def juntar_dinamit(spans: list[dict]) -> list[dict]:
     """O InDesign quebra alguns codigos em varios spans ('KP' + '-RA937').
 
@@ -125,7 +151,7 @@ def juntar_dinamit(spans: list[dict]) -> list[dict]:
     espaco entre eles, devolvendo a lista de spans com os codigos inteiros.
     """
     alvo = [sp for sp in spans
-            if sp["fonte"].startswith("Dinamit") and 7.4 <= sp["tam"] <= 10.5]
+            if sp["fonte"].startswith("Dinamit") and FONTE_COD[0] <= sp["tam"] <= FONTE_COD[1]]
     outros = [sp for sp in spans if sp not in alvo]
     unidos: list[dict] = []
     for sp in sorted(alvo, key=lambda s: (round(s["y0"], 1), s["x0"])):
@@ -282,7 +308,7 @@ def classificar(internos: list[dict]):
             if qtd is None:
                 qtd = int(t)
             continue
-        if sp["fonte"].startswith("Dinamit") and sp["tam"] <= 10.5:
+        if sp["fonte"].startswith("Dinamit") and sp["tam"] <= FONTE_COD[1]:
             continue                       # sobras da sobreposicao do layout
         if eh_preco(sp):
             precos.append(sp)
@@ -316,6 +342,81 @@ def rotulo_do_preco(sp_preco: dict, spans: list[dict]) -> str:
     perto.sort(key=lambda s: (round(s["y0"]), s["x0"]))
     rot = limpar(" ".join(sp["texto"] for sp in perto))
     return "" if rot in ("R$", "") else rot
+
+
+def riscos_da_pagina(pagina) -> list:
+    """Tracos horizontais finos da pagina — e assim que o catalogo risca o preco antigo."""
+    return [d["rect"] for d in pagina.get_drawings()
+            if d["rect"].height <= 2.2 and d["rect"].width >= 12]
+
+
+def esta_riscado(sp: dict, riscos: list) -> bool:
+    """O traco costuma comecar no 'R$' e parar um pouco antes do fim do numero,
+    entao vale a sobreposicao (60% da largura) e nao o encaixe exato. A altura
+    tem que cair no miolo do texto — assim o sublinhado do nome nao conta."""
+    largura = sp["x1"] - sp["x0"]
+    alto = sp["y1"] - sp["y0"]
+    for r in riscos:
+        sobre = min(r.x1, sp["x1"]) - max(r.x0, sp["x0"])
+        meio = (r.y0 + r.y1) / 2
+        if sobre >= 0.6 * largura and sp["y0"] + 0.25 * alto < meio < sp["y1"] - 0.15 * alto:
+            return True
+    return False
+
+
+def ler_faixa(rotulo: str) -> dict | None:
+    """'3 CX' -> a partir de 3 caixas; '50 PÇS' -> a partir de 50 pecas.
+
+    Numero solto ('30') vem de uma faixa cujo 'CX' o layout desenhou separado.
+    """
+    m = re.match(r"^(\d{1,3})\s*(CX|PÇS?|PCS?)?$", rotulo.strip(), re.I)
+    if not m:
+        return None
+    unidade = "pc" if (m.group(2) or "").upper().startswith(("PÇ", "PC")) else "cx"
+    return {"a_partir": int(m.group(1)), "unidade": unidade}
+
+
+def montar_precos(precos_spans: list[dict], spans: list[dict], riscos: list,
+                  coluna: tuple[float, float],
+                  largura_total: tuple[float, float]) -> tuple[dict, list[str]]:
+    """Monta {de, valor, faixas} a partir dos precos que caem dentro do tile.
+
+    Regras tiradas do proprio catalogo:
+    - preco riscado e o preco antigo da promocao ('de 768,90 por 670,00');
+    - preco com rotulo ('3 CX', '50 PÇS') e faixa por volume;
+    - o preco corrente e o primeiro preco simples dentro da coluna do produto —
+      olhar a coluna evita herdar o preco do vizinho quando o quadro estica.
+    """
+    def separar(limites):
+        de, valor, faixas, sobras = None, None, [], []
+        for sp in sorted(precos_spans, key=lambda s: (s["y0"], s["x0"])):
+            if not limites[0] <= sp["cx"] <= limites[1]:
+                continue
+            rotulo = rotulo_do_preco(sp, spans)
+            faixa = ler_faixa(rotulo) if rotulo else None
+            if faixa:
+                faixas.append({**faixa, "valor": sp["texto"]})
+            elif esta_riscado(sp, riscos):
+                de = de or sp["texto"]
+            elif valor is None:
+                valor = sp["texto"]
+            else:
+                sobras.append(sp["texto"])
+        faixas.sort(key=lambda f: (f["unidade"], f["a_partir"]))
+        return {"de": de, "valor": valor, "faixas": faixas}, sobras
+
+    preco, sobras = separar(coluna)
+    if preco["valor"] is None and not preco["faixas"]:
+        # cards de combo e de tabela põem o preço fora da coluna do código;
+        # aí o quadro inteiro é de um produto só e não há com quem confundir
+        preco, sobras = separar(largura_total)
+    if preco["valor"] is None and preco["faixas"]:
+        # cards de tabela só trazem preços rotulados ('50 PÇS' / '1 CX'):
+        # o de menor exigência vira o preço de referência
+        base = min(preco["faixas"], key=lambda f: (f["unidade"] != "pc", f["a_partir"]))
+        preco["valor"] = base["valor"]
+        preco["faixas"] = [f for f in preco["faixas"] if f is not base]
+    return preco, sobras
 
 
 def specs_de_tabela(spec_spans: list[dict], rotulos: list[dict]) -> list[str]:
@@ -354,8 +455,9 @@ def specs_de_tabela(spec_spans: list[dict], rotulos: list[dict]) -> list[str]:
 
 
 def extrair_pagina(pagina, pno: int, categoria_atual: str):
-    spans = juntar_dinamit(coletar_spans(pagina))
+    spans = juntar_dinamit(remover_sobreposicoes(coletar_spans(pagina)))
     imagens = [im for im in pagina.get_image_info(xrefs=True) if im["xref"]]
+    riscos = riscos_da_pagina(pagina)
 
     cabecalhos = sorted(
         [sp for sp in spans if eh_cabecalho(sp)],
@@ -367,6 +469,7 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str):
         por_linha[t["linha"]].append(t)
 
     produtos = []
+    avisos: list[str] = []
     for tile in tiles:
         rect = tile["rect"]
         cat = categoria_atual
@@ -402,19 +505,24 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str):
                 a_nome, _, _, _, _ = classificar([sp for sp in spans if dentro(acima, sp)])
                 nome = texto_do_nome(a_nome)
 
+        coluna = (rect[0], min(rect[2], rect[0] + LARGURA_COLUNA))
+        preco, sobras = montar_precos(precos, spans, riscos, coluna, (rect[0], rect[2]))
+        if sobras:
+            avisos.append(f"pág {pno}: preço sem dono em {tile['codigo']}: {sobras}")
+        if preco["valor"] is None:
+            avisos.append(f"pág {pno}: {tile['codigo']} ficou sem preço")
+
         produtos.append({
             # um punhado de tiles nao tem titulo impresso: usa a categoria
             "codigo": tile["codigo"], "nome": nome or cat.title(), "specs": specs,
-            "preco": precos[0]["texto"] if precos else None,
-            "precos": [{"rotulo": rotulo_do_preco(sp, spans), "valor": sp["texto"]}
-                       for sp in precos],
+            "preco": preco,
             "qtd_caixa": qtd, "lancamento": lancamento,
             "categoria": cat, "pagina": pno, "area_foto": area,
         })
 
     if cabecalhos:
         categoria_atual = cabecalhos[-1]["texto"]
-    return produtos, categoria_atual
+    return produtos, categoria_atual, avisos
 
 
 def aparar_branco(img: Image.Image, limiar: int = 247) -> Image.Image:
@@ -472,13 +580,15 @@ def main() -> None:
     DIR_IMG.mkdir(parents=True, exist_ok=True)
 
     produtos: list[dict] = []
+    avisos: list[str] = []
     categoria = ""
     for pno in range(inicio, fim + 1):
         if pno in PAGINAS_IGNORADAS:
             continue
         pagina = doc[pno - 1]
-        novos, categoria = extrair_pagina(pagina, pno, categoria)
+        novos, categoria, novos_avisos = extrair_pagina(pagina, pno, categoria)
         produtos.extend(novos)
+        avisos.extend(novos_avisos)
 
     # o mesmo codigo aparece de novo nas paginas de promocao: fica a versao
     # mais completa, sem duplicar o produto no site
@@ -489,9 +599,8 @@ def main() -> None:
             anterior = vistos[cod]
             if len(p["specs"]) > len(anterior["specs"]):
                 anterior.update({k: p[k] for k in ("nome", "specs", "area_foto", "pagina")})
-            if not anterior.get("preco"):
+            if not anterior["preco"]["valor"]:
                 anterior["preco"] = p["preco"]
-                anterior["precos"] = p["precos"]
             anterior["lancamento"] = anterior["lancamento"] or p["lancamento"]
             continue
         vistos[cod] = p
@@ -508,12 +617,13 @@ def main() -> None:
             if destino.exists() or salvar_foto(doc[p["pagina"] - 1], p["area_foto"],
                                                destino, thumb):
                 imagens.append(ident)
-        if p["preco"]:
-            precos[p["codigo"]] = {"valor": p["preco"], "faixas": p["precos"]}
+        if p["preco"]["valor"]:
+            precos[p["codigo"]] = p["preco"]
         catalogo.append({
             "codigo": p["codigo"], "nome": p["nome"], "categoria": p["categoria"],
             "specs": p["specs"], "qtd_caixa": p["qtd_caixa"],
-            "lancamento": p["lancamento"], "pagina": p["pagina"], "imagens": imagens,
+            "lancamento": p["lancamento"], "promocao": bool(p["preco"]["de"]),
+            "fornecedor": "Knup", "pagina": p["pagina"], "imagens": imagens,
         })
 
     (DIR_DADOS / "produtos.json").write_text(
@@ -525,13 +635,22 @@ def main() -> None:
     sem_nome = [p for p in catalogo if not p["nome"]]
     sem_img = [p for p in catalogo if not p["imagens"]]
     sem_spec = [p for p in catalogo if not p["specs"]]
+    promos = [p for p in catalogo if p["promocao"]]
+    com_faixa = [c for c, v in precos.items() if v["faixas"]]
     print(f"produtos: {len(catalogo)}  (brutos {len(produtos)}, duplicados {len(produtos)-len(finais)})")
-    print(f"com preco: {len(precos)}  sem nome: {len(sem_nome)}  "
-          f"sem imagem: {len(sem_img)}  sem specs: {len(sem_spec)}")
+    print(f"com preco: {len(precos)}  em promoção: {len(promos)}  "
+          f"com faixa por volume: {len(com_faixa)}")
+    print(f"sem nome: {len(sem_nome)}  sem imagem: {len(sem_img)}  sem specs: {len(sem_spec)}")
     for p in sem_nome[:10]:
         print("  sem nome:", p["codigo"], "pag", p["pagina"])
     for p in sem_img[:10]:
         print("  sem imagem:", p["codigo"], "pag", p["pagina"])
+    if avisos:
+        print(f"\nAVISOS ({len(avisos)}) — conferir no PDF:")
+        for a in avisos[:40]:
+            print("  •", a)
+    else:
+        print("\nsem avisos de layout")
 
 
 if __name__ == "__main__":

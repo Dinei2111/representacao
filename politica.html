@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política comercial</title>
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-linha">
+    <div class="marca">
+      <strong id="marca-nome">Política comercial</strong>
+      <span>Condições de venda do fabricante</span>
+    </div>
+    <a class="btn-secundario" href="index.html">← Voltar ao catálogo</a>
+  </div>
+</header>
+
+<main class="texto-legal">
+  <p class="ajuda">Condições praticadas pela Knup, reproduzidas do catálogo oficial
+  (pág. 82). Valem para todos os pedidos feitos por este site.</p>
+  <section>
+    <h2>Política comercial</h2>
+    <ul>
+      <li>Pagamento somente à vista.</li>
+      <li>Não vendemos a prazo ou faturado.</li>
+      <li>Vendas somente para empresas com CNPJ mediante cadastro.</li>
+      <li>Vendas somente no formato Caixa Master (Caixa fechada).</li>
+      <li>Frete somente FOB via transportadora ou cliente retira o pedido.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Garantia — RMA (revendedor)</h2>
+    <ul>
+      <li>6 Meses de garantia a contar da data de emissão da Nota Fiscal Knup para o revendedor.</li>
+      <li>Exigimos o envio do produto completo, com os acessórios e na embalagem original.</li>
+      <li>Maiores informações sobre RMA: rma@novaknup.com.br / WhatsApp 11 9 3000-5189.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Garantia — consumidor final</h2>
+    <ul>
+      <li>6 Meses de garantia a contar da data de emissão da Nota Fiscal do revendedor para o consumidor final.</li>
+      <li>Maiores informações sobre garantia ao consumidor final e pós venda:</li>
+      <li>suporte@novaknup.com.br / WhatsApp 11 9 1196-2124</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Devolução de mercadorias</h2>
+    <ul>
+      <li>Serão aceitas por motivos comerciais como divergência com o pedido ou erros de separação.</li>
+      <li>Não aceitamos devolução por arrependimento, erro do comprador ou outros motivos.</li>
+      <li>Não aceitamos devolução para troca de modelo, cor ou versão do produto.</li>
+      <li>Serão aceitas somente com prévio aviso e autorização via e-mail para o endereço devolucao@ novaknup.com.br com cópia para o vendedor, informando o CNPJ da empresa, código do produto, quantidade e o motivo da devolução.</li>
+      <li>Após autorização por e-mail, emitir Nota Fiscal de devolução e enviar o material.</li>
+      <li>Informar o número da(s) NF(s) de origem no campo “Informações complementares” da Nota Fiscal.</li>
+      <li>Atenção para o correto preenchimento da nota fiscal. Erros como dados da empresa, valor, quantidade, CFOP ou origem do produto conforme a NF de compra acarretarão na recusa do material. Se necessário, recomendamos buscar ajuda do seu contador.</li>
+      <li>Custos de frete e formas de envio serão analisados durante o atendimento.</li>
+      <li>Embalagens unitárias abertas, amassadas ou que não caracterizem estado de novo para o produto, acarretarão na recusa da devolução.</li>
+      <li>Conferência: O transportador aguardará a conferência no ato da entrega.</li>
+      <li>Envios por Correios, Lalamove ou outros, não nos responsabilizamos por divergências na conferência ou danos ao material decorrentes do transporte.</li>
+      <li>Envios por portador ou “o próprio”: O transportador (cliente, portador ou motorista) aguardará a conferência no ato da entrega. Emitiremos recibo de conferência com uma via para o cliente.</li>
+      <li>Prazo para disponibilização do crédito: 72hs</li>
+      <li>Não devolvemos dinheiro. Após a devolução o valor do pedido ficará disponível para compra futura no período de 90 dias.</li>
+    </ul>
+  </section>
+  <p class="creditos">Texto reproduzido do catálogo do fabricante — versão de 03/08/2026.</p>
+</main>
+
+<script>
+  if (window.CONFIG?.representante) {
+    document.getElementById("marca-nome").textContent = window.CONFIG.representante;
+    document.title = "Política comercial — " + window.CONFIG.representante;
+  }
+</script>
+</body>
+</html>

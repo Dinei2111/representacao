@@ -25,6 +25,18 @@ DIR_BUILD = RAIZ / "build"
 DIR_PAGINAS = DIR_BUILD / "paginas"
 
 
+def bloco_preco(info) -> str:
+    if not info:
+        return '<span class="preco">—</span>'
+    partes = []
+    if info.get("de"):
+        partes.append(f'<s>R$ {info["de"]}</s>')
+    partes.append(f'<span class="preco">R$ {info["valor"]}</span>')
+    for f in info.get("faixas", []):
+        partes.append(f'<small>{f["a_partir"]}{f["unidade"]}: {f["valor"]}</small>')
+    return " ".join(partes)
+
+
 def main() -> None:
     produtos = json.loads((RAIZ / "data" / "produtos.json").read_text("utf-8"))["produtos"]
     precos = {}
@@ -72,8 +84,7 @@ def main() -> None:
                 f'<div class="cat">{html.escape(p["categoria"])}</div>'
                 f'<b>{html.escape(p["nome"]) or "<i>SEM NOME</i>"}</b><br>'
                 f'<span class="cod">{html.escape(p["codigo"])}</span> · '
-                f'<span class="preco">R$ '
-                f'{(precos.get(p["codigo"]) or {}).get("valor", "—")}</span> · '
+                f'{bloco_preco(precos.get(p["codigo"]))} · '
                 f'cx {p["qtd_caixa"] or "—"}'
                 f'{" · <b>LANÇAMENTO</b>" if p["lancamento"] else ""}'
                 f'<ul>{specs}</ul></div>')

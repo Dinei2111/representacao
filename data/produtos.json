@@ -17,6 +17,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max01"
@@ -36,6 +38,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max04"
@@ -56,6 +60,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max02"
@@ -75,6 +81,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max02rgb"
@@ -94,6 +102,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max05"
@@ -114,6 +124,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max05rgb"
@@ -133,6 +145,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max07"
@@ -154,6 +168,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max03"
@@ -173,6 +189,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max03rgb"
@@ -192,6 +210,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max06"
@@ -212,6 +232,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max06rgb"
@@ -231,6 +253,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 2,
    "imagens": [
     "fo-max08"
@@ -255,6 +279,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 3,
    "imagens": [
     "fo-max08rgb"
@@ -274,6 +300,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 3,
    "imagens": [
     "fo-max09"
@@ -293,6 +321,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 3,
    "imagens": [
     "fo-max10"
@@ -317,6 +347,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 3,
    "imagens": [
     "fo-max10rgb"
@@ -336,6 +368,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 3,
    "imagens": [
     "fo-max01rgb"
@@ -356,6 +390,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 3,
    "imagens": [
     "g-rx550-4g"
@@ -363,41 +399,73 @@
   },
   {
    "codigo": "G-RX580/8G",
-   "nome": "PLACA DE VÍDEO RX580 PLACA DE VÍDEO PLACA DE VíDEO GT730 GT210 1GB",
+   "nome": "PLACA DE VÍDEO RX580",
    "categoria": "PLACA DE VÍDEO",
    "specs": [
     "Chipset: RX580",
-    "Chipset:",
-    "PCI Express 2.0x16",
-    "Memória: GDDR5 8GB - Nvidia Gforce GT730",
-    "GPU: GeForce 210",
+    "Memória: GDDR5 8GB",
     "Interface de memória: 256 bit",
-    "Memória: DDR3 2GB 1334 Mhz",
-    "Clock do Core: 520MHz",
-    "Resolução máxxima: 4096 X",
-    "Resolução máxima: 2560 x 1600p",
-    "CUDA Cores: 16 2160p",
-    "Interface: PCI Express 2.0",
-    "Clock eficaz da memória: 600MHz",
+    "Resolução máxxima: 4096 X 2160p",
     "Interface: PCIe Express 3.0 x16",
-    "Saídas de vídeo: HDMI/VGA/DVI",
-    "Tamanho da memória: 1GB",
     "Saídas de vídeo: DVI/DPx2",
-    "Fonte de alimentação",
-    "Interface da memória: 64-Bit",
-    "Compatível com Windows e Linux recomendada: 200W",
     "Compatível com Windows e Linux"
    ],
-   "qtd_caixa": 40,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 3,
    "imagens": [
     "g-rx580-8g"
    ]
   },
   {
+   "codigo": "GT730D/2G",
+   "nome": "PLACA DE VÍDEO GT730",
+   "categoria": "PLACA DE VÍDEO",
+   "specs": [
+    "Chipset: - Nvidia Gforce GT730",
+    "Memória: DDR3 2GB 1334 Mhz",
+    "Resolução máxima: 2560 x 1600p",
+    "Interface: PCI Express 2.0",
+    "Saídas de vídeo: HDMI/VGA/DVI",
+    "Fonte de alimentação recomendada: 200W",
+    "Compatível com Windows e Linux"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 3,
+   "imagens": [
+    "gt730d-2g"
+   ]
+  },
+  {
+   "codigo": "GT210/1G",
+   "nome": "PLACA DE VíDEO GT210 1GB",
+   "categoria": "PLACA DE VÍDEO",
+   "specs": [
+    "PCI Express 2.0x16",
+    "GPU: GeForce 210",
+    "Clock do Core: 520MHz",
+    "CUDA Cores: 16",
+    "Clock eficaz da memória: 600MHz",
+    "Tamanho da memória: 1GB",
+    "Interface da memória: 64-Bit"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 3,
+   "imagens": [
+    "gt210-1g"
+   ]
+  },
+  {
    "codigo": "G-GT610/2G",
-   "nome": "PLACA DE VÍDEO GT610 PLACA DE VÍDEO GT705",
+   "nome": "PLACA DE VÍDEO GT610",
    "categoria": "PLACA DE VÍDEO",
    "specs": [
     "Chipset: - Nvidia Gforce GT610",
@@ -406,18 +474,12 @@
     "Resolução máxxima: 2560 x 1600p",
     "Interface: PCI Express 2.0 x16",
     "Saídas de vídeo: HDMI/VGA/DVI",
-    "Compatível com Windows e Linux",
-    "Capacidade de Memória: - 2GB",
-    "Tipo de memória gráfica DDR3",
-    "Interface: PCI-Express 2.0 x16",
-    "Bus de memória: 64 bit",
-    "Conexões: HDMI, VGA",
-    "Resolução máxima: 1366 x 768p",
-    "Exigência de energia: 250W",
-    "Clock de memória: 5400 MHz"
+    "Compatível com Windows e Linux"
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-gt610-2g"
@@ -439,6 +501,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-rtx2060s-8g"
@@ -460,6 +524,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-gtx1660s-6g"
@@ -483,9 +549,34 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-gt730-4g"
+   ]
+  },
+  {
+   "codigo": "GT705/2G",
+   "nome": "PLACA DE VÍDEO GT705",
+   "categoria": "PLACA DE VÍDEO",
+   "specs": [
+    "Capacidade de Memória: - 2GB",
+    "Tipo de memória gráfica DDR3",
+    "Interface: PCI-Express 2.0 x16",
+    "Bus de memória: 64 bit",
+    "Conexões: HDMI, VGA",
+    "Resolução máxima: 1366 x 768p",
+    "Exigência de energia: 250W",
+    "Clock de memória: 5400 MHz"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 4,
+   "imagens": [
+    "gt705-2g"
    ]
   },
   {
@@ -505,6 +596,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-pc6700hq"
@@ -527,6 +620,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-pc11500h"
@@ -551,6 +646,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-pc6820hq"
@@ -573,6 +670,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 4,
    "imagens": [
     "g-a520"
@@ -589,6 +688,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-b250"
@@ -605,8 +706,10 @@
     "Gigabit Ethernet + Áudio HD 6 canais",
     "Slot M.2 NVMe + Wi-Fi Expansível"
    ],
-   "qtd_caixa": 60,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-b760"
@@ -625,6 +728,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr300"
@@ -645,6 +750,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr349"
@@ -664,6 +771,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr359"
@@ -682,6 +791,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr306"
@@ -701,6 +812,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr301"
@@ -723,6 +836,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr357"
@@ -740,6 +855,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr303"
@@ -759,6 +876,8 @@
    ],
    "qtd_caixa": 80,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 5,
    "imagens": [
     "g-vr361"
@@ -779,8 +898,10 @@
     "Conector: 4 Pinos",
     "Dimensão do cooler: 92mm(C) x95mm(L) x 56mm (A)"
    ],
-   "qtd_caixa": 35,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr354"
@@ -798,6 +919,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr358"
@@ -823,6 +946,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr352k"
@@ -844,6 +969,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr335k"
@@ -864,6 +991,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr338"
@@ -884,6 +1013,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr339"
@@ -904,6 +1035,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr345"
@@ -923,6 +1056,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr346k"
@@ -942,6 +1077,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr347k"
@@ -961,6 +1098,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr351"
@@ -980,6 +1119,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr332"
@@ -1001,8 +1142,10 @@
     "Intel: LGA2066/2011 V3/2011/1366/115X/1200/1700",
     "AMD: AM5/AM4/AM3+/AM3/AM2+/"
    ],
-   "qtd_caixa": 360,
+   "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 6,
    "imagens": [
     "g-vr360pro"
@@ -1026,6 +1169,8 @@
    ],
    "qtd_caixa": 8,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 7,
    "imagens": [
     "g-vr120"
@@ -1048,6 +1193,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 7,
    "imagens": [
     "g-vr362"
@@ -1067,6 +1214,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 7,
    "imagens": [
     "g-vr240"
@@ -1088,6 +1237,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 7,
    "imagens": [
     "g-ex103"
@@ -1111,6 +1262,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 7,
    "imagens": [
     "g-dr101"
@@ -1134,6 +1287,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 7,
    "imagens": [
     "g-dr501"
@@ -1153,6 +1308,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "mo-tgr004"
@@ -1170,8 +1327,10 @@
     "Formatos de hora 12/24h",
     "Luz de fundo"
    ],
-   "qtd_caixa": 35,
+   "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw35"
@@ -1191,8 +1350,10 @@
     "Alarme",
     "Resistente a água"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw37"
@@ -1211,8 +1372,10 @@
     "Formato de horas ajustável 12/24h",
     "Luz de fundo"
    ],
-   "qtd_caixa": 39,
+   "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw39"
@@ -1231,8 +1394,10 @@
     "Formato de horas ajustável 12-24h",
     "Luz de fundo"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw40"
@@ -1253,6 +1418,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw41"
@@ -1269,6 +1436,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw48"
@@ -1285,6 +1454,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw49"
@@ -1301,6 +1472,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 8,
    "imagens": [
     "rg-sw50"
@@ -1316,6 +1489,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-sw51"
@@ -1331,6 +1506,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-sw52"
@@ -1345,6 +1522,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-sw53"
@@ -1360,6 +1539,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-sw54"
@@ -1376,6 +1557,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-sw55"
@@ -1391,6 +1574,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-sw56"
@@ -1406,6 +1591,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-sw57"
@@ -1427,6 +1614,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-w61"
@@ -1434,34 +1623,51 @@
   },
   {
    "codigo": "RG-W62",
-   "nome": "SMARTWATCH SMARTWATCH 3 EM 1",
+   "nome": "SMARTWATCH 3 EM 1",
    "categoria": "RELÓGIO/SMARTWATCH/ÓCULOS",
    "specs": [
-    "Display:",
-    "Visor: HD de 1,8” - 2,01” Touch screen 240 x 296p",
-    "Resolusão: 240 x 286 pixel",
+    "Display: - 2,01” Touch screen 240 x 296p",
     "Bluetooth: BT 3.0 / 5.2",
-    "Bluetooth: Bt 3,0/5,3",
     "Bateria: 3.7V/200mAh",
-    "Bateia 3,7V/180mAh",
     "Memória Flash: 16MB",
-    "Flash de memória: 32M",
-    "Mais de 10 idiomas incluindo",
-    "BSistema de voz IA Português, Inglês e Espanhol",
-    "Full touch",
+    "Mais de 10 idiomas incluindo Português, Inglês e Espanhol",
     "Material: Liga de zinco",
-    "Recarga sem fio(Indução)",
     "Dimensões: 47,35 x 39,5 x 13,5mm",
-    "Android/IOS",
-    "Funções: Assistente de voz (SIRI),",
-    "Treinamento multi esportivo telefone, contatos, mensagens,",
-    "Material: Liga de zinco+tira de música, tela dividida, Detecção silicone, estrutura de 44,2mm de frequência cardíaca, oxigênio no sangue, pressão arterial, temperatura, despertador, sono, tirar foto, localização de telefone, jogos e muito mais!"
+    "Funções: Assistente de voz (SIRI), telefone, contatos, mensagens, música, tela dividida, Detecção de frequência cardíaca, oxigênio no sangue, pressão arterial, temperatura, despertador, sono, tirar foto, localização de telefone, jogos e muito mais!"
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-w62"
+   ]
+  },
+  {
+   "codigo": "RG-W70MN ULTRA",
+   "nome": "SMARTWATCH",
+   "categoria": "RELÓGIO/SMARTWATCH/ÓCULOS",
+   "specs": [
+    "Visor: HD de 1,8”",
+    "Resolusão: 240 x 286 pixel",
+    "Bluetooth: Bt 3,0/5,3",
+    "Bateia 3,7V/180mAh",
+    "Flash de memória: 32M",
+    "BSistema de voz IA",
+    "Full touch",
+    "Recarga sem fio(Indução)",
+    "Android/IOS",
+    "Treinamento multi esportivo",
+    "Material: Liga de zinco+tira de silicone, estrutura de 44,2mm"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 9,
+   "imagens": [
+    "rg-w70mn-ultra"
    ]
   },
   {
@@ -1483,6 +1689,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-w71"
@@ -1507,6 +1715,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 9,
    "imagens": [
     "rg-w72"
@@ -1531,6 +1741,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 10,
    "imagens": [
     "rg-w80"
@@ -1552,8 +1764,10 @@
     "Monitoramento em tempo real",
     "Assistência de voz com IA"
    ],
-   "qtd_caixa": 90,
+   "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 10,
    "imagens": [
     "rg-w90"
@@ -1576,6 +1790,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 10,
    "imagens": [
     "rg-w89"
@@ -1598,6 +1814,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 10,
    "imagens": [
     "rg-w85"
@@ -1621,6 +1839,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 10,
    "imagens": [
     "rg-w78"
@@ -1637,6 +1857,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd807"
@@ -1653,6 +1875,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd808"
@@ -1669,6 +1893,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd810"
@@ -1687,6 +1913,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-u5"
@@ -1705,6 +1933,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-u6"
@@ -1723,6 +1953,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd805"
@@ -1741,6 +1973,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd818"
@@ -1759,6 +1993,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd835"
@@ -1777,6 +2013,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd836"
@@ -1795,6 +2033,8 @@
    ],
    "qtd_caixa": 400,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd853"
@@ -1813,6 +2053,8 @@
    ],
    "qtd_caixa": 400,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd854"
@@ -1828,6 +2070,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 11,
    "imagens": [
     "kp-hd862"
@@ -1843,6 +2087,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-hd864"
@@ -1864,6 +2110,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "hdw-003"
@@ -1883,6 +2131,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-517"
@@ -1903,6 +2153,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "cb-200"
@@ -1924,6 +2176,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-cb202"
@@ -1944,6 +2198,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-526"
@@ -1965,6 +2221,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-cb203"
@@ -1984,6 +2242,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-532"
@@ -2004,6 +2264,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-533"
@@ -2026,6 +2288,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-cb206"
@@ -2046,6 +2310,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-534"
@@ -2066,6 +2332,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 12,
    "imagens": [
     "kp-535"
@@ -2087,6 +2355,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-535-rgb"
@@ -2107,6 +2377,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "cb-201"
@@ -2132,6 +2404,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-ad135"
@@ -2150,6 +2424,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-t102"
@@ -2163,8 +2439,10 @@
     "Compatível com o Protocolo IEEE 1284",
     "Compatibilidade Multi-mode (SPP, PS2, EPP e ECP)"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-t105"
@@ -2180,6 +2458,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-t106"
@@ -2194,8 +2474,10 @@
     "2 Antenas para alto ganho de sinal",
     "Compatível com barramento PCI-e 1200mbps"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-t119"
@@ -2211,6 +2493,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "hb-t130"
@@ -2230,6 +2514,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-pl906"
@@ -2249,6 +2535,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-pl914"
@@ -2268,6 +2556,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-pl915"
@@ -2286,6 +2576,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 13,
    "imagens": [
     "kp-pl916"
@@ -2305,6 +2597,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-pl917"
@@ -2324,6 +2618,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-pl918"
@@ -2343,6 +2639,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-pl919"
@@ -2362,6 +2660,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-pl920"
@@ -2380,6 +2680,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-2034a"
@@ -2396,6 +2698,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-te148"
@@ -2414,6 +2718,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-2060"
@@ -2433,6 +2739,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-te127"
@@ -2454,6 +2762,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-te150"
@@ -2470,6 +2780,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-te149"
@@ -2488,6 +2800,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-2054"
@@ -2507,6 +2821,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 14,
    "imagens": [
     "kp-2013"
@@ -2528,6 +2844,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-2048"
@@ -2547,6 +2865,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-2044"
@@ -2567,6 +2887,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-2063"
@@ -2585,6 +2907,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te126"
@@ -2601,6 +2925,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te132"
@@ -2617,8 +2943,10 @@
     "Frequencia: RF 2,4Ghz",
     "Compatível: Windows e Mac"
    ],
-   "qtd_caixa": 6,
+   "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-2064"
@@ -2640,6 +2968,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te118"
@@ -2660,6 +2990,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te114"
@@ -2680,6 +3012,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te121"
@@ -2700,6 +3034,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te124"
@@ -2721,6 +3057,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te125"
@@ -2739,8 +3077,10 @@
     "Tempo de recarga: Aprox. 2H",
     "Compatibilidade: Windows 7 ou superiores"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 15,
    "imagens": [
     "kp-te129"
@@ -2760,6 +3100,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te130"
@@ -2781,6 +3123,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te131"
@@ -2800,6 +3144,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te133"
@@ -2822,6 +3168,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te147"
@@ -2842,6 +3190,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-tm010"
@@ -2863,6 +3213,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te142"
@@ -2882,6 +3234,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te143"
@@ -2905,6 +3259,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te152"
@@ -2926,6 +3282,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 16,
    "imagens": [
     "kp-te154"
@@ -2945,6 +3303,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu009"
@@ -2965,6 +3325,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu020"
@@ -2984,6 +3346,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-m611"
@@ -3005,6 +3369,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu023"
@@ -3023,6 +3389,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu030"
@@ -3030,31 +3398,48 @@
   },
   {
    "codigo": "KP-MU022",
-   "nome": "SEM FIO MOUSE MOUSE SEM FIO SEM FIO",
+   "nome": "MOUSE SEM FIO",
    "categoria": "MOUSE",
    "specs": [
-    "Tecnologia 2.4Hz+",
-    "Mouse sem fio 2.4GHz Bluetooth 5.0",
-    "Alcance de até 10 metros de distância",
+    "Tecnologia 2.4Hz+ Bluetooth 5.0",
     "Distância de operção 6-10M",
-    "Design ergonômico",
     "Número de botões: 06",
-    "Resolução: 800/1200/1600DPi",
-    "Alimentação: bateria interna",
-    "Energia: 2 X pilhas AAA 370mAh",
-    "Corrente de consumo: 25mA",
-    "Alimentação do receptor:",
-    "Voltagem: 3V 5Vdc(via porta USB)",
-    "Compatível com todos as",
-    "Resolução 2400DPI versões do Windows",
+    "Alimentação: bateria interna 370mAh",
+    "Alimentação do receptor: 5Vdc(via porta USB)",
+    "Resolução 2400DPI",
     "Interface: USB 1.1",
     "Ângulo de operação: 90°"
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu022"
+   ]
+  },
+  {
+   "codigo": "GZM386",
+   "nome": "SEM FIO MOUSE SEM FIO",
+   "categoria": "MOUSE",
+   "specs": [
+    "Mouse sem fio 2.4GHz",
+    "Alcance de até 10 metros de distância",
+    "Design ergonômico",
+    "Resolução: 800/1200/1600DPi",
+    "Energia: 2 X pilhas AAA",
+    "Corrente de consumo: 25mA",
+    "Voltagem: 3V",
+    "Compatível com todos as versões do Windows"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 17,
+   "imagens": [
+    "gzm386"
    ]
   },
   {
@@ -3070,6 +3455,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu032"
@@ -3089,6 +3476,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu003"
@@ -3103,8 +3492,10 @@
     "Resolução de 1000DPi",
     "Compatibilidade: Windows XP/Vista/7/8/10 e Mac OSX 10.4 ou superior"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu010"
@@ -3125,6 +3516,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu006"
@@ -3145,6 +3538,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 17,
    "imagens": [
     "kp-mu008"
@@ -3164,6 +3559,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-mu019"
@@ -3183,6 +3580,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-mu021"
@@ -3207,6 +3606,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-mu027"
@@ -3229,6 +3630,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-mu031"
@@ -3246,6 +3649,8 @@
    ],
    "qtd_caixa": 400,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-s02"
@@ -3263,6 +3668,8 @@
    ],
    "qtd_caixa": 400,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-s03"
@@ -3281,6 +3688,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-s011"
@@ -3297,6 +3706,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-s013"
@@ -3312,6 +3723,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 18,
    "imagens": [
     "kp-s09"
@@ -3331,6 +3744,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro800"
@@ -3351,6 +3766,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro803"
@@ -3372,6 +3789,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro810"
@@ -3392,6 +3811,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro825"
@@ -3411,6 +3832,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro827"
@@ -3430,6 +3853,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro828"
@@ -3452,6 +3877,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro830"
@@ -3472,6 +3899,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro832"
@@ -3493,6 +3922,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro852"
@@ -3511,6 +3942,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro854"
@@ -3530,6 +3963,8 @@
    ],
    "qtd_caixa": 15,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro856"
@@ -3548,6 +3983,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 19,
    "imagens": [
     "kp-ro855"
@@ -3569,6 +4006,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "kp-ro900"
@@ -3587,8 +4026,10 @@
     "Frequência de resposta (subwoofer): 60Hz - 200 Hz",
     "Conexão: Mini Plugue 3,5 mm (P2)"
    ],
-   "qtd_caixa": 7023,
+   "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "kp-7023"
@@ -3608,6 +4049,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "kp-6018bh"
@@ -3627,6 +4070,8 @@
    ],
    "qtd_caixa": 80,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "kp-600"
@@ -3648,6 +4093,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "kp-601"
@@ -3667,6 +4114,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "kp-603"
@@ -3687,6 +4136,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "kp-609"
@@ -3704,6 +4155,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "or-pl21sc"
@@ -3722,6 +4175,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "or-pl2601"
@@ -3738,8 +4193,10 @@
     "Capacidade máxima: 2KG",
     "Pé antiderrapante"
    ],
-   "qtd_caixa": 60,
+   "qtd_caixa": 15,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "or-pl2602"
@@ -3756,8 +4213,10 @@
     "Painel de apoio 90º",
     "Pé antiderrapante"
    ],
-   "qtd_caixa": 603,
+   "qtd_caixa": 15,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 20,
    "imagens": [
     "or-pl2603"
@@ -3776,6 +4235,8 @@
    ],
    "qtd_caixa": 15,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl2604"
@@ -3794,6 +4255,8 @@
    ],
    "qtd_caixa": 15,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl2606"
@@ -3814,6 +4277,8 @@
    ],
    "qtd_caixa": 15,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl2607"
@@ -3832,6 +4297,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl06"
@@ -3850,6 +4317,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl10"
@@ -3868,6 +4337,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl10r"
@@ -3886,6 +4357,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl16"
@@ -3906,6 +4379,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl18"
@@ -3925,6 +4400,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl300"
@@ -3944,6 +4421,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl360"
@@ -3961,6 +4440,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-1678"
@@ -3983,6 +4464,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 21,
    "imagens": [
     "or-pl01"
@@ -4001,6 +4484,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl02"
@@ -4025,6 +4510,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl07"
@@ -4047,6 +4534,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl15"
@@ -4067,6 +4556,8 @@
    ],
    "qtd_caixa": 1,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl09"
@@ -4090,6 +4581,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pf16"
@@ -4113,6 +4606,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pf19"
@@ -4136,6 +4631,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pf24"
@@ -4155,6 +4652,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl04"
@@ -4176,6 +4675,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl08"
@@ -4198,6 +4699,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl12r"
@@ -4217,6 +4720,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl14r"
@@ -4236,6 +4741,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 22,
    "imagens": [
     "or-pl610"
@@ -4260,6 +4767,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 23,
    "imagens": [
     "or-pl10-or-pl21sc"
@@ -4283,6 +4792,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 23,
    "imagens": [
     "or-pl12r-or-pl21sc"
@@ -4306,6 +4817,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 23,
    "imagens": [
     "or-pl10r-or-pl21sc"
@@ -4329,6 +4842,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 23,
    "imagens": [
     "or-pl14r-or-pl21sc"
@@ -4354,6 +4869,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 23,
    "imagens": [
     "or-pl18-or-pl21sc"
@@ -4377,6 +4894,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 23,
    "imagens": [
     "or-pl300-or-pl21sc"
@@ -4401,6 +4920,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 24,
    "imagens": [
     "or-pl360-or-pl21sc"
@@ -4424,6 +4945,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 24,
    "imagens": [
     "or-pl610-or-pl21sc"
@@ -4452,6 +4975,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 24,
    "imagens": [
     "or-pf16-or-pl21sc"
@@ -4480,6 +5005,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 24,
    "imagens": [
     "or-pf19-or-pl21sc"
@@ -4507,6 +5034,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 24,
    "imagens": [
     "or-pf24-or-pl21sc"
@@ -4525,6 +5054,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "hb-t57"
@@ -4544,6 +5075,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "hb-t58"
@@ -4560,6 +5093,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "hb-t63"
@@ -4579,6 +5114,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "kp-t110"
@@ -4596,6 +5133,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "kp-hb512"
@@ -4615,6 +5154,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "kp-hb520"
@@ -4632,6 +5173,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "kp-ad118"
@@ -4648,6 +5191,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "kp-ad120"
@@ -4672,6 +5217,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "kp-ad167"
@@ -4691,6 +5238,8 @@
    ],
    "qtd_caixa": 128,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 25,
    "imagens": [
     "kp-ad169-1-5m"
@@ -4709,6 +5258,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-ad119"
@@ -4728,6 +5279,8 @@
    ],
    "qtd_caixa": 128,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-ad171-1-5m"
@@ -4747,6 +5300,8 @@
    ],
    "qtd_caixa": 128,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-ad171-3m"
@@ -4765,8 +5320,10 @@
     "Cabo: 1.5M",
     "Dimensão? 54,3x14,9x10,80mm"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 84,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-ad172-1-5m"
@@ -4786,6 +5343,8 @@
    ],
    "qtd_caixa": 128,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-ad173-1-5m"
@@ -4805,6 +5364,8 @@
    ],
    "qtd_caixa": 128,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-ad173-3m"
@@ -4824,6 +5385,8 @@
    ],
    "qtd_caixa": 128,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-ad175"
@@ -4842,6 +5405,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-3463"
@@ -4861,6 +5426,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-3465"
@@ -4878,6 +5445,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-uc5048"
@@ -4894,6 +5463,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-hm021"
@@ -4909,6 +5480,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 26,
    "imagens": [
     "kp-hm022"
@@ -4925,6 +5498,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-hm038"
@@ -4940,6 +5515,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-hm042"
@@ -4956,6 +5533,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-hm043"
@@ -4971,6 +5550,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-hm044"
@@ -4991,6 +5572,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-hm046"
@@ -5007,6 +5590,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-3455"
@@ -5024,6 +5609,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-3466"
@@ -5042,6 +5629,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-3468"
@@ -5060,6 +5649,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-ad106"
@@ -5078,6 +5669,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-ad141"
@@ -5092,6 +5685,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-ad154"
@@ -5108,6 +5703,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 27,
    "imagens": [
     "kp-ad157"
@@ -5127,6 +5724,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-ad101"
@@ -5148,6 +5747,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-ad149"
@@ -5167,6 +5768,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "hb-t88"
@@ -5184,6 +5787,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-3474"
@@ -5199,6 +5804,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-sw100"
@@ -5217,6 +5824,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-3471"
@@ -5240,6 +5849,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-ub100"
@@ -5259,6 +5870,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-co403"
@@ -5276,6 +5889,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-5001-1-5m"
@@ -5293,6 +5908,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-5001-3m"
@@ -5310,6 +5927,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-5001-5m"
@@ -5327,6 +5946,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 28,
    "imagens": [
     "kp-5001-10m"
@@ -5343,6 +5964,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-3m"
@@ -5360,6 +5983,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-5m"
@@ -5378,6 +6003,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-10m"
@@ -5394,6 +6021,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-15m"
@@ -5411,6 +6040,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-20m"
@@ -5428,6 +6059,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-25m"
@@ -5445,6 +6078,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-30m"
@@ -5463,6 +6098,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5000-1-5m"
@@ -5483,6 +6120,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5002-1-8m"
@@ -5504,6 +6143,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5003-1-5m"
@@ -5524,6 +6165,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5002-3m"
@@ -5543,6 +6186,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 29,
    "imagens": [
     "kp-yp5003-3m"
@@ -5564,6 +6209,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5003-10m"
@@ -5585,6 +6232,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5003-15m"
@@ -5606,6 +6255,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5003-20m"
@@ -5625,6 +6276,8 @@
    ],
    "qtd_caixa": 80,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5005-1-5m"
@@ -5644,6 +6297,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5005-3m"
@@ -5663,6 +6318,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5005-5m"
@@ -5683,6 +6340,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5006-1-5m"
@@ -5700,6 +6359,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5013-1-5m"
@@ -5718,6 +6379,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5015-1-8m"
@@ -5736,6 +6399,8 @@
    ],
    "qtd_caixa": 250,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5015-3m"
@@ -5753,6 +6418,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5009-1-5m"
@@ -5769,6 +6436,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 30,
    "imagens": [
     "kp-yp5017-3m"
@@ -5786,6 +6455,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5022-1-5m"
@@ -5804,6 +6475,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5023-1-8m"
@@ -5820,6 +6493,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5024-1-8m"
@@ -5834,6 +6509,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5026"
@@ -5849,6 +6526,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5028"
@@ -5866,6 +6545,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5029"
@@ -5885,6 +6566,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5030"
@@ -5901,6 +6584,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5031"
@@ -5922,6 +6607,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5038-2m"
@@ -5943,6 +6630,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp5038-5m"
@@ -5962,6 +6651,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp51000-1-5m"
@@ -5981,6 +6672,8 @@
    ],
    "qtd_caixa": 80,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 31,
    "imagens": [
     "kp-yp51000-3m"
@@ -6000,6 +6693,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-yp51000-5m"
@@ -6019,6 +6714,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-yp51000-10m"
@@ -6040,6 +6737,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-yp51000-15m"
@@ -6059,6 +6758,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-yp51000-20m"
@@ -6074,6 +6775,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-usb01-1-5m"
@@ -6089,6 +6792,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-usb02-1-5m"
@@ -6109,6 +6814,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-yp5006-3m"
@@ -6125,6 +6832,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-yp5033"
@@ -6141,6 +6850,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-hm040"
@@ -6157,6 +6868,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 32,
    "imagens": [
     "kp-hm041"
@@ -6177,6 +6890,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 33,
    "imagens": [
     "lb-pd04mn-b"
@@ -6197,6 +6912,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 33,
    "imagens": [
     "lb-pd08mn-b"
@@ -6217,6 +6934,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 33,
    "imagens": [
     "lb-pd16mn-b"
@@ -6237,6 +6956,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 33,
    "imagens": [
     "lb-pd32mn-b"
@@ -6256,6 +6977,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 33,
    "imagens": [
     "lb-pd08-b"
@@ -6275,6 +6998,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 33,
    "imagens": [
     "lb-pd08uc"
@@ -6293,6 +7018,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd001"
@@ -6312,6 +7039,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd002"
@@ -6329,6 +7058,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd003"
@@ -6347,6 +7078,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd004"
@@ -6365,6 +7098,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd001-b"
@@ -6384,6 +7119,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd009"
@@ -6402,6 +7139,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd010"
@@ -6421,6 +7160,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd821"
@@ -6442,6 +7183,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd825"
@@ -6461,6 +7204,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd829-n"
@@ -6480,8 +7225,10 @@
     "Duas interfaces de expansão USB 2.0 para até 2HD's de 1TB",
     "Compatível com Windows, MacOS e Linux"
    ],
-   "qtd_caixa": 838,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd838"
@@ -6504,6 +7251,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 34,
    "imagens": [
     "kp-hd851"
@@ -6523,6 +7272,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
     "kp-hd819"
@@ -6542,6 +7293,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
     "kp-hd820"
@@ -6561,6 +7314,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
     "kp-hd850"
@@ -6578,6 +7333,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
     "kp-hd021"
@@ -6595,6 +7352,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
     "kp-hd022"
@@ -6602,25 +7361,43 @@
   },
   {
    "codigo": "KP-RW403/G",
-   "nome": "ROTEADOR ROTEADOR WIFI",
+   "nome": "ROTEADOR WIFI",
+   "categoria": "REDE",
+   "specs": [
+    "Banda de frequência: - 5Ghz (até 867Mbps) - 2.4Ghz (até 300Mbps)",
+    "SDRAM: DDR2 (32Mb)",
+    "Modo AP, Repetidor e Roteador",
+    "Padrões Wi-Fi: IEE802.11ac, IEEE802.11 a/b/g/n",
+    "5 portas de rede 300Mbps (1 WAN e 4 LAN)"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 35,
+   "imagens": [
+    "kp-rw403-g"
+   ]
+  },
+  {
+   "codigo": "RW403/G-BK",
+   "nome": "ROTEADOR",
    "categoria": "REDE",
    "specs": [
     "WI-FI DUAL BAND",
-    "Banda de frequência:",
-    "Padrão: IEE802.11ac, - 5Ghz (até 867Mbps) IEEE802.11ac, IEEE802.11b, IEEE802.11g, - 2.4Ghz (até 300Mbps) IEEE802.11n",
-    "SDRAM: DDR2 (32Mb)",
-    "Velocidade: 11n;300Mbps, 11ac; 867",
-    "Modo AP, Repetidor e Roteador MBps",
-    "Padrões Wi-Fi: IEE802.11ac,",
-    "Banda de frequência: IEEE802.11 a/b/g/n 5GHz/2.4GHz",
-    "5 portas de rede 300Mbps (1 WAN Alcance 300m externo, 100m e 4 LAN) interno (pode variar de acordo o ambiente)",
+    "Padrão: IEE802.11ac, IEEE802.11ac, IEEE802.11b, IEEE802.11g, IEEE802.11n",
+    "Velocidade: 11n;300Mbps, 11ac; 867 MBps",
+    "Banda de frequência: 5GHz/2.4GHz",
+    "Alcance 300m externo, 100m interno (pode variar de acordo o ambiente)",
     "Portas WAN/LAN"
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
-    "kp-rw403-g"
+    "rw403-g-bk"
    ]
   },
   {
@@ -6636,6 +7413,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
     "kp-rw403-m"
@@ -6653,8 +7432,10 @@
     "Cobertura de sinal amplificada através da rede Mesh",
     "Tecnologia 3T3R com 1900 Mbps de largura de banda"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 35,
    "imagens": [
     "kp-rw404-ms"
@@ -6675,6 +7456,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-rw409-ax"
@@ -6697,6 +7480,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-rw406g"
@@ -6717,6 +7502,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-rw402-g"
@@ -6739,6 +7526,8 @@
    ],
    "qtd_caixa": 400,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-rw407"
@@ -6757,6 +7546,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-rw408-g"
@@ -6773,6 +7564,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-e08b"
@@ -6793,6 +7586,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-pw003"
@@ -6811,6 +7606,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-sw101"
@@ -6830,6 +7627,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-sw105"
@@ -6849,6 +7648,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-sw106"
@@ -6866,6 +7667,8 @@
    ],
    "qtd_caixa": 5,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-sw107"
@@ -6881,8 +7684,10 @@
     "Tipo de cabo: 100BASE-T usando cabo UTP Cat.3,4,5; 1000BASE-TX usando cabo UTP Cat.5; 1000BASE-FX usando fibra multimodal",
     "Capacidade de comutação: 48 Gbps para modelo de 24 portas"
    ],
-   "qtd_caixa": 8,
+   "qtd_caixa": 5,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 36,
    "imagens": [
     "kp-sw108"
@@ -6901,6 +7706,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-3456"
@@ -6919,6 +7726,8 @@
    ],
    "qtd_caixa": 400,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-aw155"
@@ -6938,6 +7747,8 @@
    ],
    "qtd_caixa": 400,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-aw156"
@@ -6957,6 +7768,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-aw161"
@@ -6977,6 +7790,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-rw410-ap"
@@ -6994,6 +7809,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-aw163"
@@ -7012,6 +7829,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-aw180"
@@ -7030,6 +7849,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-aw181"
@@ -7047,6 +7868,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 37,
    "imagens": [
     "kp-aw164"
@@ -7061,6 +7884,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp60"
@@ -7077,6 +7902,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp05"
@@ -7092,8 +7919,10 @@
     "Ângulo de rotação livre de 360º com mandril de aperto",
     "Amplamente compatível e universal, aplicável a uma variedade de dispositivos"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp13"
@@ -7108,8 +7937,10 @@
     "Campatibilidade com diversos modelos de smartphone",
     "Encaixe ajustável para melhor acomodação do aparelho"
    ],
-   "qtd_caixa": 8,
+   "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp28"
@@ -7130,6 +7961,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp37"
@@ -7148,6 +7981,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp44"
@@ -7168,6 +8003,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp49"
@@ -7187,6 +8024,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp200"
@@ -7202,8 +8041,10 @@
     "Base emborrachada",
     "Clipe para fixação do microfone"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp207"
@@ -7222,6 +8063,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp14"
@@ -7236,8 +8079,10 @@
     "Ajuste de altura: 100-160mm",
     "Suporte triangular: 20 quilos"
    ],
-   "qtd_caixa": 35,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp35"
@@ -7255,6 +8100,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 38,
    "imagens": [
     "or-sp70"
@@ -7275,6 +8122,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp81"
@@ -7293,6 +8142,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp82"
@@ -7312,6 +8163,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp83"
@@ -7332,6 +8185,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp244"
@@ -7350,6 +8205,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp247"
@@ -7372,6 +8229,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp254"
@@ -7393,6 +8252,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp255"
@@ -7411,6 +8272,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp257"
@@ -7430,6 +8293,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-9012"
@@ -7448,6 +8313,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 39,
    "imagens": [
     "or-sp262"
@@ -7465,6 +8332,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp03"
@@ -7482,6 +8351,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp04"
@@ -7499,6 +8370,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp08"
@@ -7516,6 +8389,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp21"
@@ -7534,6 +8409,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp24"
@@ -7552,6 +8429,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp25"
@@ -7570,6 +8449,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp26"
@@ -7588,6 +8469,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp27"
@@ -7605,6 +8488,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp29"
@@ -7623,6 +8508,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp33"
@@ -7640,6 +8527,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp36"
@@ -7659,6 +8548,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 40,
    "imagens": [
     "or-sp39"
@@ -7678,6 +8569,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp40"
@@ -7699,6 +8592,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp46"
@@ -7718,6 +8613,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp50"
@@ -7735,6 +8632,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp53"
@@ -7753,6 +8652,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp54"
@@ -7770,6 +8671,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp57"
@@ -7790,6 +8693,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp58"
@@ -7809,6 +8714,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp59"
@@ -7826,6 +8733,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp63"
@@ -7843,6 +8752,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp64"
@@ -7859,6 +8770,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp007"
@@ -7875,8 +8788,10 @@
     "Porta USB para recarga",
     "Tela de silicone para maior proteção"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 41,
    "imagens": [
     "or-sp009"
@@ -7896,6 +8811,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 42,
    "imagens": [
     "or-666"
@@ -7912,6 +8829,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 42,
    "imagens": [
     "or-699"
@@ -7928,6 +8847,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 42,
    "imagens": [
     "or-pl34"
@@ -7948,6 +8869,8 @@
    ],
    "qtd_caixa": 2,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 42,
    "imagens": [
     "kp-pj005"
@@ -7968,6 +8891,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 42,
    "imagens": [
     "kp-pj006"
@@ -7987,8 +8912,10 @@
     "Intervalo de projeção 1 ~ 4 metros",
     "Dimensões: 105 x 202 x 104 mm (C x L x A)"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 42,
    "imagens": [
     "kp-pj010"
@@ -8006,6 +8933,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 42,
    "imagens": [
     "kp-pj011"
@@ -8030,6 +8959,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "kp-pj012"
@@ -8051,6 +8982,8 @@
    ],
    "qtd_caixa": 8,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "kp-pj013"
@@ -8075,6 +9008,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "kp-pj014"
@@ -8094,6 +9029,8 @@
    ],
    "qtd_caixa": 80,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "or-pb13"
@@ -8114,6 +9051,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "pn-951"
@@ -8133,6 +9072,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "or-ic030"
@@ -8152,6 +9093,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "or-ic032-i"
@@ -8171,6 +9114,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "or-ic032-m"
@@ -8190,6 +9135,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 43,
    "imagens": [
     "or-ic033-i"
@@ -8210,6 +9157,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic033-m"
@@ -8228,6 +9177,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic034"
@@ -8247,6 +9198,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic034-i"
@@ -8266,6 +9219,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic034-m"
@@ -8287,6 +9242,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic035-i"
@@ -8308,6 +9265,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic035-m"
@@ -8327,6 +9286,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic036-i"
@@ -8346,6 +9307,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic036-m"
@@ -8365,6 +9328,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic040-m"
@@ -8384,6 +9349,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic041-i"
@@ -8403,6 +9370,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic041-m"
@@ -8422,6 +9391,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 44,
    "imagens": [
     "or-ic044-i"
@@ -8441,6 +9412,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic044-m"
@@ -8457,6 +9430,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic061-i"
@@ -8477,6 +9452,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic104-c"
@@ -8497,6 +9474,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic104-i"
@@ -8517,6 +9496,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic104-m"
@@ -8539,6 +9520,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic108"
@@ -8560,6 +9543,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic108-c"
@@ -8581,6 +9566,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic108-m"
@@ -8602,6 +9589,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic110"
@@ -8622,6 +9611,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic110-c"
@@ -8642,6 +9633,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic110-m"
@@ -8662,6 +9655,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 45,
    "imagens": [
     "or-ic067"
@@ -8682,6 +9677,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-ic068"
@@ -8701,6 +9698,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-ic104"
@@ -8721,6 +9720,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-ic110-i"
@@ -8740,6 +9741,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-ic111"
@@ -8758,6 +9761,8 @@
    ],
    "qtd_caixa": 600,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-co08-l"
@@ -8775,6 +9780,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-co16-l"
@@ -8792,6 +9799,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-co16-m"
@@ -8809,6 +9818,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-co16-c"
@@ -8826,6 +9837,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 46,
    "imagens": [
     "or-co17-m"
@@ -8843,6 +9856,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co18-m"
@@ -8860,6 +9875,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co19-c"
@@ -8877,6 +9894,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co19-m"
@@ -8894,6 +9913,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co20-m"
@@ -8911,6 +9932,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co20-l"
@@ -8928,6 +9951,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co21-l"
@@ -8945,6 +9970,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co21-m"
@@ -8962,6 +9989,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co21-c"
@@ -8979,6 +10008,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 47,
    "imagens": [
     "or-co22-m"
@@ -8996,6 +10027,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 48,
    "imagens": [
     "or-co23-cl"
@@ -9013,6 +10046,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 48,
    "imagens": [
     "or-co23-cc"
@@ -9030,6 +10065,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 48,
    "imagens": [
     "or-co23-l"
@@ -9047,6 +10084,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 48,
    "imagens": [
     "or-co24-m"
@@ -9064,6 +10103,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 48,
    "imagens": [
     "or-co25-m"
@@ -9082,6 +10123,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 48,
    "imagens": [
     "or-co26-c"
@@ -9100,6 +10143,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 48,
    "imagens": [
     "or-co26-l"
@@ -9117,6 +10162,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co27-m"
@@ -9134,6 +10181,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co27-c"
@@ -9151,6 +10200,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co27-l"
@@ -9168,6 +10219,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co28-m"
@@ -9185,6 +10238,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co29-m"
@@ -9202,6 +10257,8 @@
    ],
    "qtd_caixa": null,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co29-cc"
@@ -9219,6 +10276,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co30-m"
@@ -9236,6 +10295,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 49,
    "imagens": [
     "or-co30-l"
@@ -9253,6 +10314,8 @@
    ],
    "qtd_caixa": 480,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 50,
    "imagens": [
     "or-co31-c"
@@ -9270,6 +10333,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 50,
    "imagens": [
     "or-co34-cl"
@@ -9287,6 +10352,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 50,
    "imagens": [
     "or-co35-cc"
@@ -9304,6 +10371,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 50,
    "imagens": [
     "or-co35-cl"
@@ -9321,6 +10390,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 50,
    "imagens": [
     "or-co35-c"
@@ -9338,6 +10409,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 50,
    "imagens": [
     "or-co36-l"
@@ -9355,6 +10428,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 51,
    "imagens": [
     "or-co37-c"
@@ -9372,6 +10447,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 51,
    "imagens": [
     "or-co37-cc"
@@ -9389,6 +10466,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 51,
    "imagens": [
     "or-co38-cl"
@@ -9406,6 +10485,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 51,
    "imagens": [
     "or-co405-m"
@@ -9425,6 +10506,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "or-co41"
@@ -9443,6 +10526,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "or-co32"
@@ -9461,6 +10546,8 @@
    ],
    "qtd_caixa": 300,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "or-co33"
@@ -9479,6 +10566,8 @@
    ],
    "qtd_caixa": 500,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "or-co40"
@@ -9497,6 +10586,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-gm006"
@@ -9515,6 +10606,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-gm014"
@@ -9531,6 +10624,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-gm015"
@@ -9550,6 +10645,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-gm018"
@@ -9570,6 +10667,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-gm033"
@@ -9589,6 +10688,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-gm036"
@@ -9606,6 +10707,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-4040"
@@ -9624,6 +10727,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 52,
    "imagens": [
     "kp-cn701-s"
@@ -9647,6 +10752,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "x-xbrgb004"
@@ -9666,6 +10773,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "kp-5815a"
@@ -9686,6 +10795,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "kp-5816"
@@ -9707,6 +10818,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "kp-5817"
@@ -9727,6 +10840,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "kp-5818"
@@ -9747,6 +10862,8 @@
    ],
    "qtd_caixa": 32,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "pg-9021s"
@@ -9766,6 +10883,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "pg-9023s"
@@ -9785,6 +10904,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "pg-9218"
@@ -9806,6 +10927,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "pg-9666t"
@@ -9827,6 +10950,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "pg-9777s"
@@ -9851,6 +10976,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "kp-gx01"
@@ -9873,6 +11000,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 53,
    "imagens": [
     "kp-gx02"
@@ -9891,6 +11020,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc03"
@@ -9910,6 +11041,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc05"
@@ -9926,6 +11059,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc09"
@@ -9945,6 +11080,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc10"
@@ -9962,6 +11099,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc01"
@@ -9980,6 +11119,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc11"
@@ -9998,6 +11139,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc12"
@@ -10017,6 +11160,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-lc13"
@@ -10033,6 +11178,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-008"
@@ -10049,6 +11196,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-032"
@@ -10065,6 +11214,8 @@
    ],
    "qtd_caixa": 1000,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 54,
    "imagens": [
     "kp-064"
@@ -10083,6 +11234,8 @@
    ],
    "qtd_caixa": 120,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca571"
@@ -10104,6 +11257,8 @@
    ],
    "qtd_caixa": 120,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca573"
@@ -10122,6 +11277,8 @@
    ],
    "qtd_caixa": 120,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca575"
@@ -10140,6 +11297,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca577"
@@ -10159,6 +11318,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca576"
@@ -10177,6 +11338,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca578"
@@ -10196,6 +11359,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca588"
@@ -10215,6 +11380,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca590"
@@ -10234,6 +11401,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca592"
@@ -10253,6 +11422,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca593"
@@ -10271,6 +11442,8 @@
    ],
    "qtd_caixa": 250,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca596"
@@ -10290,6 +11463,8 @@
    ],
    "qtd_caixa": 250,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 55,
    "imagens": [
     "kp-ca597"
@@ -10309,6 +11484,8 @@
    ],
    "qtd_caixa": 250,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-ca599"
@@ -10325,6 +11502,8 @@
    ],
    "qtd_caixa": 200,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-ca205"
@@ -10341,6 +11520,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-536"
@@ -10357,6 +11538,8 @@
    ],
    "qtd_caixa": 250,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "lb-564"
@@ -10375,6 +11558,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-30w"
@@ -10394,6 +11579,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-w013"
@@ -10413,6 +11600,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-w017"
@@ -10429,6 +11618,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-ap04"
@@ -10445,6 +11636,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-ar65a"
@@ -10462,6 +11655,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-ar135a"
@@ -10478,6 +11673,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-as33a"
@@ -10494,6 +11691,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 56,
    "imagens": [
     "kp-as45b"
@@ -10511,6 +11710,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-dg90a"
@@ -10530,6 +11731,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-dl65a"
@@ -10547,6 +11750,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-dl65b"
@@ -10565,6 +11770,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-dl90b"
@@ -10582,6 +11789,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-dl130b"
@@ -10598,6 +11807,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-hp65a"
@@ -10614,6 +11825,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-hp65c"
@@ -10630,6 +11843,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-lo45a"
@@ -10647,6 +11862,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-lo135a"
@@ -10664,6 +11881,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-pd90a"
@@ -10681,6 +11900,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-pdc65"
@@ -10700,6 +11921,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 57,
    "imagens": [
     "kp-pdc96"
@@ -10719,6 +11942,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-rr100"
@@ -10738,6 +11963,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-sg40a"
@@ -10755,6 +11982,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-sg40b"
@@ -10771,6 +12000,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-sg60a"
@@ -10789,6 +12020,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-dyq120"
@@ -10807,6 +12040,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-dyq24"
@@ -10828,6 +12063,8 @@
    ],
    "qtd_caixa": 8,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-im602"
@@ -10848,6 +12085,8 @@
    ],
    "qtd_caixa": 8,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-im604"
@@ -10868,6 +12107,8 @@
    ],
    "qtd_caixa": 8,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-im608"
@@ -10892,6 +12133,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 58,
    "imagens": [
     "kp-im611"
@@ -10914,6 +12157,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-im612"
@@ -10935,6 +12180,8 @@
    ],
    "qtd_caixa": 8,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-im613"
@@ -10956,6 +12203,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-im614"
@@ -10976,6 +12225,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-1025"
@@ -10992,6 +12243,8 @@
    ],
    "qtd_caixa": 1,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-pp05"
@@ -11008,6 +12261,8 @@
    ],
    "qtd_caixa": 1,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-pp08"
@@ -11024,6 +12279,8 @@
    ],
    "qtd_caixa": 1,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-pp09"
@@ -11041,6 +12298,8 @@
    ],
    "qtd_caixa": 1,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-pp06"
@@ -11058,6 +12317,8 @@
    ],
    "qtd_caixa": 1,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-pp07"
@@ -11073,8 +12334,10 @@
     "Dimensões máximas do fardo dobrado: 18 x 10cm",
     "Dimensões: 200 x 135 x 155 mm (C × L × A)"
    ],
-   "qtd_caixa": 60,
+   "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-imsp607"
@@ -11095,6 +12358,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-le708"
@@ -11116,6 +12381,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 59,
    "imagens": [
     "kp-le711"
@@ -11138,6 +12405,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-le712"
@@ -11155,6 +12424,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-1018a"
@@ -11177,6 +12448,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-1019a"
@@ -11198,6 +12471,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-1027"
@@ -11219,6 +12494,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-re1033"
@@ -11238,6 +12515,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-ad10a"
@@ -11257,6 +12536,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-ad20a"
@@ -11276,6 +12557,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-ad30a"
@@ -11295,6 +12578,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 60,
    "imagens": [
     "kp-ad40a"
@@ -11314,6 +12599,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-ad50a"
@@ -11333,6 +12620,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-ad60a"
@@ -11353,6 +12642,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-sc20a"
@@ -11373,6 +12664,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-sc30a"
@@ -11393,6 +12686,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-sc40a"
@@ -11413,6 +12708,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-sc50a"
@@ -11433,6 +12730,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-sc60a"
@@ -11451,6 +12750,8 @@
    ],
    "qtd_caixa": 24,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-mp30a"
@@ -11469,6 +12770,8 @@
    ],
    "qtd_caixa": 16,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-mp40a"
@@ -11487,6 +12790,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-mp60a"
@@ -11505,6 +12810,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-nl580"
@@ -11525,6 +12832,8 @@
    ],
    "qtd_caixa": 2,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 61,
    "imagens": [
     "kp-593"
@@ -11532,7 +12841,7 @@
   },
   {
    "codigo": "KP-SL80",
-   "nome": "TRILHO DE ENERGIA EXTENSÃO 3 TOMADAS EXTENSÃO ELÉTRICA",
+   "nome": "TRILHO DE ENERGIA",
    "categoria": "ENERGIA",
    "specs": [
     "Tensão nominal: 250 Vca",
@@ -11541,21 +12850,12 @@
     "Fita de vedação tripla proteção",
     "Alumínio de lata resistência",
     "Dimensão: 800x82x16mm",
-    "3x plugues/1x USB/1x Type-C",
-    "Extensão com 3 tomadas",
-    "Fusível: BIVOLT",
-    "Tensão Máx. 250Vac/ 10A",
-    "Plugues: NBR14136(M) x NEM(F)",
-    "Composição: Termoplástico e metal",
-    "ensão nominal: 127V/220V",
-    "Tensão máxima 250V~",
-    "Fusível de proteção 10A",
-    "Extensão 3 Tomadas",
-    "Padrão das tomadas: NBR – 14136",
-    "Comprimento do cabo: 1.5M"
+    "3x plugues/1x USB/1x Type-C"
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 62,
    "imagens": [
     "kp-sl80"
@@ -11563,79 +12863,463 @@
   },
   {
    "codigo": "KP-SL50",
-   "nome": "TRILHO DE ENERGIA EXTENSÃO ADAPTADOR DE CARRETILHA 2P + T EXTENSÃO ADPTADOR EXTENSÃO 3 TOMADAS 3 TOMADAS 2P+T ELÉTRICA EXTENSÃO EXTENSÃO EXTENSÃO ELÉTRICA ELÉTRICA ELÉTRICA",
+   "nome": "TRILHO DE ENERGIA",
    "categoria": "ENERGIA",
    "specs": [
     "Tensão nominal: 250 Vca",
-    "Tomadas de entrada: 01",
-    "Marca: SAFELINE",
     "Corrente nominal: 32A",
-    "Tomadas de saída: 03",
-    "Padrão: ABNT NBR14136",
     "Frequência: 60Hz",
-    "Padrão NBR14136",
-    "Corrente nominal: 10A",
     "Fita de vedação tripla proteção",
-    "Conectores: 2P",
-    "Tensão: 110 ~ 220V",
     "Alumínio de lata resistência",
-    "Tensão de operação: 127 ~ 220Vac",
-    "Dimensão: 500x82x16mm / 10A",
-    "2x plugues/1x USB/1x Type-C",
-    "Comprimento do cabo: 5M",
-    "Com interruptor",
-    "Tensão máxima:",
-    "Padrão NBR14136 de ligar/desligar - 250Vac/10A",
-    "Número de tomas",
-    "Extensão com 3 tomadas",
-    "Padrão: NBR14136(M)*1 elétricas: 06",
-    "Fusível: BIVOLT NBR14136(F)*3",
-    "Corrente máxima: 10A",
-    "Tensão Máx. 250Vac/ 10A",
-    "Tensão de operação: 127 ~ 220V",
-    "Plugues: NBR14136(M) x NEM(F)",
-    "Comprimento do cabo: 1,5M",
-    "Composição: Termoplástico e meta",
-    "ensão nominal: 127V/220V",
-    "ensão nominal: 127V/220V",
-    "Padrão NBR14136 (2P + T)",
-    "Tensão máxima 250V~",
-    "Tensão máxima 250V~",
-    "Número de tomas elétricas: 06",
-    "Fusível de proteção 10A",
-    "Fusível de proteção 10A",
-    "Chave ON/OFF",
-    "Extensão 3 Tomadas",
-    "Extensão 3 Tomadas",
-    "Corrente máxima: 10A",
-    "Padrão das tomadas: NBR – 14136",
-    "Padrão das tomadas: NBR – 14136",
-    "Tensão de operação: 127 ~ 220V",
-    "Comprimento do cabo: 3M",
-    "Comprimento do cabo: 5M",
-    "Comprimento do cabo: 1,50M"
+    "Dimensão: 500x82x16mm",
+    "2x plugues/1x USB/1x Type-C"
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 62,
    "imagens": [
     "kp-sl50"
    ]
   },
   {
+   "codigo": "SL05/5M",
+   "nome": "EXTENSÃO DE CARRETILHA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Tomadas de entrada: 01",
+    "Tomadas de saída: 03",
+    "Padrão NBR14136",
+    "Conectores: 2P",
+    "Tensão de operação: 127 ~ 220Vac / 10A",
+    "Comprimento do cabo: 5M"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl05-5m"
+   ]
+  },
+  {
+   "codigo": "SL6001",
+   "nome": "ADAPTADOR 2P + T",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Marca: SAFELINE",
+    "Padrão: ABNT NBR14136",
+    "Corrente nominal: 10A",
+    "Tensão: 110 ~ 220V"
+   ],
+   "qtd_caixa": 200,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl6001"
+   ]
+  },
+  {
+   "codigo": "SL6011",
+   "nome": "EXTENSÃO 3 TOMADAS",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Extensão com 3 tomadas",
+    "Fusível: BIVOLT",
+    "Tensão Máx. 250Vac/ 10A",
+    "Plugues: NBR14136(M) x NEM(F)",
+    "Composição: Termoplástico e metal"
+   ],
+   "qtd_caixa": 200,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl6011"
+   ]
+  },
+  {
+   "codigo": "SL6012",
+   "nome": "EXTENSÃO 3 TOMADAS",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Com interruptor de ligar/desligar",
+    "Extensão com 3 tomadas",
+    "Fusível: BIVOLT",
+    "Tensão Máx. 250Vac/ 10A",
+    "Plugues: NBR14136(M) x NEM(F)",
+    "Composição: Termoplástico e meta"
+   ],
+   "qtd_caixa": 200,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl6012"
+   ]
+  },
+  {
+   "codigo": "SL6020",
+   "nome": "ADPTADOR 3 TOMADAS 2P+T",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Tensão máxima: - 250Vac/10A",
+    "Padrão: NBR14136(M)*1 NBR14136(F)*3"
+   ],
+   "qtd_caixa": 200,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl6020"
+   ]
+  },
+  {
+   "codigo": "SL7006",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Padrão NBR14136",
+    "Número de tomas elétricas: 06",
+    "Corrente máxima: 10A",
+    "Tensão de operação: 127 ~ 220V",
+    "Comprimento do cabo: 1,5M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl7006"
+   ]
+  },
+  {
+   "codigo": "SL7013/1.5M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "ensão nominal: 127V/220V",
+    "Tensão máxima 250V~",
+    "Fusível de proteção 10A",
+    "Extensão 3 Tomadas",
+    "Padrão das tomadas: NBR – 14136",
+    "Comprimento do cabo: 1.5M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl7013-1-5m"
+   ]
+  },
+  {
+   "codigo": "SL7013/3M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "ensão nominal: 127V/220V",
+    "Tensão máxima 250V~",
+    "Fusível de proteção 10A",
+    "Extensão 3 Tomadas",
+    "Padrão das tomadas: NBR – 14136",
+    "Comprimento do cabo: 3M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl7013-3m"
+   ]
+  },
+  {
+   "codigo": "SL7013/5M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "ensão nominal: 127V/220V",
+    "Tensão máxima 250V~",
+    "Fusível de proteção 10A",
+    "Extensão 3 Tomadas",
+    "Padrão das tomadas: NBR – 14136",
+    "Comprimento do cabo: 5M"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl7013-5m"
+   ]
+  },
+  {
+   "codigo": "SL7506",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Padrão NBR14136 (2P + T)",
+    "Número de tomas elétricas: 06",
+    "Chave ON/OFF",
+    "Corrente máxima: 10A",
+    "Tensão de operação: 127 ~ 220V",
+    "Comprimento do cabo: 1,50M"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 62,
+   "imagens": [
+    "sl7506"
+   ]
+  },
+  {
+   "codigo": "SL7508",
+   "nome": "EXTENSÃO DE CARRETILHA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Número de tomas elétricas: 08",
+    "Padrão NBR14136 (2P + T)",
+    "Fusível Bivolt",
+    "Chave/Disjuntora Reset/OFf",
+    "Cordão: 3 x 0,75mm",
+    "Corrente máxima: 10 A",
+    "Tensão de operação: 127 ~ 220Vac",
+    "Comprimento do cabo: 1,5M"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7508"
+   ]
+  },
+  {
+   "codigo": "SL7604",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Chave ON/OFF",
+    "Fusível Bivolt",
+    "Número de tomadas elétricas: 04",
+    "Padrão NBR14136 (2P + T)",
+    "Cordão: 3 x 0,75mm",
+    "Corrente máxima: 10 A",
+    "Tensão de operação: 127 ~ 220Vac",
+    "Comprimento do cabo: 1,5M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7604"
+   ]
+  },
+  {
+   "codigo": "SL7604/5M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Padrão NBR14136",
+    "Número de tomas elétricas: 04",
+    "Corrente máxima: 10A",
+    "Tensão de operação: 127 ~ 220V",
+    "Comprimento do cabo: 5M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7604-5m"
+   ]
+  },
+  {
    "codigo": "SL7605-1.5M",
-   "nome": "EXTENSÃO ELÉTRICA EXTENSÃO ELÉTRICA EXTENSÃO ELÉTRICA",
+   "nome": "EXTENSÃO ELÉTRICA",
    "categoria": "ENERGIA",
    "specs": [
     "Chave ON/OFF",
     "Número de tomas elétricas: 5 Corrente máxima: 10A",
     "Tensão de operação: 127 ~ 220V",
-    "Comprimento do cabo: 1.5M",
+    "Comprimento do cabo: 1.5M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7605-1-5m"
+   ]
+  },
+  {
+   "codigo": "SL7605/3M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Chave ON/OFF",
+    "Número de tomas elétricas: 5 Corrente máxima: 10A",
+    "Tensão de operação: 127 ~ 220V",
+    "Comprimento do cabo: 3M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7605-3m"
+   ]
+  },
+  {
+   "codigo": "SL7606",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Padrão NBR14136 (2P + T)",
+    "Número de tomas elétricas: 06",
+    "Chave ON/OFF",
+    "Fusível Bivolt",
+    "Cordão: 3 x 0,75mm",
+    "Corrente máxima: 10 A",
+    "Tensão de operação: 127 ~ 220Vac",
+    "Comprimento do cabo: 1,50M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7606"
+   ]
+  },
+  {
+   "codigo": "SL7609/1.5M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
     "Chave ON/OFF",
     "Número de tomas elétricas: 6",
     "Porta USB 2 (DC 5V max 2.1A) Corrente máxima: 10A",
     "Tensão de operação: 127 ~ 220V",
-    "Comprimento do cabo: 3M",
+    "Comprimento do cabo: 1.5M"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7609-1-5m"
+   ]
+  },
+  {
+   "codigo": "SL7609/3M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Chave ON/OFF",
+    "Número de tomas elétricas: 6",
+    "Porta USB 2 (DC 5V max 2.1A) Corrente máxima: 10A",
+    "Tensão de operação: 127 ~ 220V",
+    "Comprimento do cabo: 3M"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7609-3m"
+   ]
+  },
+  {
+   "codigo": "SL7616",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Padrão NBR14136 (2P + T)",
+    "Número de tomas elétricas: 06",
+    "Chave ON/OFF",
+    "Corrente máxima: 10A",
+    "Cordão: 3 x 0,75mm²",
+    "Tensão de operação: 127 ~ 220V",
+    "Comprimento do cabo: 1,50M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7616"
+   ]
+  },
+  {
+   "codigo": "SL7634/1.5M",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Chave ON/OFF",
+    "Número de tomas elétricas: 4 Corrente máxima: 10A",
+    "Tensão de operação: 127 ~ 220V",
+    "Comprimento do cabo: 1,5M"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7634-1-5m"
+   ]
+  },
+  {
+   "codigo": "SL7814",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Tensão: 127~220 Vac/10A",
+    "Cabo de força: 3x0.75mm²",
+    "Comprimento do cabo: 1.5m",
+    "Plugue: 2P+T(NBR14136)",
+    "Chave liga /desliga",
+    "Proteção contra sobrecarga: Fusível",
+    "Tomada de saída: 4"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 63,
+   "imagens": [
+    "sl7814"
+   ]
+  },
+  {
+   "codigo": "SL7816",
+   "nome": "EXTENSÃO ELÉTRICA",
+   "categoria": "ENERGIA",
+   "specs": [
     "Tensão: 127~220 Vac/10A",
     "Cabo de força: 3x0.75mm²",
     "Comprimento do cabo: 1.5m",
@@ -11646,9 +13330,53 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 63,
    "imagens": [
-    "sl7605-1-5m"
+    "sl7816"
+   ]
+  },
+  {
+   "codigo": "BX2204",
+   "nome": "EXTENSÃO 4 TOMADAS",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Interfaces: - 4 Tomadas NBR14136, 2 x USB, 2 x Type-C",
+    "Potência máxima: 2500W",
+    "Potência de saída USB: 12W",
+    "Corrente máxima: 2.4A",
+    "Comprimento do cabo: 2M",
+    "Tensão de operação: 100 ~ 250Vac"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 64,
+   "imagens": [
+    "bx2204"
+   ]
+  },
+  {
+   "codigo": "BX2205",
+   "nome": "EXTENSÃO 5 TOMADAS",
+   "categoria": "ENERGIA",
+   "specs": [
+    "Interfaces: - 5 Tomadas NBR14136, 2 x USB, 2 x Type-C",
+    "Potência máxima: 2500W",
+    "Potência de saída USB: 12W",
+    "Corrente máxima: 2.4A",
+    "Comprimento do cabo: 2M",
+    "Tensão de operação: 100 ~ 250Vac"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 64,
+   "imagens": [
+    "bx2205"
    ]
   },
   {
@@ -11663,6 +13391,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "kp-511"
@@ -11684,6 +13414,8 @@
    ],
    "qtd_caixa": 80,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "kp-512a"
@@ -11706,6 +13438,8 @@
    ],
    "qtd_caixa": 80,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "kp-512bb"
@@ -11724,6 +13458,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "unt-303bc"
@@ -11742,6 +13478,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "unt-302bc"
@@ -11760,6 +13498,8 @@
    ],
    "qtd_caixa": 150,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "unt-302b"
@@ -11779,6 +13519,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "kp-sl03u"
@@ -11798,6 +13540,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "kp-sl03uu"
@@ -11817,6 +13561,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "kp-sl02uu"
@@ -11836,9 +13582,50 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 64,
    "imagens": [
     "kp-sl02"
+   ]
+  },
+  {
+   "codigo": "SL6022",
+   "nome": "PROTETOR",
+   "categoria": "ENERGIA",
+   "specs": [
+    "DE SURTO DPS",
+    "Tensão max: 275V/10A",
+    "Compatível com bivolt",
+    "Proteção contra variação de energia 2P+T1 2tomada",
+    "Proteção de voltagem UOC/UP-6KV/1KV"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 65,
+   "imagens": [
+    "sl6022"
+   ]
+  },
+  {
+   "codigo": "SL6023",
+   "nome": "PROTETOR",
+   "categoria": "ENERGIA",
+   "specs": [
+    "DE SURTO DPS",
+    "Tensão max: 275V/20A",
+    "Compatível com bivolt",
+    "Proteção contra variação de energia 2P+T1 tomada"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 65,
+   "imagens": [
+    "sl6023"
    ]
   },
   {
@@ -11854,6 +13641,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "kp-d120"
@@ -11877,6 +13666,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "kp-tv19-b"
@@ -11897,6 +13688,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "kp-tc29"
@@ -11916,6 +13709,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "kp-tc67"
@@ -11934,6 +13729,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "or-sp90"
@@ -11954,6 +13751,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "kp-im610"
@@ -11974,6 +13773,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "kp-im615"
@@ -11993,6 +13794,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 65,
    "imagens": [
     "kp-313"
@@ -12014,6 +13817,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-em16"
@@ -12033,6 +13838,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-em17"
@@ -12054,6 +13861,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-em26"
@@ -12074,6 +13883,8 @@
    ],
    "qtd_caixa": 15,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-em18"
@@ -12094,6 +13905,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-mm654"
@@ -12111,6 +13924,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-le303"
@@ -12128,6 +13943,8 @@
    ],
    "qtd_caixa": 24,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-tc69"
@@ -12146,6 +13963,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "r-nfj001-bk-127v"
@@ -12164,6 +13983,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "r-nfj001-bk-220v"
@@ -12182,6 +14003,8 @@
    ],
    "qtd_caixa": 9,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "r-nfjs1-bk-220v"
@@ -12205,6 +14028,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-592"
@@ -12222,6 +14047,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 66,
    "imagens": [
     "kp-tc70"
@@ -12241,6 +14068,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 67,
    "imagens": [
     "kp-tv14"
@@ -12248,38 +14077,71 @@
   },
   {
    "codigo": "KP-8004",
-   "nome": "GRAVADOR LUZ NOTURNA LUZ NOTURNA DE VOZ LED C/SENSOR LED C/SENSOR",
+   "nome": "GRAVADOR DE VOZ",
    "categoria": "ACESSÓRIOS DIVERSOS",
    "specs": [
-    "Gravador digital com",
+    "Gravador digital com memória interna de 8 GB",
+    "Saída para fone de ouvido",
+    "Microfone embutido",
+    "Entrada auxiliar para microfone externo",
+    "Microfone de lapela com clip no cabo fornecido"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 67,
+   "imagens": [
+    "kp-8004"
+   ]
+  },
+  {
+   "codigo": "L962",
+   "nome": "LUZ NOTURNA LED C/SENSOR",
+   "categoria": "ACESSÓRIOS DIVERSOS",
+   "specs": [
     "Alcance aproximado de 8M.",
-    "Fonte de Luz: LED",
-    "Tempo de iluminação ajustável:",
-    "Brilho: 5 níveis de ajuste memória interna de 8 GB",
-    "Potência: 1.3 ~ 2.5 W",
-    "Saída para fone de ouvido aproximadamente 30, 60 ou 90",
-    "Tensão: 127-220 Vac / 60 Hz",
-    "Microfone embutido segundo",
-    "Fluxo Luminoso: 1 ~ 120 lm",
-    "Entrada auxiliar para microfone",
-    "LEDs de longa duração com luz",
-    "Modo de Iluminação: ON / AUTO externo branca fria.",
-    "Como funciona: Sempre ligado",
-    "Microfone de lapela com clip no",
-    "Tensão de operação: 127-220 Vac / (ON) cabo fornecido 60 Hz.",
-    "Sensor de movimento no escuro",
-    "Potência: máx. 0.5 W.ensão ou em condições de pouca luz nominal: 127V/220V (AUTO) Tensão máxima 250V~",
-    "Composição: ABS (Antichamas)",
+    "Tempo de iluminação ajustável: aproximadamente 30, 60 ou 90 segundo",
+    "LEDs de longa duração com luz branca fria.",
+    "Tensão de operação: 127-220 Vac / 60 Hz.",
+    "Potência: máx. 0.5 W.ensão nominal: 127V/220V",
+    "Tensão máxima 250V~",
     "Fusível de proteção 10A",
     "Extensão 3 Tomadas",
     "Padrão das tomadas: NBR – 14136",
     "Comprimento do cabo: 1.5M"
    ],
-   "qtd_caixa": 100,
+   "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 67,
    "imagens": [
-    "kp-8004"
+    "l962"
+   ]
+  },
+  {
+   "codigo": "L964",
+   "nome": "LUZ NOTURNA LED C/SENSOR",
+   "categoria": "ACESSÓRIOS DIVERSOS",
+   "specs": [
+    "Fonte de Luz: LED",
+    "Brilho: 5 níveis de ajuste",
+    "Potência: 1.3 ~ 2.5 W",
+    "Tensão: 127-220 Vac / 60 Hz",
+    "Fluxo Luminoso: 1 ~ 120 lm",
+    "Modo de Iluminação: ON / AUTO",
+    "Como funciona: Sempre ligado (ON)",
+    "Sensor de movimento no escuro ou em condições de pouca luz (AUTO)",
+    "Composição: ABS (Antichamas)"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 67,
+   "imagens": [
+    "l964"
    ]
   },
   {
@@ -12295,6 +14157,8 @@
    ],
    "qtd_caixa": 2,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 67,
    "imagens": [
     "n-cqcd003"
@@ -12312,6 +14176,8 @@
    ],
    "qtd_caixa": 2,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 67,
    "imagens": [
     "n-cqcd004"
@@ -12334,6 +14200,8 @@
    ],
    "qtd_caixa": 8,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra923"
@@ -12355,8 +14223,10 @@
     "2 x USB (Pen drive máx. de 128GB)",
     "Entrada de vídeo para câmera de ré"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra925"
@@ -12380,6 +14250,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra926"
@@ -12401,8 +14273,10 @@
     "2 x USB (Pen drive máx. de 128GB)",
     "Entrada de vídeo para câmera de ré"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra927"
@@ -12423,8 +14297,10 @@
     "2 x USB (Pen drive máx. de 128GB)",
     "Entrada de vídeo para câmera de ré"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra928"
@@ -12445,8 +14321,10 @@
     "Potência: 60Wx 4 Canais",
     "2x USB(PEN DRIVER Max 128GB)"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra929"
@@ -12467,8 +14345,10 @@
     "Tempo de gravação: 1/2/3/5 minutos",
     "Saída de vídeo: AHD-M"
    ],
-   "qtd_caixa": 93,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra932"
@@ -12490,8 +14370,10 @@
     "2x USB (Pen Drive Máximo 128GB)",
     "Entrada para câmera de ré e função Bluetooth"
    ],
-   "qtd_caixa": 93,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra934"
@@ -12511,8 +14393,10 @@
     "2x USB (Pen Drive Máximo 128GB)",
     "Entrada para câmera de ré e função Bluetooth"
    ],
-   "qtd_caixa": 93,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra937"
@@ -12531,8 +14415,10 @@
     "Mini auto falante",
     "Espelhamento da tela do Smartphone sem fio"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra940"
@@ -12553,6 +14439,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra951"
@@ -12574,6 +14462,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 68,
    "imagens": [
     "kp-ra952"
@@ -12591,8 +14481,10 @@
     "Saída de áudio/vídeo: RCA",
     "Radio FM Faixa de frequência: 87-108MHz"
    ],
-   "qtd_caixa": 959,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-ra959"
@@ -12611,6 +14503,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-ra908"
@@ -12631,6 +14525,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-c19a"
@@ -12652,6 +14548,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-ra947"
@@ -12672,6 +14570,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": true,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-ra957"
@@ -12691,6 +14591,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-ra901"
@@ -12707,8 +14609,10 @@
     "Entrada Auxiliar P2 IN",
     "Display colorido"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-c15bh"
@@ -12727,6 +14631,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-c17bh"
@@ -12745,6 +14651,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-c18bh"
@@ -12759,6 +14667,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-c29bh"
@@ -12779,6 +14689,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-c30bh"
@@ -12800,6 +14712,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 69,
    "imagens": [
     "kp-ra945"
@@ -12819,6 +14733,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-ra909"
@@ -12843,6 +14759,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-ra905"
@@ -12866,6 +14784,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-ra904"
@@ -12884,6 +14804,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-tc07"
@@ -12902,6 +14824,8 @@
    ],
    "qtd_caixa": 5,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-tc07a"
@@ -12922,6 +14846,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-tc15"
@@ -12941,6 +14867,8 @@
    ],
    "qtd_caixa": 6,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-tc16"
@@ -12959,6 +14887,8 @@
    ],
    "qtd_caixa": 2,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-tc20-110"
@@ -12978,6 +14908,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-mt06"
@@ -12997,6 +14929,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-mt05"
@@ -13013,8 +14947,10 @@
     "Compatível com todos os mode-los de motos",
     "Comprimento do cabo: 1.20M"
    ],
-   "qtd_caixa": 572,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 70,
    "imagens": [
     "kp-572"
@@ -13033,8 +14969,10 @@
     "Corrente de partida: 300A (600A Pico máximo)",
     "Alimentação para recarga: 5Vdc/2A (fonte não inclusa)"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-tc25"
@@ -13057,6 +14995,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-sc504"
@@ -13080,6 +15020,8 @@
    ],
    "qtd_caixa": 2,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-sc510"
@@ -13100,6 +15042,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-sc508"
@@ -13119,6 +15063,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-s100-g"
@@ -13138,6 +15084,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-s100"
@@ -13156,6 +15104,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-s122"
@@ -13175,6 +15125,8 @@
    ],
    "qtd_caixa": 16,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-tc68"
@@ -13193,8 +15145,10 @@
     "Tensão: 10~15Vdc/12V",
     "Formatos de áudio sem perdas: WAV/FLAC/APE"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-sc513"
@@ -13214,6 +15168,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-sc514"
@@ -13231,8 +15187,10 @@
     "Potência: 240W",
     "Tipo de fusível de entrada: Externo 10A"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 50,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-sc515"
@@ -13251,6 +15209,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 71,
    "imagens": [
     "kp-tc44"
@@ -13269,8 +15229,10 @@
     "Entrada para cartão microSD",
     "Sistema fotocrômico"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 25,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s103"
@@ -13291,6 +15253,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s108"
@@ -13311,6 +15275,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s116"
@@ -13328,8 +15294,10 @@
     "Ângulo de visão: 140°",
     "Nível de proteção: IP68 *Compatível somente com telas AHD"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s131"
@@ -13350,6 +15318,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s137"
@@ -13369,8 +15339,10 @@
     "Armazenamento: Cartão MicroSD de até 128GB (não incluso)",
     "Capacidade da bateria: 200 mA"
    ],
-   "qtd_caixa": 39,
+   "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s139"
@@ -13390,6 +15362,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s141"
@@ -13411,6 +15385,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s153"
@@ -13429,6 +15405,8 @@
    ],
    "qtd_caixa": 24,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-vt01"
@@ -13445,8 +15423,10 @@
     "Potência(+-20%): 6,5W",
     "Ruido: <<50db"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 24,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-vt02"
@@ -13469,8 +15449,10 @@
     "Resposta de frequência: 20 Hz-20kHz",
     "Relação sinal/ ruído> 95dB"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-s140"
@@ -13496,6 +15478,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 72,
    "imagens": [
     "kp-sc511"
@@ -13521,6 +15505,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-sc512"
@@ -13538,6 +15524,8 @@
    ],
    "qtd_caixa": 5,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-tc09"
@@ -13555,8 +15543,10 @@
     "Saída USB: 5V=2A",
     "Incia carros 12V"
    ],
-   "qtd_caixa": 9,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-tc19a"
@@ -13574,8 +15564,10 @@
     "Capacidade da bateria: 15600mAh",
     "Alimentação para recarga: 5Vdc/2A (fonte não inclusa)"
    ],
-   "qtd_caixa": 6,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-tc26"
@@ -13595,6 +15587,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-tc66"
@@ -13614,6 +15608,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-586"
@@ -13633,6 +15629,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-586a"
@@ -13652,6 +15650,8 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-586c"
@@ -13671,6 +15671,8 @@
    ],
    "qtd_caixa": 3,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 73,
    "imagens": [
     "kp-587"
@@ -13690,6 +15692,8 @@
    ],
    "qtd_caixa": 3,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-587a"
@@ -13710,6 +15714,8 @@
    ],
    "qtd_caixa": 3,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-587b"
@@ -13730,6 +15736,8 @@
    ],
    "qtd_caixa": 3,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-587c"
@@ -13747,8 +15755,10 @@
     "Subtensão: 10 Vdc",
     "Sobretensão 14,8 Vdc"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd001"
@@ -13768,6 +15778,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd002"
@@ -13787,6 +15799,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd003"
@@ -13806,6 +15820,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd004"
@@ -13825,6 +15841,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd005"
@@ -13844,6 +15862,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd006"
@@ -13863,6 +15883,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd007"
@@ -13882,6 +15904,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd008"
@@ -13901,6 +15925,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 74,
    "imagens": [
     "kp-gd009"
@@ -13918,8 +15944,10 @@
     "Subtensão: 10 Vdc",
     "Sobretensão 14,8 Vdc"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-gd010"
@@ -13937,8 +15965,10 @@
     "Subtensão: 10 Vdc",
     "Sobretensão 14,8 Vdc"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 5,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-gd011"
@@ -13956,8 +15986,10 @@
     "Subtensão: 10 Vdc",
     "Sobretensão 14,8 Vdc"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 5,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-gd012"
@@ -13978,6 +16010,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-tc13-220v"
@@ -13997,8 +16031,10 @@
     "Sugestão de uso:",
     "- Caminhão, ônibus, carro, trailer etc"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-tc13-110v"
@@ -14018,6 +16054,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-tc43"
@@ -14037,6 +16075,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-tc43-220v"
@@ -14044,29 +16084,46 @@
   },
   {
    "codigo": "KP-IN901",
-   "nome": "INVERSOR INVERSOR 200W - 220V 75W - 220V",
+   "nome": "INVERSOR 200W - 220V",
    "categoria": "INVERSORES - ONDA TRAPEZOIDAL (MODIFICADA)",
    "specs": [
-    "Tensão de entrada:",
-    "Tensão de entrada: - 10 ~ 15,5 Vdc - 12 Vdc",
+    "Tensão de entrada: - 10 ~ 15,5 Vdc",
     "Tensão de saída: 220 Vac*",
-    "Tensão de saída: 220 Vac*",
-    "* Onda senoidal Modificada",
     "* Onda senoidal Modificada",
     "Potência de saída: 200W",
-    "Potência máx. de saída: 75W",
     "Frequência: 60Hz",
-    "Proteção de Baixa Tensão: DC",
-    "Adaptador para tomada 10V-11V veicular",
-    "USB + Universal Tomada: DC 5V",
-    "- Caminhão, ônibus, carro,",
-    "- Caminhão, ônibus, carro, trailer trailer etc etc"
+    "Adaptador para tomada veicular",
+    "- Caminhão, ônibus, carro, trailer etc"
    ],
-   "qtd_caixa": 55,
+   "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "kp-in901"
+   ]
+  },
+  {
+   "codigo": "KP-552/220v",
+   "nome": "INVERSOR 75W - 220V",
+   "categoria": "INVERSORES - ONDA TRAPEZOIDAL (MODIFICADA)",
+   "specs": [
+    "Tensão de entrada: - 12 Vdc",
+    "Tensão de saída: 220 Vac*",
+    "* Onda senoidal Modificada",
+    "Potência máx. de saída: 75W",
+    "Proteção de Baixa Tensão: DC 10V-11V",
+    "USB + Universal Tomada: DC 5V",
+    "- Caminhão, ônibus, carro, trailer etc"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
+   "pagina": 75,
+   "imagens": [
+    "kp-552-220v"
    ]
   },
   {
@@ -14080,6 +16137,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "lb-507"
@@ -14099,6 +16158,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 75,
    "imagens": [
     "lb-521a"
@@ -14115,8 +16176,10 @@
     "Proteção de Baixa Tensão: DC 10V-11V",
     "USB + Universal Tomada: DC 5V - Caminhão, ônibus, carro, trailer etc"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 76,
    "imagens": [
     "kp-521"
@@ -14134,8 +16197,10 @@
     "Frequência: 60Hz",
     "Adaptador para tomada veícular - Caminhão, ônibus, carro, trailer etc"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 76,
    "imagens": [
     "kp-521a"
@@ -14151,8 +16216,10 @@
     "Corrente saída: 120(pico max 200A)",
     "Armazenamento de energia solar"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 76,
    "imagens": [
     "kp-tc40"
@@ -14172,6 +16239,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 76,
    "imagens": [
     "kp-tc49"
@@ -14191,6 +16260,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 76,
    "imagens": [
     "kp-tc50"
@@ -14210,6 +16281,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 76,
    "imagens": [
     "kp-tc51"
@@ -14229,6 +16302,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 76,
    "imagens": [
     "kp-tc52"
@@ -14249,6 +16324,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca127"
@@ -14271,6 +16348,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca180"
@@ -14292,6 +16371,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca183"
@@ -14312,6 +16393,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "lb-ca188"
@@ -14333,6 +16416,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca190"
@@ -14352,6 +16437,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "lb-ca196"
@@ -14371,6 +16458,8 @@
    ],
    "qtd_caixa": 16,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca199"
@@ -14391,6 +16480,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca201"
@@ -14410,6 +16501,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca210"
@@ -14432,6 +16525,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "kp-ca212"
@@ -14452,8 +16547,10 @@
     "Armazenamento: MicroSD 125GB Máx",
     "Visão noturna e detecção de movimentos"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "lb-ca215"
@@ -14476,6 +16573,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 77,
    "imagens": [
     "lb-ca218"
@@ -14497,6 +16596,8 @@
    ],
    "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "kp-ca221"
@@ -14515,8 +16616,10 @@
     "Visor: Noturno a cores",
     "Modo Síncrono: Inter Sincronização"
    ],
-   "qtd_caixa": 5,
+   "qtd_caixa": 50,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "kp-ca225"
@@ -14539,8 +16642,10 @@
     "Captura de câmera",
     "Zoom de 10 x em 3 ecrã com varias lentes"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "kp-ca243"
@@ -14563,6 +16668,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "lb-ca248"
@@ -14585,6 +16692,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "lb-ca249"
@@ -14603,8 +16712,10 @@
     "Armazenamento na nuvem: Imagens de alarme",
     "Armazenamento Local: Cartão TF(Suporta até 128GB)"
    ],
-   "qtd_caixa": 60,
+   "qtd_caixa": 100,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "kp-ca260"
@@ -14623,8 +16734,10 @@
     "Armazenamento na nuvem: imagem se alertas",
     "Armazenamento Local: Cartão TF(suporta até 128GB)"
    ],
-   "qtd_caixa": 6,
+   "qtd_caixa": 80,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "kp-ca261"
@@ -14641,6 +16754,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "lb-ca559"
@@ -14660,6 +16775,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "lb-ca561"
@@ -14677,8 +16794,10 @@
     "Tensão de saída precisa e estável",
     "Proteção contra curto-circuito, sobretensão e sobrecorrente"
    ],
-   "qtd_caixa": 56,
+   "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "lb-ca562"
@@ -14694,6 +16813,8 @@
    ],
    "qtd_caixa": 40,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 78,
    "imagens": [
     "lb-ca563"
@@ -14710,6 +16831,8 @@
    ],
    "qtd_caixa": 30,
    "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "lb-ca566"
@@ -14729,6 +16852,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca320"
@@ -14748,6 +16873,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca321"
@@ -14769,6 +16896,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca323"
@@ -14788,6 +16917,8 @@
    ],
    "qtd_caixa": 100,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca326"
@@ -14806,6 +16937,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca328"
@@ -14822,8 +16955,10 @@
     "Alimentação da campainha: 127Vac ~ 220v",
     "Alimentação do transmissor: Bateria de 12V 23A"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 60,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca329"
@@ -14845,6 +16980,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca333"
@@ -14866,6 +17003,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 79,
    "imagens": [
     "kp-ca334"
@@ -14888,6 +17027,8 @@
    ],
    "qtd_caixa": 60,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca335"
@@ -14908,8 +17049,10 @@
     "Compatibilidade: Portas de madeira 30 ~ 50mm expessura",
     "Material: Acrílico e alumínio"
    ],
-   "qtd_caixa": 60,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca607"
@@ -14930,6 +17073,8 @@
    ],
    "qtd_caixa": 12,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca610"
@@ -14952,6 +17097,8 @@
    ],
    "qtd_caixa": 16,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca612"
@@ -14973,6 +17120,8 @@
    ],
    "qtd_caixa": 16,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca614"
@@ -14997,6 +17146,8 @@
    ],
    "qtd_caixa": 20,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca618"
@@ -15015,8 +17166,10 @@
     "Sensor de impressão digital com semicondutores: 50 impressões",
     "Senha anti-espionagem: Compatível"
    ],
-   "qtd_caixa": 6,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca621"
@@ -15036,8 +17189,10 @@
     "Número de usuários: 100 impressões digitais/100 senhas/10 cartões/total de 300 usuários",
     "Destravamento: impressão digital/senha/cartão IC/Tuya remoto/senha temporária/chave mecânica"
    ],
-   "qtd_caixa": 6,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 80,
    "imagens": [
     "kp-ca623"
@@ -15056,8 +17211,10 @@
     "Idioma: Chines. Inglês, Português e Espanhol",
     "Capacidade do usuário: Impressão digital100/senha 100/ cartão IC 100"
    ],
-   "qtd_caixa": 6,
+   "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 81,
    "imagens": [
     "kp-ca624"
@@ -15076,6 +17233,8 @@
    ],
    "qtd_caixa": 10,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 81,
    "imagens": [
     "kp-ca626"
@@ -15093,8 +17252,10 @@
     "Alimentação: tipe-C",
     "Travamento automático"
    ],
-   "qtd_caixa": 6,
+   "qtd_caixa": 16,
    "lancamento": true,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 81,
    "imagens": [
     "kp-ca627"
@@ -15112,8 +17273,10 @@
     "6nucleos de 3 m (da fonte para a maquina)",
     "Ideal para portas ou portões de metal e madeira/ interno e externo"
    ],
-   "qtd_caixa": 0,
+   "qtd_caixa": 10,
    "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Knup",
    "pagina": 81,
    "imagens": [
     "kp-re1041"
