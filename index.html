@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catálogo de produtos</title>
+<meta name="description" content="Catálogo de produtos com pedido direto pelo WhatsApp.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>📦</text></svg>">
+<script src="config.js"></script>
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-linha">
+    <div class="marca">
+      <strong id="marca-nome">Catálogo</strong>
+      <span id="marca-chamada"></span>
+    </div>
+    <div class="topo-acoes">
+      <button id="btn-precos" class="btn-secundario" type="button">🔒 Ver preços</button>
+      <button id="btn-pedido" class="btn-primario" type="button">
+        Meu pedido <span id="contador" class="contador">0</span>
+      </button>
+    </div>
+  </div>
+  <div class="topo-busca">
+    <input id="busca" type="search" placeholder="Buscar por nome, código ou característica…"
+           autocomplete="off" aria-label="Buscar produtos">
+    <select id="ordem" aria-label="Ordenar">
+      <option value="catalogo">Ordem do catálogo</option>
+      <option value="nome">Nome (A–Z)</option>
+      <option value="preco-asc">Menor preço</option>
+      <option value="preco-desc">Maior preço</option>
+    </select>
+  </div>
+</header>
+
+<div class="corpo">
+  <aside id="categorias" class="categorias" aria-label="Categorias"></aside>
+
+  <main class="conteudo">
+    <p id="resumo" class="resumo"></p>
+    <div id="grade" class="grade"></div>
+    <p id="vazio" class="vazio" hidden>Nenhum produto encontrado. Tente outra palavra ou código.</p>
+    <div id="sentinela"></div>
+  </main>
+</div>
+
+<footer class="rodape">
+  <p id="rodape-texto"></p>
+  <p class="creditos">Imagens e descrições reproduzidas do catálogo do fabricante.</p>
+</footer>
+
+<!-- ficha do produto -->
+<dialog id="ficha" class="ficha">
+  <button class="fechar" data-fechar type="button" aria-label="Fechar">✕</button>
+  <div class="ficha-conteudo"></div>
+</dialog>
+
+<!-- pedido -->
+<dialog id="pedido" class="painel">
+  <header class="painel-topo">
+    <h2>Meu pedido</h2>
+    <button class="fechar" data-fechar type="button" aria-label="Fechar">✕</button>
+  </header>
+  <div id="pedido-itens" class="painel-corpo"></div>
+  <footer class="painel-rodape">
+    <div class="campos">
+      <input id="cliente-nome" placeholder="Seu nome / loja" autocomplete="organization">
+      <input id="cliente-cidade" placeholder="Cidade / UF" autocomplete="address-level2">
+    </div>
+    <div id="pedido-total" class="total"></div>
+    <div class="painel-botoes">
+      <button id="limpar-pedido" class="btn-secundario" type="button">Limpar</button>
+      <button id="enviar-pedido" class="btn-whats" type="button">Enviar pelo WhatsApp</button>
+    </div>
+  </footer>
+</dialog>
+
+<!-- senha da tabela -->
+<dialog id="senha" class="ficha estreita">
+  <button class="fechar" data-fechar type="button" aria-label="Fechar">✕</button>
+  <h2>Tabela de preços</h2>
+  <p class="ajuda">Os preços são liberados para clientes cadastrados. Digite a senha recebida.</p>
+  <form id="form-senha">
+    <input id="campo-senha" type="password" placeholder="Senha" autocomplete="current-password" required>
+    <p id="erro-senha" class="erro" hidden>Senha incorreta.</p>
+    <button class="btn-primario" type="submit">Liberar preços</button>
+  </form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
