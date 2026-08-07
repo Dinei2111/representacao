@@ -55,6 +55,22 @@
   </main>
 </div>
 
+<!-- resumo do pedido sempre à vista enquanto o cliente monta -->
+<div id="barra-pedido" class="barra-pedido" hidden>
+  <div class="barra-conteudo">
+    <div class="barra-numeros">
+      <strong id="barra-total">—</strong>
+      <span id="barra-itens"></span>
+    </div>
+    <div class="barra-botoes">
+      <button id="barra-ver" class="btn-secundario" type="button">Ver pedido</button>
+      <button id="barra-concluir" class="btn-whats" type="button">Concluir pedido</button>
+    </div>
+  </div>
+</div>
+
+<div id="aviso-flutuante" class="aviso-flutuante" role="status" aria-live="polite" hidden></div>
+
 <footer class="rodape">
   <p id="rodape-texto"></p>
   <p><a href="politica.html">Política comercial, garantia e devoluções</a></p>

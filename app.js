@@ -180,7 +180,10 @@ function blocoPreco(p) {
       ${temPromocao(info) ? `<s>${formatarBRL(paraNumero(info.de))}</s> ` : ""}
       ${formatarBRL(paraNumero(info.valor))}
       <small>por peça</small>
-    </div>${faixas ? `<div class="faixas">${escapar(faixas)}</div>` : ""}`;
+    </div>
+    <div class="caixa-total">${formatarBRL(totalDaCaixa(info, p))}
+      <span>a caixa fechada</span></div>
+    ${faixas ? `<div class="faixas">${escapar(faixas)}</div>` : ""}`;
 }
 
 /** "1 cx = 100 peças" — a Knup só vende caixa fechada. */
@@ -194,7 +197,8 @@ function cardHTML(p) {
   const info = precoDe(p.codigo);
   const desconto = descontoPercentual(info);
   return `
-<article class="card" data-cod="${escapar(p.codigo)}">
+<article class="card${caixas ? " no-pedido" : ""}" data-cod="${escapar(p.codigo)}">
+  <div class="marca-pedido">${caixas ? `✓ ${caixas} cx no pedido` : ""}</div>
   <button class="card-foto" type="button" data-abrir>
     ${p.promocao ? `<span class="selo selo-promo">PROMOÇÃO${desconto ? ` −${desconto}%` : ""}</span>`
                  : (p.lancamento ? '<span class="selo">LANÇAMENTO</span>' : "")}
@@ -223,21 +227,44 @@ function controleQtd(caixas) {
 }
 
 function atualizarCard(codigo) {
-  for (const alvo of grade.querySelectorAll(`[data-cod="${CSS.escape(codigo)}"] .card-rodape`)) {
-    const caixas = estado.pedido[codigo]?.caixas || 0;
-    alvo.innerHTML = caixas
+  const caixas = estado.pedido[codigo]?.caixas || 0;
+  for (const card of grade.querySelectorAll(`.card[data-cod="${CSS.escape(codigo)}"]`)) {
+    card.classList.toggle("no-pedido", caixas > 0);
+    card.querySelector(".marca-pedido").textContent = caixas ? `✓ ${caixas} cx no pedido` : "";
+    card.querySelector(".card-rodape").innerHTML = caixas
       ? controleQtd(caixas)
       : '<button class="btn-primario" type="button" data-add>Adicionar</button>';
   }
 }
 
+/** Recado curto de confirmação — sem ele o cliente não sabe se o item entrou. */
+function avisar(texto) {
+  const el = $("#aviso-flutuante");
+  el.textContent = texto;
+  el.hidden = false;
+  el.classList.add("aparece");
+  clearTimeout(avisar._t);
+  avisar._t = setTimeout(() => {
+    el.classList.remove("aparece");
+    setTimeout(() => { el.hidden = true; }, 250);
+  }, 2200);
+}
+
 /* ---------------- pedido ---------------- */
 
 function definirCaixas(codigo, caixas) {
+  const antes = estado.pedido[codigo]?.caixas || 0;
   caixas = Math.max(0, Math.floor(Number(caixas) || 0));
   if (!caixas) delete estado.pedido[codigo];
   else estado.pedido[codigo] = { caixas };
   salvarPedido();
+
+  const produto = produtoDe(codigo);
+  if (produto && caixas !== antes) {
+    avisar(caixas
+      ? `${produto.nome} — ${caixas} cx (${pecasDe(produto, caixas)} peças) no pedido`
+      : `${produto.nome} saiu do pedido`);
+  }
   atualizarContador();
   atualizarCard(codigo);
   if ($("#pedido").open) desenharPedido();
@@ -252,8 +279,23 @@ function definirCaixas(codigo, caixas) {
 }
 
 function atualizarContador() {
-  $("#contador").textContent = Object.values(estado.pedido)
-    .reduce((s, i) => s + i.caixas, 0);
+  const itens = itensDoPedido();
+  const caixas = itens.reduce((s, i) => s + i.caixas, 0);
+  const pecas = itens.reduce((s, i) => s + i.pecas, 0);
+  const total = itens.reduce((s, i) => s + i.subtotal, 0);
+  $("#contador").textContent = caixas;
+
+  const barra = $("#barra-pedido");
+  barra.hidden = itens.length === 0;
+  document.body.classList.toggle("com-barra", itens.length > 0);
+  if (!itens.length) return;
+  $("#barra-total").textContent = estado.precos
+    ? formatarBRL(total)
+    : `${caixas} ${caixas === 1 ? "caixa" : "caixas"}`;
+  $("#barra-itens").textContent =
+    `${itens.length} ${itens.length === 1 ? "produto" : "produtos"} · `
+    + `${caixas} ${caixas === 1 ? "caixa" : "caixas"} · ${pecas} peças`
+    + (estado.precos ? "" : " · preços sob consulta");
 }
 
 /** Itens do pedido já com peças, preço aplicado e subtotal. */
@@ -480,6 +522,11 @@ function ligarEventos() {
   });
 
   $("#concluir-pedido").addEventListener("click", concluirPedido);
+  $("#barra-concluir").addEventListener("click", concluirPedido);
+  $("#barra-ver").addEventListener("click", () => {
+    desenharPedido();
+    $("#pedido").showModal();
+  });
 
   new IntersectionObserver((entradas) => {
     if (entradas[0].isIntersecting) renderizarLote();

@@ -31,6 +31,11 @@ function precoUnitario(info, produto, caixas) {
   return valor;
 }
 
+/** Quanto sai a caixa fechada — é o mínimo que o cliente leva de cada item. */
+function totalDaCaixa(info, produto) {
+  return precoUnitario(info, produto, 1) * pecasDe(produto, 1);
+}
+
 /** Texto curto das faixas, para mostrar no card e na ficha. */
 function textoDasFaixas(info) {
   return (info?.faixas || [])
@@ -51,6 +56,6 @@ function descontoPercentual(info) {
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { paraNumero, formatarBRL, pecasDe, precoUnitario,
+  module.exports = { paraNumero, formatarBRL, pecasDe, precoUnitario, totalDaCaixa,
                      textoDasFaixas, temPromocao, descontoPercentual };
 }

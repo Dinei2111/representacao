@@ -104,11 +104,18 @@ button, input, select { font: inherit; }
   display: grid;
   grid-template-columns: 236px 1fr;
   gap: 20px;
+  width: 100%;
   max-width: 1400px;
   margin: 18px auto;
   padding: 0 16px;
   align-items: start;
 }
+
+/* largura explícita: dentro de um contêiner que centraliza os filhos (o
+   envelope de uma pré-visualização, por exemplo) estes blocos encolheriam
+   até o conteúdo e a grade cairia para uma coluna só */
+.topo, .rodape { width: 100%; }
+.corpo > .conteudo { min-width: 0; max-width: none; margin: 0; padding: 0; }
 
 .categorias {
   position: sticky;
@@ -201,6 +208,8 @@ button, input, select { font: inherit; }
 .card-preco { font-size: 17px; font-weight: 700; color: var(--verde); }
 .card-preco small { font-size: 11px; color: var(--suave); font-weight: 500; margin-left: 4px; }
 .preco-oculto { font-size: 12.5px; color: var(--suave); }
+.caixa-total { font-size: 12.5px; font-weight: 600; }
+.caixa-total span { color: var(--suave); font-weight: 400; }
 .card-rodape { margin-top: auto; display: flex; gap: 6px; align-items: center; }
 .card-rodape button { flex: 1; }
 .qtd-mini {
@@ -417,4 +426,80 @@ details summary { cursor: pointer; color: var(--cor); font-size: 13.5px; margin-
   .pedido-topo { flex-direction: column; }
   .acoes-status { justify-items: start; }
   .linha-cliente { flex-direction: column; align-items: stretch; }
+}
+
+/* ============ confirmação visual e resumo do pedido sempre à vista ========== */
+
+.card { position: relative; }
+.card.no-pedido { border-color: var(--cor); box-shadow: 0 0 0 2px var(--cor) inset; }
+.marca-pedido {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  background: var(--cor);
+  color: #fff;
+  font-size: 10.5px;
+  font-weight: 700;
+  border-radius: 999px;
+  line-height: 1;
+}
+.marca-pedido:not(:empty) { padding: 4px 8px; }
+
+/* barra que acompanha o cliente enquanto ele monta o pedido */
+.barra-pedido {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  background: var(--branco);
+  border-top: 1px solid var(--borda);
+  box-shadow: 0 -6px 24px rgba(15, 30, 50, .12);
+}
+.barra-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 16px;
+}
+.barra-numeros strong { display: block; font-size: 19px; color: var(--verde); }
+.barra-numeros span { font-size: 12.5px; color: var(--suave); }
+.barra-botoes { display: flex; gap: 8px; flex: none; }
+body.com-barra .rodape { padding-bottom: 96px; }
+
+/* recado curto de confirmação */
+.aviso-flutuante {
+  position: fixed;
+  left: 50%;
+  bottom: 84px;
+  z-index: 50;
+  transform: translate(-50%, 12px);
+  opacity: 0;
+  transition: opacity .2s, transform .2s;
+  max-width: min(460px, 92vw);
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #0f172a;
+  color: #f1f5f9;
+  font-size: 13.5px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(10, 20, 40, .3);
+  pointer-events: none;
+}
+.aviso-flutuante.aparece { opacity: 1; transform: translate(-50%, 0); }
+@media (prefers-reduced-motion: reduce) {
+  .aviso-flutuante { transition: none; }
+}
+
+@media (max-width: 560px) {
+  .barra-conteudo { flex-direction: column; align-items: stretch; gap: 8px; padding: 10px 12px; }
+  .barra-botoes button { flex: 1; }
+  .barra-numeros { display: flex; align-items: baseline; gap: 8px; }
+  .barra-numeros strong { font-size: 17px; }
+  .aviso-flutuante { bottom: 132px; }
+  body.com-barra .rodape { padding-bottom: 150px; }
 }
