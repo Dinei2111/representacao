@@ -90,6 +90,8 @@ async function carregarSessao() {
 /* ---------------- filtros ---------------- */
 
 function montarCategorias() {
+  // as categorias saem na ordem em que aparecem no catálogo impresso, não em
+  // ordem alfabética: é assim que o cliente está acostumado a folhear
   const contagem = new Map();
   for (const p of estado.produtos) {
     contagem.set(p.categoria, (contagem.get(p.categoria) || 0) + 1);
@@ -100,7 +102,7 @@ function montarCategorias() {
     ["", "Todos os produtos", estado.produtos.length],
     ["#promocao", "★ Em promoção", promocoes],
   ];
-  for (const [cat, n] of [...contagem].sort((a, b) => a[0].localeCompare(b[0], "pt-BR"))) {
+  for (const [cat, n] of contagem) {
     linhas.push([cat, cat, n]);
   }
   alvo.innerHTML = linhas
