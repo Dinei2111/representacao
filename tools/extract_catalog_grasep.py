@@ -187,8 +187,21 @@ def montar_tiles(linhas: list[dict], altura_pag: float, largura_pag: float) -> l
         for j, c in enumerate(fila):
             esq = 0.0 if j == 0 else (fila[j - 1]["x1"] + c["x0"]) / 2
             dir_ = largura_pag if j == len(fila) - 1 else (c["x1"] + fila[j + 1]["x0"]) / 2
+            # o retangulo acima nasce da posicao dos codigos, que sao curtos e
+            # alinhados a esquerda — serve pro texto, mas fica mais estreito e
+            # deslocado em relacao ao bloco visual do produto. A foto ocupa o
+            # bloco inteiro, que comeca um pouco antes do codigo e termina onde
+            # comeca o bloco seguinte.
+            bx0 = max(0.0, c["x0"] - 8)
+            bx1 = largura_pag if j == len(fila) - 1 else max(fila[j + 1]["x0"] - 8, bx0 + 20)
+            # em algumas secoes (paineis de LED, gabinete+PC) o codigo fica a
+            # direita do proprio bloco e a foto sobra a esquerda dele. Esse
+            # bloco alargado, que vai ate o fim do codigo anterior, so e usado
+            # quando o bloco normal nao encontra nenhuma imagem.
+            bx0_ext = 0.0 if j == 0 else fila[j - 1]["x1"]
             tiles.append({"codigo": c["codigo"], "cod_y0": c["y0"], "cod_cx": c["cx"],
                           "cod_x1": c["x1"], "qtd_inline": c["qtd_inline"],
+                          "bloco": (bx0, bx1), "bloco_ext": (min(bx0_ext, bx0), bx1),
                           "rect": (esq, topo, dir_, max(base, topo + 10))})
     return tiles
 
@@ -196,6 +209,91 @@ def montar_tiles(linhas: list[dict], altura_pag: float, largura_pag: float) -> l
 def dentro(rect, it) -> bool:
     x0, y0, x1, y1 = rect
     return x0 <= it["cx"] <= x1 and y0 <= it["cy"] <= y1
+
+
+def area_da_foto(tile: dict, linhas: list[dict], imagens: list[dict]) -> tuple | None:
+    """Retangulo da foto do produto dentro do bloco.
+
+    Duas regras, nessa ordem:
+
+    1. So entram imagens que ficam quase todas dentro do bloco (na largura) e da
+       faixa da linha (na altura). E isso que descarta o banner da marca no topo
+       da pagina e as tarjas que atravessam a pagina toda — elas sempre vazam
+       bastante da area do produto, enquanto a foto (mesmo fatiada em dezenas de
+       pedacos) fica praticamente toda dentro dela.
+    2. O retangulo resultante e encurtado para nao encostar em texto grande
+       (nome, codigo, quantidade, preco). Sem isso a foto renderizada sai com o
+       preco e o codigo impressos dentro dela.
+    """
+    for bloco in (tile["bloco"], tile["bloco_ext"]):
+        area = _area_no_bloco(bloco, tile["rect"], linhas, imagens)
+        if area:
+            return area
+    return None
+
+
+def _area_no_bloco(bloco, rect, linhas: list[dict], imagens: list[dict]) -> tuple | None:
+    bx0, bx1 = bloco
+    ry0, ry1 = rect[1], rect[3]
+
+    def fracao_dentro(b) -> float:
+        larg = min(b[2], bx1) - max(b[0], bx0)
+        alt = min(b[3], ry1) - max(b[1], ry0)
+        if larg <= 0 or alt <= 0:
+            return 0.0
+        return (larg * alt) / ((b[2] - b[0]) * (b[3] - b[1]))
+
+    # texto do bloco que a foto nao pode encostar. O limiar pega titulo, codigo,
+    # quantidade, preco, dimensao e voltagem, mas deixa de fora os bullets de
+    # especificacao (5pt), que nas paginas em formato de tabela ficam ao lado da
+    # foto e nao por cima dela — quem cuida desse caso e o teste horizontal.
+    grandes = [l for l in linhas if l["tam"] >= 5.5 and l["x1"] > bx0 and l["x0"] < bx1]
+    topo_texto = min((l["y0"] for l in grandes), default=None)
+
+    caixas = []
+    for im in imagens:
+        b = im["bbox"]
+        larg, alt = b[2] - b[0], b[3] - b[1]
+        if not (10 <= larg <= 480 and 10 <= alt <= 480):
+            continue
+        if fracao_dentro(b) < 0.75:
+            continue
+        # o bloco do produto sempre abre pelo titulo: imagem inteiramente acima
+        # dele e arte de pagina (a tarja da marca no alto), nao a foto
+        if topo_texto is not None and b[3] <= topo_texto + 2:
+            continue
+        caixas.append(b)
+    if not caixas:
+        return None
+
+    def encurtar(caixa) -> tuple | None:
+        area = list(caixa)
+        meio = (area[1] + area[3]) / 2
+        for l in grandes:
+            # so corta quem realmente invade o retangulo, nos dois eixos
+            if l["y1"] <= area[1] or l["y0"] >= area[3]:
+                continue
+            if l["x1"] <= area[0] or l["x0"] >= area[2]:
+                continue
+            if l["cy"] < meio:
+                area[1] = max(area[1], l["y1"] + 2)
+            else:
+                area[3] = min(area[3], l["y0"] - 2)
+        if area[2] - area[0] < 12 or area[3] - area[1] < 12:
+            return None
+        return tuple(area)
+
+    uniao = (min(b[0] for b in caixas), min(b[1] for b in caixas),
+             max(b[2] for b in caixas), max(b[3] for b in caixas))
+    area = encurtar(uniao)
+    if area:
+        return area
+    # o texto partiu a uniao em duas (foto acima e abaixo do codigo, por
+    # exemplo): fica a maior imagem que sobrevive ao corte sozinha
+    candidatas = [c for c in (encurtar(b) for b in
+                              sorted(caixas, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]), reverse=True))
+                  if c]
+    return candidatas[0] if candidatas else None
 
 
 def texto_do_cabecalho(linhas: list[dict]) -> str | None:
@@ -356,21 +454,7 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str) -> tuple[list[dict], 
             avisos.append(f"pág {pno}: {tile['codigo']} ficou sem nome")
             nome = categoria_atual.title()
 
-        caixas_img = []
-        for im in imagens_pag:
-            b = im["bbox"]
-            larg, alt = b[2] - b[0], b[3] - b[1]
-            if not (10 <= larg <= 480 and 10 <= alt <= 480):
-                continue
-            cx, cy = (b[0] + b[2]) / 2, (b[1] + b[3]) / 2
-            if rect[0] <= cx <= rect[2] and rect[1] <= cy <= rect[3]:
-                caixas_img.append(b)
-        area = None
-        if caixas_img:
-            area = (min(b[0] for b in caixas_img), min(b[1] for b in caixas_img),
-                    max(b[2] for b in caixas_img), max(b[3] for b in caixas_img))
-            area = (max(area[0], rect[0]), max(area[1], rect[1]),
-                    min(area[2], rect[2]), min(area[3], rect[3]))
+        area = area_da_foto(tile, linhas, imagens_pag)
         if area is None:
             avisos.append(f"pág {pno}: {tile['codigo']} ficou sem imagem")
 
@@ -423,6 +507,9 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--paginas", help="intervalo 1-based, ex.: 2-10")
     ap.add_argument("--sem-imagens", action="store_true")
+    ap.add_argument("--refazer-imagens", action="store_true",
+                    help="re-renderiza as fotos deste fornecedor mesmo se o .webp já existir "
+                         "(use sempre que mexer no recorte da foto)")
     args = ap.parse_args()
 
     doc = pymupdf.open(PDF)
@@ -491,7 +578,8 @@ def main() -> None:
         if not args.sem_imagens and p["area_foto"]:
             destino = DIR_IMG / f"{ident}.webp"
             thumb = DIR_IMG / f"{ident}-t.webp"
-            if destino.exists() or salvar_foto(doc[p["pagina"] - 1], p["area_foto"], destino, thumb):
+            pronta = destino.exists() and not args.refazer_imagens
+            if pronta or salvar_foto(doc[p["pagina"] - 1], p["area_foto"], destino, thumb):
                 imagens.append(ident)
         if p["preco_valor"]:
             precos_novos[p["codigo"]] = {"de": p["preco_de"], "valor": p["preco_valor"], "faixas": []}
