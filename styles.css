@@ -99,6 +99,40 @@ button, input, select { font: inherit; }
   text-align: center;
 }
 
+/* ---------- fornecedores ---------- */
+/* bloco bem visível no topo: comprar por fornecedor nunca mistura catálogo,
+   categorias nem fotos entre um fornecedor e outro */
+.fornecedores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1400px;
+  margin: 14px auto 0;
+  padding: 0 16px;
+}
+.fornecedores button {
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  text-align: left;
+  padding: 12px 16px;
+  border: 2px solid var(--borda);
+  border-radius: var(--raio);
+  background: var(--branco);
+  cursor: pointer;
+  box-shadow: var(--sombra);
+}
+.fornecedores button strong { font-size: 15px; }
+.fornecedores button span { font-size: 12px; color: var(--suave); }
+.fornecedores button:hover { border-color: var(--cor); }
+.fornecedores button[aria-current="true"] {
+  border-color: var(--cor);
+  background: var(--cor);
+}
+.fornecedores button[aria-current="true"] strong { color: #fff; }
+.fornecedores button[aria-current="true"] span { color: rgba(255, 255, 255, .85); }
+
 /* ---------- layout ---------- */
 .corpo {
   display: grid;

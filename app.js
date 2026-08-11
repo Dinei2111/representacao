@@ -5,10 +5,16 @@
 const CFG = window.CONFIG || {};
 const LOTE = 60;                          // cards renderizados por vez
 const CHAVE_PEDIDO = "pedido-opert-v2";
+// cada fornecedor tem seu próprio catálogo, gerado à parte por
+// tools/extract_catalog*.py — nunca mistura produtos nem categorias entre eles
+const CATALOGOS = ["data/produtos.json", "data/produtos-onistek.json"];
 
 const estado = {
   produtos: [],
   filtrados: [],
+  fornecedores: [],
+  fornecedor: "",
+  catalogos: {},                          // {fornecedor: "texto da tabela"}
   categoria: "",
   busca: "",
   ordem: "catalogo",
@@ -43,13 +49,26 @@ const produtoDe = (codigo) => estado.produtos.find((p) => p.codigo === codigo);
 
 async function iniciar() {
   aplicarConfig();
-  const dados = await (await fetch("data/produtos.json")).json();
-  estado.produtos = dados.produtos.map((p, i) => ({
-    ...p,
-    ordem: i,
-    procura: semAcento([p.nome, p.codigo, p.categoria, p.specs.join(" ")].join(" ")),
-  }));
+  const catalogos = await Promise.all(
+    CATALOGOS.map((arquivo) => fetch(arquivo).then((r) => r.json())));
 
+  let ordem = 0;
+  estado.produtos = [];
+  for (const dados of catalogos) {
+    for (const p of dados.produtos) {
+      estado.produtos.push({
+        ...p,
+        ordem: ordem++,
+        procura: semAcento([p.nome, p.codigo, p.categoria, p.specs.join(" ")].join(" ")),
+      });
+    }
+    const fornecedor = dados.produtos[0]?.fornecedor;
+    if (fornecedor) estado.catalogos[fornecedor] = dados.catalogo;
+  }
+  estado.fornecedores = [...new Set(estado.produtos.map((p) => p.fornecedor))];
+  estado.fornecedor = estado.fornecedores[0] || "";
+
+  montarFornecedores();
   montarCategorias();
   ligarEventos();
   await carregarSessao();
@@ -67,10 +86,50 @@ function aplicarConfig() {
   $("#marca-nome").textContent = nome;
   $("#marca-chamada").textContent = CFG.chamada || "";
   $("#rodape-texto").textContent =
-    [CFG.regiao, CFG.tabela, CFG.observacao].filter(Boolean).join(" · ");
+    [CFG.regiao, CFG.observacao].filter(Boolean).join(" · ");
   if (!sistema.ativo) {
     $("#btn-conta").hidden = true;         // sem banco configurado: só WhatsApp
   }
+}
+
+/* ---------------- fornecedores ---------------- */
+
+/** Bloco no topo para comprar por fornecedor: cada um com seu catálogo, suas
+    categorias e suas fotos — nunca aparecem misturados. */
+function montarFornecedores() {
+  const alvo = $("#fornecedores");
+  if (estado.fornecedores.length < 2) {
+    alvo.hidden = true;
+    return;
+  }
+  const contagem = new Map();
+  for (const p of estado.produtos) {
+    contagem.set(p.fornecedor, (contagem.get(p.fornecedor) || 0) + 1);
+  }
+  alvo.hidden = false;
+  alvo.innerHTML = estado.fornecedores
+    .map((f) => {
+      const tabela = (estado.catalogos[f] || "").split("—").pop().trim();
+      return `<button type="button" data-forn="${escapar(f)}"
+        aria-current="${f === estado.fornecedor}">
+        <strong>${escapar(f)}</strong>
+        <span>${contagem.get(f) || 0} produtos${tabela ? ` · ${escapar(tabela)}` : ""}</span>
+      </button>`;
+    })
+    .join("");
+  alvo.onclick = (ev) => {
+    const botao = ev.target.closest("button");
+    if (!botao || botao.dataset.forn === estado.fornecedor) return;
+    estado.fornecedor = botao.dataset.forn;
+    estado.categoria = "";
+    estado.soPromocao = false;
+    estado.busca = "";
+    $("#busca").value = "";
+    [...alvo.children].forEach((b) => b.setAttribute("aria-current", b === botao));
+    montarCategorias();
+    filtrar();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 }
 
 async function carregarSessao() {
@@ -91,15 +150,18 @@ async function carregarSessao() {
 
 function montarCategorias() {
   // as categorias saem na ordem em que aparecem no catálogo impresso, não em
-  // ordem alfabética: é assim que o cliente está acostumado a folhear
+  // ordem alfabética: é assim que o cliente está acostumado a folhear.
+  // Só entram as categorias do fornecedor selecionado — nunca mistura com as
+  // de outro fornecedor, mesmo quando o nome da categoria coincide.
+  const doFornecedor = estado.produtos.filter((p) => p.fornecedor === estado.fornecedor);
   const contagem = new Map();
-  for (const p of estado.produtos) {
+  for (const p of doFornecedor) {
     contagem.set(p.categoria, (contagem.get(p.categoria) || 0) + 1);
   }
   const alvo = $("#categorias");
-  const promocoes = estado.produtos.filter((p) => p.promocao).length;
+  const promocoes = doFornecedor.filter((p) => p.promocao).length;
   const linhas = [
-    ["", "Todos os produtos", estado.produtos.length],
+    ["", "Todos os produtos", doFornecedor.length],
     ["#promocao", "★ Em promoção", promocoes],
   ];
   for (const [cat, n] of contagem) {
@@ -125,6 +187,7 @@ function montarCategorias() {
 function filtrar() {
   const termos = semAcento(estado.busca).split(/\s+/).filter(Boolean);
   let lista = estado.produtos.filter((p) => {
+    if (p.fornecedor !== estado.fornecedor) return false;
     if (estado.soPromocao && !p.promocao) return false;
     if (estado.categoria && p.categoria !== estado.categoria) return false;
     return termos.every((t) => p.procura.includes(t));
@@ -451,6 +514,7 @@ function abrirFicha(codigo) {
       <div class="card-cat">${escapar(p.categoria)}</div>
       <h2>${escapar(p.nome)}</h2>
       <div class="meta">
+        <span>Fornecedor: <b>${escapar(p.fornecedor)}</b></span>
         <span>Código: <b>${escapar(p.codigo)}</b></span>
         ${p.qtd_caixa ? `<span>Caixa fechada: <b>${p.qtd_caixa}</b> peças</span>`
                       : "<span>Quantidade por caixa a confirmar</span>"}
