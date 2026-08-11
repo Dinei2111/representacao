@@ -188,7 +188,7 @@ def montar_tiles(linhas: list[dict], altura_pag: float, largura_pag: float) -> l
             esq = 0.0 if j == 0 else (fila[j - 1]["x1"] + c["x0"]) / 2
             dir_ = largura_pag if j == len(fila) - 1 else (c["x1"] + fila[j + 1]["x0"]) / 2
             tiles.append({"codigo": c["codigo"], "cod_y0": c["y0"], "cod_cx": c["cx"],
-                          "qtd_inline": c["qtd_inline"],
+                          "cod_x1": c["x1"], "qtd_inline": c["qtd_inline"],
                           "rect": (esq, topo, dir_, max(base, topo + 10))})
     return tiles
 
@@ -232,6 +232,15 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str) -> tuple[list[dict], 
     riscados_pag = [p for p in precos_pagina if p["riscado"]]
     normais_pag = [p for p in precos_pagina if not p["riscado"]]
 
+    # 'N PÇS/CAIXA' da pagina inteira: nas paginas de computador o rotulo fica
+    # na mesma linha do codigo mas bem a direita, atravessando a borda da
+    # coluna — entao serve de reserva quando nao cai dentro do retangulo
+    qtds_pagina = []
+    for l in linhas:
+        m = RE_QTD.match(l["texto"])
+        if m:
+            qtds_pagina.append({"valor": int(m.group(1)), "x0": l["x0"], "y0": l["y0"]})
+
     usados = set()
     pares = []
     for r in riscados_pag:
@@ -270,7 +279,16 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str) -> tuple[list[dict], 
         internos = [l for l in linhas if dentro(rect, l)]
 
         precos_tile = precos_por_tile.get(id(tile), [])
+        # a quantidade por caixa fica sempre na linha do codigo, a direita
+        # dele — e nao necessariamente dentro da coluna, porque o rotulo do
+        # vizinho as vezes atravessa a borda. Por isso essa regra vem antes
+        # da busca por quem cai dentro do retangulo (que fica como reserva).
         qtd = tile["qtd_inline"]
+        if qtd is None:
+            a_direita = [q for q in qtds_pagina
+                         if abs(q["y0"] - tile["cod_y0"]) <= 16 and q["x0"] >= tile["cod_x1"] - 2]
+            if a_direita:
+                qtd = min(a_direita, key=lambda q: q["x0"] - tile["cod_x1"])["valor"]
         candidatos = []
         for l in internos:
             t = l["texto"]
@@ -448,10 +466,12 @@ def main() -> None:
         produtos += [
             {"codigo": "D-VIGA50", "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
              "specs": ["50CM de comprimento"], "preco_valor": "180,00", "preco_de": None,
-             "qtd_caixa": 8, "categoria": "PAINÉIS DE LED E SUPORTES", "pagina": 20, "area_foto": None},
+             "qtd_caixa": 8, "categoria": "PAINÉIS DE LED E SUPORTES", "pagina": 20,
+             "area_foto": (219, 356, 380, 410)},
             {"codigo": "D-VIGA96", "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
              "specs": ["96CM de comprimento"], "preco_valor": "320,00", "preco_de": None,
-             "qtd_caixa": 2, "categoria": "PAINÉIS DE LED E SUPORTES", "pagina": 20, "area_foto": None},
+             "qtd_caixa": 2, "categoria": "PAINÉIS DE LED E SUPORTES", "pagina": 20,
+             "area_foto": (412, 333, 586, 425)},
         ]
 
     # mesmo codigo pode se repetir (variante de cor na mesma foto, tabela de

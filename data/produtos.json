@@ -20692,7 +20692,7 @@
     "Possui conectividade Bluetooth 4.2",
     "Não possui sistema operacional"
    ],
-   "qtd_caixa": null,
+   "qtd_caixa": 2,
    "lancamento": false,
    "promocao": false,
    "fornecedor": "Grasep",
@@ -20798,7 +20798,7 @@
     "Possui conectividade Bluetooth 4.2",
     "Possui sistema operacional"
    ],
-   "qtd_caixa": null,
+   "qtd_caixa": 2,
    "lancamento": false,
    "promocao": false,
    "fornecedor": "Grasep",
@@ -20940,7 +20940,7 @@
     "1.6A 50/60Hz",
     "Alimentação (saída): 19Vdc/5A"
    ],
-   "qtd_caixa": null,
+   "qtd_caixa": 2,
    "lancamento": false,
    "promocao": false,
    "fornecedor": "Grasep",
@@ -21012,7 +21012,7 @@
     "Possui conectividade Bluetooth 4.2",
     "Possui sistema operacional"
    ],
-   "qtd_caixa": null,
+   "qtd_caixa": 2,
    "lancamento": false,
    "promocao": false,
    "fornecedor": "Grasep",
@@ -21220,7 +21220,7 @@
     "Entrada de energia",
     "Alimentação (saída): 19.5V / 6.15A"
    ],
-   "qtd_caixa": null,
+   "qtd_caixa": 3,
    "lancamento": false,
    "promocao": false,
    "fornecedor": "Grasep",
@@ -21255,7 +21255,7 @@
     "Entrada de energia",
     "Alimentação (saída): 19.5V / 6.15A"
    ],
-   "qtd_caixa": 3,
+   "qtd_caixa": 2,
    "lancamento": false,
    "promocao": false,
    "fornecedor": "Grasep",
@@ -21432,7 +21432,9 @@
    "promocao": false,
    "fornecedor": "Grasep",
    "pagina": 20,
-   "imagens": []
+   "imagens": [
+    "d-viga50"
+   ]
   },
   {
    "codigo": "D-VIGA96",
@@ -21446,7 +21448,9 @@
    "promocao": false,
    "fornecedor": "Grasep",
    "pagina": 20,
-   "imagens": []
+   "imagens": [
+    "d-viga96"
+   ]
   }
  ]
 }
