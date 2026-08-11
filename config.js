@@ -2,7 +2,7 @@
 window.CONFIG = {
   // Nome que aparece no cabeçalho e no título da página
   representante: "Opert Representações",
-  chamada: "Catálogo Knup — pedidos direto pelo site",
+  chamada: "Catálogo Knup e Onistek — pedidos direto pelo site",
 
   // Região atendida (aparece no rodapé)
   regiao: "Atendimento a lojistas e revendedores com CNPJ",

@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Gera build/qa.html: cada pagina do PDF renderizada ao lado dos produtos extraidos.
+"""Gera build/qa[-fornecedor].html: cada pagina do PDF ao lado dos produtos extraidos.
 
 Serve para conferir visualmente se nome, specs, codigo, preco e foto de cada
 tile bateram com o catalogo original.
 
 Uso:
-    python3 tools/qa_report.py            # todas as paginas com produtos
-    python3 tools/qa_report.py 8 33 46    # apenas estas paginas
+    python3 tools/qa_report.py                    # Knup, todas as paginas
+    python3 tools/qa_report.py 8 33 46             # Knup, so estas paginas
+    python3 tools/qa_report.py onistek             # Onistek, todas as paginas
+    python3 tools/qa_report.py onistek 5 9         # Onistek, so estas paginas
 """
 
 from __future__ import annotations
@@ -20,9 +22,26 @@ from pathlib import Path
 import pymupdf
 
 RAIZ = Path(__file__).resolve().parent.parent
-PDF = RAIZ / "catalogo" / "Knup_A_Vista_03082026.pdf"
 DIR_BUILD = RAIZ / "build"
-DIR_PAGINAS = DIR_BUILD / "paginas"
+
+FORNECEDORES = {
+    "knup": {
+        "pdf": RAIZ / "catalogo" / "Knup_A_Vista_03082026.pdf",
+        "produtos": RAIZ / "data" / "produtos.json",
+        "precos": DIR_BUILD / "precos.json",
+        "imagens": RAIZ / "assets" / "produtos",
+        "saida": DIR_BUILD / "qa.html",
+        "paginas": DIR_BUILD / "paginas",
+    },
+    "onistek": {
+        "pdf": RAIZ / "catalogo" / "Onistek_A_Vista_10082026.pdf",
+        "produtos": RAIZ / "data" / "produtos-onistek.json",
+        "precos": DIR_BUILD / "precos-onistek.json",
+        "imagens": RAIZ / "assets" / "produtos",
+        "saida": DIR_BUILD / "qa-onistek.html",
+        "paginas": DIR_BUILD / "paginas-onistek",
+    },
+}
 
 
 def bloco_preco(info) -> str:
@@ -38,19 +57,26 @@ def bloco_preco(info) -> str:
 
 
 def main() -> None:
-    produtos = json.loads((RAIZ / "data" / "produtos.json").read_text("utf-8"))["produtos"]
+    args = sys.argv[1:]
+    fornecedor = "knup"
+    if args and args[0].lower() in FORNECEDORES:
+        fornecedor = args.pop(0).lower()
+    cfg = FORNECEDORES[fornecedor]
+
+    produtos = json.loads(cfg["produtos"].read_text("utf-8"))["produtos"]
     precos = {}
-    arq_precos = DIR_BUILD / "precos.json"
-    if arq_precos.exists():
-        precos = json.loads(arq_precos.read_text("utf-8"))
+    if cfg["precos"].exists():
+        precos = json.loads(cfg["precos"].read_text("utf-8"))
 
     por_pagina = defaultdict(list)
     for p in produtos:
         por_pagina[p["pagina"]].append(p)
 
-    alvos = [int(a) for a in sys.argv[1:]] or sorted(por_pagina)
-    DIR_PAGINAS.mkdir(parents=True, exist_ok=True)
-    doc = pymupdf.open(PDF)
+    alvos = [int(a) for a in args] or sorted(por_pagina)
+    dir_paginas = cfg["paginas"]
+    dir_paginas.mkdir(parents=True, exist_ok=True)
+    doc = pymupdf.open(cfg["pdf"])
+    caminho_imagens = "../" + str(cfg["imagens"].relative_to(RAIZ))
 
     partes = ["""<meta charset="utf-8"><title>QA — extração do catálogo</title>
 <style>
@@ -67,16 +93,16 @@ def main() -> None:
 </style>"""]
 
     for pno in alvos:
-        img_pag = DIR_PAGINAS / f"p{pno:03d}.png"
+        img_pag = dir_paginas / f"p{pno:03d}.png"
         if not img_pag.exists():
             doc[pno - 1].get_pixmap(dpi=110).save(img_pag)
         itens = por_pagina.get(pno, [])
         partes.append(f'<h2>Página {pno} — {len(itens)} produtos</h2><div class="pag">')
-        partes.append(f'<img src="paginas/{img_pag.name}" loading="lazy">')
+        partes.append(f'<img src="{dir_paginas.name}/{img_pag.name}" loading="lazy">')
         partes.append('<div class="itens">')
         for p in itens:
             falta = "" if (p["nome"] and p["imagens"] and precos.get(p["codigo"])) else " falta"
-            foto = (f'<img src="../assets/produtos/{p["imagens"][0]}-t.webp" loading="lazy">'
+            foto = (f'<img src="{caminho_imagens}/{p["imagens"][0]}-t.webp" loading="lazy">'
                     if p["imagens"] else "")
             specs = "".join(f"<li>{html.escape(s)}</li>" for s in p["specs"])
             partes.append(
@@ -90,7 +116,7 @@ def main() -> None:
                 f'<ul>{specs}</ul></div>')
         partes.append("</div></div>")
 
-    saida = DIR_BUILD / "qa.html"
+    saida = cfg["saida"]
     saida.write_text("\n".join(partes), "utf-8")
     print("gerado:", saida, f"({len(alvos)} páginas)")
 
