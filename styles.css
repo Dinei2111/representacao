@@ -280,6 +280,10 @@ dialog::backdrop { background: rgba(12, 22, 38, .55); }
 .painel-botoes { display: flex; gap: 8px; justify-content: flex-end; }
 .total { text-align: right; font-weight: 700; }
 
+.grupo-fornecedor { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 14px 0 6px; font-weight: 700; text-transform: uppercase; font-size: 12px; letter-spacing: .03em; color: var(--cor); border-top: 1px solid var(--borda); }
+.grupo-fornecedor:first-child { border-top: 0; padding-top: 0; }
+.grupo-fornecedor small { font-weight: 500; text-transform: none; color: var(--suave); letter-spacing: 0; }
+
 .item-pedido { display: grid; grid-template-columns: 52px 1fr auto; gap: 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--borda); }
 .item-pedido img { width: 52px; height: 52px; object-fit: contain; background: #fff; border: 1px solid var(--borda); border-radius: 8px; }
 .item-pedido .nome { font-size: 13.5px; font-weight: 600; line-height: 1.25; }

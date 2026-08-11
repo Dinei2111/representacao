@@ -626,11 +626,23 @@ def main() -> None:
             "fornecedor": "Knup", "pagina": p["pagina"], "imagens": imagens,
         })
 
-    (DIR_DADOS / "produtos.json").write_text(
-        json.dumps({"catalogo": "Knup — tabela à vista 03/08/2026",
-                    "produtos": catalogo}, ensure_ascii=False, indent=1), "utf-8")
-    (DIR_BUILD / "precos.json").write_text(
-        json.dumps(precos, ensure_ascii=False, indent=1), "utf-8")
+    # faz merge: preserva produtos e precos de outros fornecedores (ex.: Grasep)
+    titulo_knup = "Knup — tabela à vista 03/08/2026"
+    arq_produtos = DIR_DADOS / "produtos.json"
+    dados = json.loads(arq_produtos.read_text("utf-8")) if arq_produtos.exists() \
+        else {"catalogo": "", "produtos": []}
+    outros = [p for p in dados.get("produtos", []) if p.get("fornecedor") != "Knup"]
+    titulos_outros = [t for t in dados.get("catalogo", "").split(" · ") if t and "Knup" not in t]
+    dados["catalogo"] = " · ".join([titulo_knup] + titulos_outros)
+    dados["produtos"] = catalogo + outros
+    arq_produtos.write_text(json.dumps(dados, ensure_ascii=False, indent=1), "utf-8")
+
+    arq_precos = DIR_BUILD / "precos.json"
+    codigos_outros = {p["codigo"] for p in outros}
+    precos_existentes = json.loads(arq_precos.read_text("utf-8")) if arq_precos.exists() else {}
+    precos_finais = {c: v for c, v in precos_existentes.items() if c in codigos_outros}
+    precos_finais.update(precos)
+    arq_precos.write_text(json.dumps(precos_finais, ensure_ascii=False, indent=1), "utf-8")
 
     sem_nome = [p for p in catalogo if not p["nome"]]
     sem_img = [p for p in catalogo if not p["imagens"]]

@@ -1,5 +1,5 @@
 {
- "catalogo": "Knup — tabela à vista 03/08/2026",
+ "catalogo": "Knup — tabela à vista 03/08/2026 · Grasep — tabela à vista 03/08/2026",
  "produtos": [
   {
    "codigo": "FO-MAX01",
@@ -17280,6 +17280,4176 @@
    "pagina": 81,
    "imagens": [
     "kp-re1041"
+   ]
+  },
+  {
+   "codigo": "D-BAR02",
+   "nome": "CAIXA DE SOM SOUNDBAR",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "18Vdc / 2A",
+    "80W 01 COR"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 2,
+   "imagens": [
+    "d-bar02"
+   ]
+  },
+  {
+   "codigo": "D-DM01",
+   "nome": "RADIO SUBWOOFER 2.1",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "100V 60Hz / 220V 50Hz",
+    "V 60Hz / 220V 50Hz",
+    "160W 01 COR",
+    "60W",
+    "01 COR"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 2,
+   "imagens": [
+    "d-dm01"
+   ]
+  },
+  {
+   "codigo": "D-DM02",
+   "nome": "RADIO SUBWOOFER 3.1",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "100V 60Hz / 220V 50Hz",
+    "190W 01 COR"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 2,
+   "imagens": [
+    "d-dm02"
+   ]
+  },
+  {
+   "codigo": "D-DM03",
+   "nome": "RADIO SUBWOOFER 5.1",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "250W 01 COR"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 2,
+   "imagens": [
+    "d-dm03"
+   ]
+  },
+  {
+   "codigo": "D-X001",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "7.4V",
+    "60W 04 CORES 5200mAh"
+   ],
+   "qtd_caixa": 15,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 2,
+   "imagens": [
+    "d-x001"
+   ]
+  },
+  {
+   "codigo": "D-X006",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "40W 01 COR 4400mAh"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 2,
+   "imagens": [
+    "d-x006"
+   ]
+  },
+  {
+   "codigo": "D-X007",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "50W 01 COR 8000mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-x007"
+   ]
+  },
+  {
+   "codigo": "D-X008",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "3",
+    "30W 02 CORES 4000mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-x008"
+   ]
+  },
+  {
+   "codigo": "D-X009",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "7.4V",
+    "80W 03 CORES 6000mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-x009"
+   ]
+  },
+  {
+   "codigo": "D-X010",
+   "nome": "CAIXA DE SOM BLUETOOTH",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "Graves: 120W (8’’)",
+    "Médios: 30W x2 (3’’)",
+    "Agudos: 20W x2 (1.5’’)",
+    "01 COR 20000mAh"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-x010"
+   ]
+  },
+  {
+   "codigo": "D-X011",
+   "nome": "CAIXA DE SOM BLUETOOTH",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "14.8V",
+    "80W 01 COR 10400mAh"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-x011"
+   ]
+  },
+  {
+   "codigo": "D-X608",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "7.4V",
+    "360°",
+    "100W 03 CORES 7200mAh"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-x608"
+   ]
+  },
+  {
+   "codigo": "D-X612",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "100W 02 CORES 4800mAh"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-x612"
+   ]
+  },
+  {
+   "codigo": "D-XK103",
+   "nome": "CAIXA DE SOM PORTÁTIL MM",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "200W 01 COR DC 15V"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-xk103"
+   ]
+  },
+  {
+   "codigo": "D-XK121",
+   "nome": "CAIXA DE SOM E PROJETOR",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "4",
+    "120W 12V / 14AH"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 3,
+   "imagens": [
+    "d-xk121"
+   ]
+  },
+  {
+   "codigo": "D-XK205",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "60W 4000mAh"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk205"
+   ]
+  },
+  {
+   "codigo": "D-XK306",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "100W 6000mAh"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk306"
+   ]
+  },
+  {
+   "codigo": "D-XK307",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "40W 8000mAh",
+    "8000",
+    "Ah"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk307"
+   ]
+  },
+  {
+   "codigo": "D-XK308",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "200W 03 CORES 18000mAh"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk308"
+   ]
+  },
+  {
+   "codigo": "D-XK309",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "11.1V",
+    "200W 03 CORES 18000mAh"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk309"
+   ]
+  },
+  {
+   "codigo": "D-XK310",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "11.1V",
+    "160W 03 CORES 12000mAh"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": true,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk310"
+   ]
+  },
+  {
+   "codigo": "D-XK312",
+   "nome": "CAIXA DE SOM PORTÁTIL CM",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "100W 7200mAh",
+    "Ah"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk312"
+   ]
+  },
+  {
+   "codigo": "D-XK421",
+   "nome": "KARAOKÊ PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "TELA 14.1’’",
+    "200W 01 COR 8800mAh"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk421"
+   ]
+  },
+  {
+   "codigo": "D-XK422",
+   "nome": "KARAOKÊ PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "11.1V",
+    "360°",
+    "TELA HD 13.3’’",
+    "4",
+    "80W 01 COR 24000mAh"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 4,
+   "imagens": [
+    "d-xk422"
+   ]
+  },
+  {
+   "codigo": "D-XK802",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "160W 24000mAh"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk802"
+   ]
+  },
+  {
+   "codigo": "D-XK803",
+   "nome": "CAIXA DE SOM PORTÁTIL M",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "200W 12V / 9AH"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk803"
+   ]
+  },
+  {
+   "codigo": "D-XK888",
+   "nome": "CAIXA DE SOM KARAOKÊ PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "11.1V",
+    "4",
+    "45W",
+    "320W 01 COR 27000mAh"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk888"
+   ]
+  },
+  {
+   "codigo": "D-XK1221",
+   "nome": "CAIXA DE SOM AMPLIFICADA M",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "300W 12V / 12AH"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk1221"
+   ]
+  },
+  {
+   "codigo": "D-XK1222",
+   "nome": "PAR DE CAIXAS DE SOM BLUETOOTH",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "500W"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk1222"
+   ]
+  },
+  {
+   "codigo": "D-XK1223",
+   "nome": "CAIXA DE SOM AMPLIFICADA",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "11.1V",
+    "300W 18000mAh"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk1223"
+   ]
+  },
+  {
+   "codigo": "D-XK1224",
+   "nome": "CAIXA DE SOM AMPLIFICADA",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "400W"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk1224"
+   ]
+  },
+  {
+   "codigo": "D-XK1521",
+   "nome": "CAIXA DE SOM AMPLIFICADA",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5V/1A",
+    "300W 18000mAh"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xk1521"
+   ]
+  },
+  {
+   "codigo": "D-XP01",
+   "nome": "CAIXA DE SOM FLUTUANTE",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "14.8V",
+    "360°",
+    "5V/1A",
+    "11.1V",
+    "180W 01 COR 31200mAh"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 5,
+   "imagens": [
+    "d-xp01"
+   ]
+  },
+  {
+   "codigo": "D-XP02",
+   "nome": "CAIXA DE SOM FLUTUANTE",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "80W 01 COR 15600mAh"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 6,
+   "imagens": [
+    "d-xp02"
+   ]
+  },
+  {
+   "codigo": "D-XP03",
+   "nome": "CAIXA DE SOM FLUTUANTE",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "11.1V",
+    "360°",
+    "90W 01 COR 18000mAh"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 6,
+   "imagens": [
+    "d-xp03"
+   ]
+  },
+  {
+   "codigo": "D-XP04",
+   "nome": "CAIXA DE SOM FLUTUANTE",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "11.1V",
+    "360°",
+    "20W 01 COR 5000mAh"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 6,
+   "imagens": [
+    "d-xp04"
+   ]
+  },
+  {
+   "codigo": "D-XP05",
+   "nome": "CAIXA DE SOM FLUTUANTE",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "360°",
+    "12W 01 COR 1800mAh",
+    "1800mAh",
+    "01 COR"
+   ],
+   "qtd_caixa": 32,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 6,
+   "imagens": [
+    "d-xp05"
+   ]
+  },
+  {
+   "codigo": "D-GP201",
+   "nome": "MINI CAIXA DE SOM PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "6W de potência total",
+    "Conexão por cabo aux",
+    "200Hz ~ 18KHz",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 7,
+   "imagens": [
+    "d-gp201"
+   ]
+  },
+  {
+   "codigo": "D-GP202",
+   "nome": "MINI CAIXA DE SOM PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3Wx2",
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "6W de potência total",
+    "63*63*71mm x2",
+    "Conexão por cabo aux",
+    "30Hz ~ 16KHz",
+    "1,35m de cabo"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 7,
+   "imagens": [
+    "d-gp202"
+   ]
+  },
+  {
+   "codigo": "D-GP203",
+   "nome": "MINI CAIXA DE SOM PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3Wx2",
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "6W de potência total",
+    "64*75*78mm x2",
+    "72*73*65mm x2",
+    "Conexão por cabo aux",
+    "200Hz ~ 18KHz",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 7,
+   "imagens": [
+    "d-gp203"
+   ]
+  },
+  {
+   "codigo": "D-GP205",
+   "nome": "MINI CAIXA DE SOM PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "6W de potência total",
+    "Conexão por cabo aux",
+    "150Hz ~ 20KHz",
+    "1,3m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 7,
+   "imagens": [
+    "d-gp205"
+   ]
+  },
+  {
+   "codigo": "D-GP206",
+   "nome": "MINI CAIXA DE SOM PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3Wx2",
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "6W de potência total",
+    "81*80*161mm x2",
+    "Conexão por cabo aux",
+    "150Hz ~ 20KHz",
+    "1,1m de cabo"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 7,
+   "imagens": [
+    "d-gp206"
+   ]
+  },
+  {
+   "codigo": "D-GP207",
+   "nome": "MINI SOUNDBAR PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3Wx2",
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "6W de potência total",
+    "67*79*98mm x2",
+    "Conexão por cabo aux",
+    "150Hz ~ 20KHz",
+    "1,3m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 7,
+   "imagens": [
+    "d-gp207"
+   ]
+  },
+  {
+   "codigo": "D-GP208",
+   "nome": "MINI CAIXA DE SOM PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "10W de potência total",
+    "Conexão por cabo aux",
+    "150Hz ~ 20KHz",
+    "1,3m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp208"
+   ]
+  },
+  {
+   "codigo": "D-GP209",
+   "nome": "MINI SOUNDBAR PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5Wx2",
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "10W de potência total",
+    "Conexão por cabo aux",
+    "150Hz ~ 20KHz",
+    "1,3m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp209"
+   ]
+  },
+  {
+   "codigo": "D-GP204 BT",
+   "nome": "MINI SOUNDBAR PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5Wx2",
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "10W de potência total",
+    "70*93*205mm x2",
+    "Conexão por cabo aux",
+    "60Hz ~ 20KHz",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp204-bt"
+   ]
+  },
+  {
+   "codigo": "D-GP301 BT",
+   "nome": "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "2 alto-falantes de 2,5’’",
+    "Faixa de resposta",
+    "1 alto-falantes de 3,5’’",
+    "18W de potência total",
+    "60Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp301-bt"
+   ]
+  },
+  {
+   "codigo": "D-GP302 BT",
+   "nome": "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "8W + 5w",
+    "x2",
+    "2 alto-falantes de 2’’",
+    "Faixa de resposta",
+    "1 alto-falantes de 3’’",
+    "18W de potência total",
+    "60Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp302-bt"
+   ]
+  },
+  {
+   "codigo": "D-GP303 BT",
+   "nome": "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "8W + 5w",
+    "20W + 10W",
+    "x2",
+    "2 alto-falantes de 3’’",
+    "Faixa de resposta",
+    "1 alto-falantes de 5’’",
+    "30W de potência total",
+    "150Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "72*70*97mm x2",
+    "100*112*155mm x2",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp303-bt"
+   ]
+  },
+  {
+   "codigo": "D-GP304",
+   "nome": "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "2 alto-falantes de 2’’",
+    "Faixa de resposta",
+    "1 alto-falantes de 3’’",
+    "18W de potência total",
+    "150Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "0,8m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp304"
+   ]
+  },
+  {
+   "codigo": "D-GP305",
+   "nome": "MINI CAIXA DE SOM PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5W + 3w",
+    "x2",
+    "2 alto-falantes de 2’’",
+    "Faixa de resposta",
+    "1 alto-faltante de 3’’",
+    "11W de potência total",
+    "150Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "78*56*65mm x2",
+    "0,8m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp305"
+   ]
+  },
+  {
+   "codigo": "D-GRA2",
+   "nome": "BATERIA VIRTUAL E CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5W + 3Wx2",
+    "67*79*98mm x2",
+    "8W",
+    "01 COR",
+    "1200mAh"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gra2"
+   ]
+  },
+  {
+   "codigo": "D-1601",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 03 CORES AC 110V/220V"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-1601"
+   ]
+  },
+  {
+   "codigo": "D-1602",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 03 CORES AC 110V/220V"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-1602"
+   ]
+  },
+  {
+   "codigo": "D-1605",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 03 CORES AC 110V/220V"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-1605"
+   ]
+  },
+  {
+   "codigo": "D-G102",
+   "nome": "CAIXA DE SOM SOUNDBAR",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "01 COR 3200mAh",
+    "20W x2"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-g102"
+   ]
+  },
+  {
+   "codigo": "D-G112",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3,7V",
+    "10W 03 CORES 2200mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-g112"
+   ]
+  },
+  {
+   "codigo": "D-G120",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "02 CORES 1800mAh",
+    "8W"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-g120"
+   ]
+  },
+  {
+   "codigo": "D-G198",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "8W 03 CORES 1800mAh"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-g198"
+   ]
+  },
+  {
+   "codigo": "D-G207",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "7",
+    "7.4V",
+    "01 COR 1500mAh",
+    "8W"
+   ],
+   "qtd_caixa": 36,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-g207"
+   ]
+  },
+  {
+   "codigo": "D-G228",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "30W 04 CORES 3600mAh"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 9,
+   "imagens": [
+    "d-g228"
+   ]
+  },
+  {
+   "codigo": "D-G280",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "2400mAh",
+    "8W x2 02 CORES"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g280"
+   ]
+  },
+  {
+   "codigo": "D-G300",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3.7V",
+    "18W 03 CORES 2200mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g300"
+   ]
+  },
+  {
+   "codigo": "D-G301",
+   "nome": "CAIXA DE SOM PORTÁTIL MM",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 03 CORES 1500mAh"
+   ],
+   "qtd_caixa": 80,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g301"
+   ]
+  },
+  {
+   "codigo": "D-G321",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "40W 03 CORES 6000mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g321"
+   ]
+  },
+  {
+   "codigo": "D-G322",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5",
+    "40W x2 01 COR 8000mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g322"
+   ]
+  },
+  {
+   "codigo": "D-G325",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "7.4V",
+    "15W 03 CORES 2200mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g325"
+   ]
+  },
+  {
+   "codigo": "D-G330",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "02 CORES 3200mAh",
+    "20W x2"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g330"
+   ]
+  },
+  {
+   "codigo": "D-G337",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 04 CORES 1800mAh",
+    "3,7V"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g337"
+   ]
+  },
+  {
+   "codigo": "D-G384",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 03 CORES 4000mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 10,
+   "imagens": [
+    "d-g384"
+   ]
+  },
+  {
+   "codigo": "D-G385",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "12W 05 CORES 1800mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g385"
+   ]
+  },
+  {
+   "codigo": "D-G470",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "8W 03 CORES 1800mAh"
+   ],
+   "qtd_caixa": 80,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g470"
+   ]
+  },
+  {
+   "codigo": "D-G490",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3.7V",
+    "10W 04 CORES 1800mAh"
+   ],
+   "qtd_caixa": 60,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g490"
+   ]
+  },
+  {
+   "codigo": "D-G570",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 04 CORES 6000mAh"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g570"
+   ]
+  },
+  {
+   "codigo": "D-G580",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3.7V",
+    "20W 03 CORES 3600mAh"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g580"
+   ]
+  },
+  {
+   "codigo": "D-G590",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "12W 04 CORES 2200mAh"
+   ],
+   "qtd_caixa": 60,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g590"
+   ]
+  },
+  {
+   "codigo": "D-G700",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "18W 05 CORES 2200mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g700"
+   ]
+  },
+  {
+   "codigo": "D-G770",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 04 CORES 3000mAh"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g770"
+   ]
+  },
+  {
+   "codigo": "D-G860",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "3.7V",
+    "7.4V",
+    "35W 04 CORES 4000mAh"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 11,
+   "imagens": [
+    "d-g860"
+   ]
+  },
+  {
+   "codigo": "D-S2203",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 03 CORES 4000mAh"
+   ],
+   "qtd_caixa": 18,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-s2203"
+   ]
+  },
+  {
+   "codigo": "D-S4149",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "15W 03 CORES 3000mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-s4149"
+   ]
+  },
+  {
+   "codigo": "D-S8202",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "80W 01 COR 6000mAh"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-s8202"
+   ]
+  },
+  {
+   "codigo": "D-S13",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 03 CORES 1500mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-s13"
+   ]
+  },
+  {
+   "codigo": "D-S30",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 1800mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-s30"
+   ]
+  },
+  {
+   "codigo": "D-S31",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 1500mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-s31"
+   ]
+  },
+  {
+   "codigo": "D-3138",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR 1800mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-3138"
+   ]
+  },
+  {
+   "codigo": "D-3139",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR 1800mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-3139"
+   ]
+  },
+  {
+   "codigo": "D-3141",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR 1800mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 12,
+   "imagens": [
+    "d-3141"
+   ]
+  },
+  {
+   "codigo": "D-3142",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR 1800mAh"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-3142"
+   ]
+  },
+  {
+   "codigo": "D-3203",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 3000mAh"
+   ],
+   "qtd_caixa": 18,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-3203"
+   ]
+  },
+  {
+   "codigo": "D-3204",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 3000mAh"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-3204"
+   ]
+  },
+  {
+   "codigo": "D-3205",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 3000mAh"
+   ],
+   "qtd_caixa": 16,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-3205"
+   ]
+  },
+  {
+   "codigo": "D-3207",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 3000mAh"
+   ],
+   "qtd_caixa": 18,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-3207"
+   ]
+  },
+  {
+   "codigo": "D-3208",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 3000mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-3208"
+   ]
+  },
+  {
+   "codigo": "D-4138",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR 1800mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-4138"
+   ]
+  },
+  {
+   "codigo": "D-4139",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR 1800mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-4139"
+   ]
+  },
+  {
+   "codigo": "D-4141",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 13,
+   "imagens": [
+    "d-4141"
+   ]
+  },
+  {
+   "codigo": "D-4142",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 01 COR"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-4142"
+   ]
+  },
+  {
+   "codigo": "D-4232",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR 3000mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-4232"
+   ]
+  },
+  {
+   "codigo": "D-6110",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-6110"
+   ]
+  },
+  {
+   "codigo": "D-6111",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 01 COR"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-6111"
+   ]
+  },
+  {
+   "codigo": "D-6206",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "60W 01 COR 10400mAh"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-6206"
+   ]
+  },
+  {
+   "codigo": "D-8108",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "7.4V",
+    "30W 01 COR"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-8108"
+   ]
+  },
+  {
+   "codigo": "D-8109",
+   "nome": "CAIXA DE SOM PORTÁTIL 27.5*23",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "30W 01 COR"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-8109"
+   ]
+  },
+  {
+   "codigo": "D-8110",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "8”",
+    "30W 01 COR"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-8110"
+   ]
+  },
+  {
+   "codigo": "D-BH8115",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "40W 01 COR 2000mAh"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 14,
+   "imagens": [
+    "d-bh8115"
+   ]
+  },
+  {
+   "codigo": "D-K001",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 03 CORES 1800mAh"
+   ],
+   "qtd_caixa": 60,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-k001"
+   ]
+  },
+  {
+   "codigo": "D-K002",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "12W 03 CORES 2200mAh"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-k002"
+   ]
+  },
+  {
+   "codigo": "D-K003",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "15W 03 CORES 2200mAh"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-k003"
+   ]
+  },
+  {
+   "codigo": "D-K004",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "12W 04 CORES 3000mAh"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-k004"
+   ]
+  },
+  {
+   "codigo": "D-X801",
+   "nome": "CAIXA DE SOM PORTÁTIL M",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "20W 03 CORES 2400mAh"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-x801"
+   ]
+  },
+  {
+   "codigo": "D-P12",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "40W 3600mAh"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-p12"
+   ]
+  },
+  {
+   "codigo": "D-F8",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 02 CORES"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-f8"
+   ]
+  },
+  {
+   "codigo": "D-F9",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "10W 02 CORES"
+   ],
+   "qtd_caixa": 24,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-f9"
+   ]
+  },
+  {
+   "codigo": "D-Y04",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "800mAh",
+    "5W 01 COR"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 15,
+   "imagens": [
+    "d-y04"
+   ]
+  },
+  {
+   "codigo": "D-Y04PRO",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "800mAh",
+    "8W 01 COR"
+   ],
+   "qtd_caixa": 60,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 16,
+   "imagens": [
+    "d-y04pro"
+   ]
+  },
+  {
+   "codigo": "D-Y05",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "800mAh",
+    "5W 01 COR"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 16,
+   "imagens": [
+    "d-y05"
+   ]
+  },
+  {
+   "codigo": "D-Y05PRO",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "800mAh",
+    "8W 01 COR"
+   ],
+   "qtd_caixa": 60,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 16,
+   "imagens": [
+    "d-y05pro"
+   ]
+  },
+  {
+   "codigo": "D-Y27",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5W 05 CORES 800mAh"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 16,
+   "imagens": [
+    "d-y27"
+   ]
+  },
+  {
+   "codigo": "D-Y28",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5Vdc",
+    "8W 02 CORES 1200mAh"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 16,
+   "imagens": [
+    "d-y28"
+   ]
+  },
+  {
+   "codigo": "D-Y29",
+   "nome": "CAIXA DE SOM PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5Vdc",
+    "5W 05 CORES 800mAh"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 16,
+   "imagens": [
+    "d-y29"
+   ]
+  },
+  {
+   "codigo": "D-Y31",
+   "nome": "RÁDIO PORTÁTIL",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5Vdc",
+    "8W 04 CORES 1200mAh"
+   ],
+   "qtd_caixa": 80,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 16,
+   "imagens": [
+    "d-y31"
+   ]
+  },
+  {
+   "codigo": "D-LY01",
+   "nome": "LUMINÁRIA DE TETO COM CAIXA DE SOM LED",
+   "categoria": "LUMINÁRIAS LED COM CAIXA DE SOM",
+   "specs": [
+    "POSSUI CONTROLE REMOTO",
+    "Alimentação: 85 - 265Vdc",
+    "P/ soquete tipo rosca E27",
+    "Luz branca ou multicolorida"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 17,
+   "imagens": [
+    "d-ly01"
+   ]
+  },
+  {
+   "codigo": "D-LY02",
+   "nome": "LUMINÁRIA DE TETO COM CAIXA DE SOM LED",
+   "categoria": "LUMINÁRIAS LED COM CAIXA DE SOM",
+   "specs": [
+    "POSSUI CONTROLE REMOTO",
+    "Potência: 24W",
+    "Alimentação: 85 - 265Vdc",
+    "Frequência: 120Hz-20kHz",
+    "P/ soquete tipo rosca E27",
+    "Luz branca ou multicolorida"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 17,
+   "imagens": [
+    "d-ly02"
+   ]
+  },
+  {
+   "codigo": "D-LY03",
+   "nome": "LUMINÁRIA DE TETO COM CAIXA DE SOM LED",
+   "categoria": "LUMINÁRIAS LED COM CAIXA DE SOM",
+   "specs": [
+    "POSSUI CONTROLE REMOTO",
+    "Potência: 50W",
+    "Alimentação: 85 - 265Vdc",
+    "Potência: 40W",
+    "Frequência: 120Hz-20kHz",
+    "P/ soquete tipo rosca E27",
+    "Luz branca ou multicolorida"
+   ],
+   "qtd_caixa": 30,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 17,
+   "imagens": [
+    "d-ly03"
+   ]
+  },
+  {
+   "codigo": "D-LY04",
+   "nome": "LUMINÁRIA DE TETO COM CAIXA DE SOM LED",
+   "categoria": "LUMINÁRIAS LED COM CAIXA DE SOM",
+   "specs": [
+    "POSSUI CONTROLE REMOTO",
+    "Alimentação: 85 - 265Vdc",
+    "P/ soquete tipo rosca E27",
+    "Luz branca ou multicolorida"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 17,
+   "imagens": [
+    "d-ly04"
+   ]
+  },
+  {
+   "codigo": "D-LY05",
+   "nome": "LUMINÁRIA COM CAIXA DE SOM LED",
+   "categoria": "LUMINÁRIAS LED COM CAIXA DE SOM",
+   "specs": [
+    "Potência: 40W",
+    "Bateria interna recarregável",
+    "Frequência: 120Hz-20kHz",
+    "Tensão: 5V DC",
+    "Luz branca ou multicolorida"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 17,
+   "imagens": [
+    "d-ly05"
+   ]
+  },
+  {
+   "codigo": "D-LY06",
+   "nome": "LUMINÁRIA DE TETO COM CAIXA DE SOM LED",
+   "categoria": "LUMINÁRIAS LED COM CAIXA DE SOM",
+   "specs": [
+    "1500mAh",
+    "POSSUI CONTROLE REMOTO",
+    "Potência: 15W",
+    "Alimentação: 85 - 265Vdc",
+    "Frequência: 120Hz-20kHz",
+    "P/ soquete tipo rosca E27",
+    "Luz branca ou multicolorida"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 17,
+   "imagens": [
+    "d-ly06"
+   ]
+  },
+  {
+   "codigo": "D-LY07",
+   "nome": "LUMINÁRIA DE TETO COM CAIXA DE SOM LED",
+   "categoria": "LUMINÁRIAS LED COM CAIXA DE SOM",
+   "specs": [
+    "POSSUI CONTROLE REMOTO",
+    "Potência: 15W",
+    "Alimentação: 85 - 265Vdc",
+    "Frequência: 120Hz-20kHz",
+    "P/ soquete tipo rosca E27",
+    "Luz branca ou multicolorida"
+   ],
+   "qtd_caixa": 100,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 17,
+   "imagens": [
+    "d-ly07"
+   ]
+  },
+  {
+   "codigo": "D-BAG2",
+   "nome": "MOCHILA MULTIFUNCIONAL",
+   "categoria": "MOCHILAS MULTIFUNCIONAIS",
+   "specs": [
+    "CAPACIDADE PARA 2L",
+    "12W 02 CORES 3000mAh - 3,7Vdc"
+   ],
+   "qtd_caixa": 60,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 18,
+   "imagens": [
+    "d-bag2"
+   ]
+  },
+  {
+   "codigo": "D-BAG3",
+   "nome": "MOCHILA MULTIFUNCIONAL",
+   "categoria": "MOCHILAS MULTIFUNCIONAIS",
+   "specs": [
+    "5V",
+    "CAPACIDADE PARA 9L",
+    "12W 02 CORES 3000mAh - 3,7Vdc"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 18,
+   "imagens": [
+    "d-bag3"
+   ]
+  },
+  {
+   "codigo": "D-BAG4",
+   "nome": "MOCHILA MULTIFUNCIONAL",
+   "categoria": "MOCHILAS MULTIFUNCIONAIS",
+   "specs": [
+    "CAPACIDADE PARA 6L",
+    "5V",
+    "12W 01 COR 3000mAh - 3,7Vdc"
+   ],
+   "qtd_caixa": 40,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 18,
+   "imagens": [
+    "d-bag4"
+   ]
+  },
+  {
+   "codigo": "D-LF05",
+   "nome": "PAINEL MATRIZ DE LED",
+   "categoria": "PAINEL MATRIZ DE LED",
+   "specs": [
+    "65",
+    "E ACESSO VIA APP",
+    "Potência: 10W",
+    "Alimentação: 5Vdc / 2A",
+    "Comprimento do cabo: 4,5m",
+    "Material: PU + FPCB",
+    "Dimensões: 19.2 X 89.8cm",
+    "Pixels: 16 X 96px"
+   ],
+   "qtd_caixa": 18,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 19,
+   "imagens": [
+    "d-lf05"
+   ]
+  },
+  {
+   "codigo": "D-INT5050P3.91",
+   "nome": "Painel Externo de LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "15kg",
+    "60",
+    "43",
+    "Gabinete de Alumínio Fundido",
+    "Vida Útil: > 100000h",
+    "Consumo Máximo: 800W",
+    "Tamanho do módulo (mm): 250*250*14",
+    "Consumo Médio: 500W",
+    "Modo de varredura: 16 varreduras",
+    "Contraste: > 5000:1",
+    "Cores do píxel (R/G/B): 1/1/1",
+    "Nível de Escala de Cinza: 13bit",
+    "Modelo do LED (SMD): SMD2121",
+    "Taxa de Atualização: > 7680",
+    "Píxels do módulo: 64*64",
+    "Ângulo de Visão Horizontal: > 140°",
+    "Método de manutenção: Frontal/Traseira",
+    "Ângulo de Visão Vertical: > 130°",
+    "Método de instalação: Frontal/Traseira",
+    "Distância ideal de Visualização: 3m",
+    "Píxels do gabinete: 128*128",
+    "Píxels do gabinete: 128*256",
+    "Corrente máxima do módulo: 5A",
+    "Brilho: 650 cd/m2",
+    "Densidade: 65536 dot/m2",
+    "Umidade de Trabalho: 10%RH~80%RH",
+    "Temperatura de Trabalho: -20°C~60°C"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": [
+    "d-int5050p3-91"
+   ]
+  },
+  {
+   "codigo": "D-INT50100P3.91",
+   "nome": "Painel Interno de LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "15kg",
+    "60",
+    "43",
+    "Gabinete de Alumínio Fundido",
+    "Vida Útil: > 100000h",
+    "Tamanho do módulo (mm): 250*250*14",
+    "Consumo Máximo: 800W",
+    "Modo de varredura: 21 varreduras",
+    "Consumo Médio: < 500W",
+    "Cores do píxel (R/G/B): 1/1/1",
+    "Contraste: > 5000:1",
+    "Modelo do LED (SMD): SMD1515",
+    "Nível de Escala de Cinza: 13bit",
+    "Píxels do módulo: 84*84",
+    "Taxa de Atualização: > 7680",
+    "Método de manutenção: Frontal/Traseira",
+    "Ângulo de Visão Horizontal: > 140°",
+    "Método de instalação: Frontal/Traseira",
+    "Ângulo de Visão Vertical: > 130°",
+    "Píxels do gabinete: 168*336",
+    "Distância ideal de Visualização: 3m",
+    "Densidade: 112896 dot/m2",
+    "Corrente máxima do módulo: 5A",
+    "Brilho: 650 cd/m2",
+    "Umidade de Trabalho: 10%RH~80%RH",
+    "Temperatura de Trabalho: -5°C~50°C"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": [
+    "d-int50100p3-91"
+   ]
+  },
+  {
+   "codigo": "D-INT50100P2.976",
+   "nome": "Painel Interno de LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "15kg",
+    "60",
+    "43",
+    "Gabinete de Alumínio Fundido",
+    "Vida Útil: > 100000h",
+    "Consumo Máximo: 800W",
+    "Consumo Médio: < 500W",
+    "Contraste: > 5000:1",
+    "Nível de Escala de Cinza: 16bit",
+    "Taxa de Atualização: > 7680",
+    "Ângulo de Visão Horizontal: > 140°",
+    "Ângulo de Visão Vertical: > 130°",
+    "Distância ideal de Visualização: 3m",
+    "Corrente máxima do módulo: 5A",
+    "Umidade de Trabalho: 10%RH~80%RH",
+    "Temperatura de Trabalho: -20°C~60°C"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": [
+    "d-int50100p2-976"
+   ]
+  },
+  {
+   "codigo": "D-EXT50100P2.976",
+   "nome": "Painel Externo de LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "15kg",
+    "60",
+    "65",
+    "Gabinete de Alumínio",
+    "Fundido sob Pressão",
+    "Vida Útil: > 100000h",
+    "Consumo Máximo: 800W",
+    "Tamanho do módulo (mm): 250*250",
+    "Consumo Médio: < 300W",
+    "Modo de varredura: 21 varreduras",
+    "Contraste: > 5000:1",
+    "Cores do píxel (R/G/B): 1/1/1",
+    "Nível de Escala de Cinza: 16bit",
+    "Modelo do LED (SMD): SMD1415",
+    "Taxa de Atualização: > 7680",
+    "Píxels do módulo: 84*84",
+    "Ângulo de Visão Horizontal: > 130°",
+    "Modelo do IC: FM6373",
+    "Ângulo de Visão Vertical: > 140°",
+    "Método de manutenção: Frontal/Traseira",
+    "Distância ideal de Visualização: 5m",
+    "Método de instalação: Frontal/Traseira",
+    "Corrente máxima do módulo: 6A",
+    "Píxels do gabinete: 168*336",
+    "Umidade de Trabalho: 10%RH~80%RH",
+    "Densidade: 112.896 dot/m2",
+    "Temperatura de Trabalho: -20°C~60°C",
+    "Brilho: 4500 cd/m2"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": [
+    "d-ext50100p2-976"
+   ]
+  },
+  {
+   "codigo": "D-TF08",
+   "nome": "CARTÃO DE MEMÓRIA E ADAPTADOR MICROSD",
+   "categoria": "CARTÕES DE MEMÓRIA E PENDRIVES",
+   "specs": [
+    "8GB",
+    "10MB/S",
+    "Velocidade de Gravação",
+    "15-20MB/S",
+    "Velocidade de Leitura"
+   ],
+   "qtd_caixa": 800,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 21,
+   "imagens": [
+    "d-tf08"
+   ]
+  },
+  {
+   "codigo": "D-TELA01",
+   "nome": "MONITOR LCD PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "Resolução",
+    "1920 x 1080"
+   ],
+   "qtd_caixa": 7,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela01"
+   ]
+  },
+  {
+   "codigo": "D-TELA03",
+   "nome": "MONITOR LCD PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "60",
+    "15”",
+    "HDR10",
+    "Resolução",
+    "1920 x 1080"
+   ],
+   "qtd_caixa": 7,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela03"
+   ]
+  },
+  {
+   "codigo": "D-TELA06",
+   "nome": "MONITOR LCD PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "60",
+    "72%",
+    "14”",
+    "15.6”",
+    "HDR10",
+    "Resolução",
+    "1920 x 1200"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela06"
+   ]
+  },
+  {
+   "codigo": "D-TELA07",
+   "nome": "MONITOR LCD PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "Resolução",
+    "1920 x 1080"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela07"
+   ]
+  },
+  {
+   "codigo": "D-TELA08",
+   "nome": "MONITOR DUPLO LCD PARA NOTEBOOK",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "100",
+    "72%",
+    "18.5”",
+    "Resolução",
+    "1920 x 1200"
+   ],
+   "qtd_caixa": 5,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela08"
+   ]
+  },
+  {
+   "codigo": "D-TELA09",
+   "nome": "MONITOR DUPLO LCD PARA NOTEBOOK",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "60",
+    "100",
+    "72%",
+    "100%",
+    "16”x2",
+    "18.5”x2",
+    "Resolução",
+    "0° ~ 360°",
+    "1920 x 1080"
+   ],
+   "qtd_caixa": 5,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela09"
+   ]
+  },
+  {
+   "codigo": "D-TELA11",
+   "nome": "MONITOR IPS PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "Resolução",
+    "1920 x 1080"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela11"
+   ]
+  },
+  {
+   "codigo": "D-TELA12",
+   "nome": "MONITOR IPS PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "60",
+    "72%",
+    "15.6”",
+    "Resolução",
+    "1920 x 1080"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela12"
+   ]
+  },
+  {
+   "codigo": "D-TELA13",
+   "nome": "MONITOR IPS PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "60",
+    "72%",
+    "15.6”",
+    "14”",
+    "Resolução",
+    "1920 x 1200"
+   ],
+   "qtd_caixa": 10,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 22,
+   "imagens": [
+    "d-tela13"
+   ]
+  },
+  {
+   "codigo": "D-TELA14",
+   "nome": "MONITOR DUPLO IPS PORTÁTIL",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "Resolução",
+    "1920 x 1200"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-tela14"
+   ]
+  },
+  {
+   "codigo": "D-238/B",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "60",
+    "100%",
+    "14”x2",
+    "360°",
+    "HD",
+    "Resolução",
+    "1920 x 1080",
+    "1 Cabo HDMI",
+    "1 Fonte AC/DC"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-238-b"
+   ]
+  },
+  {
+   "codigo": "D-238G/180H",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "100",
+    "180",
+    "23.8”",
+    "Resolução",
+    "HDMI 2.0 / DPI.4 / Áudio (saída)",
+    "1920 x 1080",
+    "1 Cabo HDMI",
+    "1 Fonte AC/DC"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-238g-180h"
+   ]
+  },
+  {
+   "codigo": "D-245G/100H",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "Resolução",
+    "1920 x 1080",
+    "1 Cabo HDMI",
+    "1 Fonte AC/DC"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-245g-100h"
+   ]
+  },
+  {
+   "codigo": "D-245G/180H",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "100",
+    "24.5”",
+    "Resolução",
+    "1920 x 1080",
+    "1 Cabo HDMI",
+    "1 Fonte AC/DC"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-245g-180h"
+   ]
+  },
+  {
+   "codigo": "D-290G/165H",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "21:9",
+    "180",
+    "165",
+    "24.5”",
+    "29”",
+    "HD",
+    "Resolução",
+    "HDMI / DP / Audio out",
+    "2560 x 1080",
+    "1 Cabo HDMI",
+    "1 Fonte AC/DC"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-290g-165h"
+   ]
+  },
+  {
+   "codigo": "D-270S/180H",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "Resolução",
+    "2560 x 1440",
+    "1 Cabo HDMI",
+    "1 Fonte AC/DC"
+   ],
+   "qtd_caixa": 3,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-270s-180h"
+   ]
+  },
+  {
+   "codigo": "D-GR270",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "180",
+    "27”",
+    "Resolução",
+    "1920 x 1080",
+    "1 Cabo HDMI",
+    "1 Adaptador"
+   ],
+   "qtd_caixa": 3,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-gr270"
+   ]
+  },
+  {
+   "codigo": "D-GR340",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "21:9",
+    "16:9",
+    "165",
+    "100",
+    "34”",
+    "27”",
+    "HD",
+    "Resolução",
+    "HDMI / DP / AUDIO OUT",
+    "3440 x 1440",
+    "1 Cabo DP",
+    "1 Fonte AC/DC",
+    "Brilho máx: 320cd/m²"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 23,
+   "imagens": [
+    "d-gr340"
+   ]
+  },
+  {
+   "codigo": "D-MN005",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "HD",
+    "Resolução",
+    "Contraste",
+    "1920 x 1080",
+    "1000: 1"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 24,
+   "imagens": [
+    "d-mn005"
+   ]
+  },
+  {
+   "codigo": "D-MN006",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "1 CABO",
+    "HDMI",
+    "1 FONTE",
+    "23.8”",
+    "HD",
+    "Sinal de entrada",
+    "Resolução",
+    "Contraste",
+    "HDMI / VGA",
+    "1920 x 1080",
+    "1000: 1"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 24,
+   "imagens": [
+    "d-mn006"
+   ]
+  },
+  {
+   "codigo": "D-MN156",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "1 CABO",
+    "HDMI",
+    "1 FONTE",
+    "27”",
+    "15.6”",
+    "HD",
+    "Sinal de entrada",
+    "Resolução",
+    "Contraste",
+    "HDMI / VGA",
+    "1366 x 768",
+    "1000: 1"
+   ],
+   "qtd_caixa": 6,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 24,
+   "imagens": [
+    "d-mn156"
+   ]
+  },
+  {
+   "codigo": "D-MNS215",
+   "nome": "MONITOR LED",
+   "categoria": "MONITORES E SUPORTES",
+   "specs": [
+    "16:9",
+    "100",
+    "21.5”",
+    "Resolução",
+    "1920 x 1080",
+    "1 Cabo HDMI",
+    "1 Fonte 12V",
+    "Display: VA"
+   ],
+   "qtd_caixa": 5,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 24,
+   "imagens": [
+    "d-mns215"
+   ]
+  },
+  {
+   "codigo": "D-MATX03",
+   "nome": "GABINETE GAMER",
+   "categoria": "GABINETES",
+   "specs": [
+    "Cores:",
+    "Preto ou Branco",
+    "(CURVADO E PANORÂMICO)",
+    "Portas: USB 3.0 x1; USB 2.0 x2; áudio HD x1, Slots PCI x4,",
+    "Baias para SSD de 2,5’’ x3, Baias para HDD de 3,5’’ x2"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-matx03"
+   ]
+  },
+  {
+   "codigo": "D-MATX04",
+   "nome": "GABINETE GAMER 3 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 6 FANS)",
+    "01 Hub controlador",
+    "Cores:",
+    "01 Controle Remoto",
+    "Preto ou Branco",
+    "ROTA DE CABOS OCULTA",
+    "(CURVADO E PANORÂMICO)",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x4,",
+    "Baias para SSD de 2,5’’ x2, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-matx04"
+   ]
+  },
+  {
+   "codigo": "D-ATX05",
+   "nome": "GABINETE GAMER 4 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 7 FANS)",
+    "(SUPORTA 5 FANS)",
+    "01 Hub controlador",
+    "Cores:",
+    "01 Controle Remoto",
+    "Preto ou Branco",
+    "ROTA DE CABOS OCULTA",
+    "(CURVADO E PANORÂMICO)",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Type-C x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x3, Baias para HDD de 3,5’’ x2"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-atx05"
+   ]
+  },
+  {
+   "codigo": "D-MATX06",
+   "nome": "GABINETE GAMER",
+   "categoria": "GABINETES",
+   "specs": [
+    "Cores:",
+    "Preto ou Branco",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x4,",
+    "Baias para SSD de 2,5’’ x2, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-matx06"
+   ]
+  },
+  {
+   "codigo": "D-MATX07",
+   "nome": "GABINETE GAMER 5 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 7 FANS)",
+    "01 Hub controlador",
+    "Cores:",
+    "01 Controle Remoto",
+    "Preto ou Branco",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x4,",
+    "Baias para SSD de 2,5’’ x3, Baias para HDD de 3,5’’ x2"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-matx07"
+   ]
+  },
+  {
+   "codigo": "D-ATX08",
+   "nome": "GABINETE GAMER 7 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 10 FANS)",
+    "(SUPORTA 9 FANS)",
+    "01 Hub controlador",
+    "01 Controle Remoto",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x3, Baias para HDD de 3,5’’ x2"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-atx08"
+   ]
+  },
+  {
+   "codigo": "D-ATX09",
+   "nome": "GABINETE GAMER",
+   "categoria": "GABINETES",
+   "specs": [
+    "Cores:",
+    "Preto ou Branco",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x3, Baias para HDD de 3,5’’ x2"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-atx09"
+   ]
+  },
+  {
+   "codigo": "D-MATX10",
+   "nome": "GABINETE GAMER 7 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 10 FANS)",
+    "01 Hub controlador",
+    "Cores:",
+    "01 Controle Remoto",
+    "Preto ou Branco",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x4,",
+    "Baias para SSD de 2,5’’ x3, Baias para HDD de 3,5’’ x2"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-matx10"
+   ]
+  },
+  {
+   "codigo": "D-MATX11",
+   "nome": "GABINETE GAMER 5 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 9 FANS)",
+    "(SUPORTA 7 FANS)",
+    "01 Hub controlador",
+    "Cores:",
+    "01 Controle Remoto",
+    "Preto ou Branco",
+    "ROTA DE CABOS OCULTA",
+    "(CURVADO E PANORÂMICO)",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x4,",
+    "Baias para SSD de 2,5’’ x2, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 25,
+   "imagens": [
+    "d-matx11"
+   ]
+  },
+  {
+   "codigo": "D-ATX12",
+   "nome": "GABINETE GAMER",
+   "categoria": "GABINETES",
+   "specs": [
+    "Portas: USB 3.0 x1; Type-C x1; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x3, Baias para HDD de 3,5’’ x3"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-atx12"
+   ]
+  },
+  {
+   "codigo": "D-ATX13",
+   "nome": "GABINETE GAMER 6 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 10 FANS)",
+    "01 Hub controlador",
+    "01 Controle Remoto",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x2; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x1, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-atx13"
+   ]
+  },
+  {
+   "codigo": "D-ATX14",
+   "nome": "GABINETE GAMER 3 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 8 FANS)",
+    "01 Hub controlador",
+    "01 Controle Remoto",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x2; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x1, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-atx14"
+   ]
+  },
+  {
+   "codigo": "D-ATX15",
+   "nome": "GABINETE GAMER",
+   "categoria": "GABINETES",
+   "specs": [
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x2; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x1, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-atx15"
+   ]
+  },
+  {
+   "codigo": "D-ATX16",
+   "nome": "GABINETE GAMER 6 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 8 FANS)",
+    "01 Hub controlador",
+    "01 Controle Remoto",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x2; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x1, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-atx16"
+   ]
+  },
+  {
+   "codigo": "D-ATX17",
+   "nome": "GABINETE GAMER 6 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 8 FANS)",
+    "01 Hub controlador",
+    "01 Controle Remoto",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x2; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x1, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-atx17"
+   ]
+  },
+  {
+   "codigo": "D-ATX18",
+   "nome": "GABINETE GAMER 3 FANS INCLUSOS",
+   "categoria": "GABINETES",
+   "specs": [
+    "(SUPORTA 5 FANS)",
+    "01 Hub controlador",
+    "01 Controle Remoto",
+    "ROTA DE CABOS OCULTA",
+    "Portas: USB 3.0 x1; USB 2.0 x1; áudio HD x1, Slots PCI x7,",
+    "Baias para SSD de 2,5’’ x2, Baias para HDD de 3,5’’ x1"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-atx18"
+   ]
+  },
+  {
+   "codigo": "D-PC5501",
+   "nome": "GABINETE & PC",
+   "categoria": "GABINETES",
+   "specs": [
+    "Placa-mãe: HDMI*1; VGA*1; USB 2.0*4; USB 3.0*2; RJ45*1; 3in1 Audio*1",
+    "Painel Gabinete: USB 2.0*2; Entrada Mic*1; Entrada Fone de ouvido*1"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-pc5501"
+   ]
+  },
+  {
+   "codigo": "D-PC7601",
+   "nome": "GABINETE & PC",
+   "categoria": "GABINETES",
+   "specs": [
+    "Placa-mãe: HDMI*1; VGA*1; USB 2.0*4; USB 3.0*2; RJ45*1; 3in1 Audio*1; PS2*1",
+    "Painel Gabinete: USB 2.0*2; Entrada Mic*1; Entrada Fone de ouvido*1"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 26,
+   "imagens": [
+    "d-pc7601"
+   ]
+  },
+  {
+   "codigo": "D-AI02",
+   "nome": "MAXIMUS i5 TELA 21.5’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Informações",
+    "Adaptador AC/DC*1",
+    "Processador: Intel i3-2310M 2.1Ghz",
+    "Memória RAM: 4G 1333MHz",
+    "Armazenamento: 128GB SSD mSATA",
+    "Tela: 21.5’’ com resolução 1920 x 1080",
+    "Alto Falantes: 8Ω 4W x 2 (estéreo)",
+    "Possui rede sem fio Wifi 5.0",
+    "Interface interna (placa mãe) : HDMI, VGA,",
+    "Possui conectividade Bluetooth 4.2",
+    "Não possui sistema operacional"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai02"
+   ]
+  },
+  {
+   "codigo": "D-AI05",
+   "nome": "MAXIMUS i5 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Computador All-in-One*1",
+    "Manual de Instruções*1",
+    "Informações",
+    "Adaptador AC/DC*1",
+    "Processador: Intel i5-5300U 2.9Ghz (Max)",
+    "Memória RAM: 8G 1600MHz",
+    "Descrição das",
+    "Armazenamento: SSD 128GB + HDD 500GB",
+    "interfaces e alimentação",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Alto Falantes: 8Ω 4W x 2 (estéreo)",
+    "Audio P2, USB 2.0 x 4 e RJ45 Ethernet",
+    "Interface interna (placa mãe) : HDMI, VGA,",
+    "Possui rede sem fio Wifi 5.0",
+    "Interface externa: USB 2.0 x 2",
+    "Possui conectividade Bluetooth 4.2",
+    "Alimentação (entrada): 100~240Vac",
+    "Possui sistema operacional",
+    "1.6A 50/60Hz",
+    "Alimentação (saída): 12Vdc/5A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai05"
+   ]
+  },
+  {
+   "codigo": "D-AI07",
+   "nome": "MAXIMUS i5 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Computador All-in-One*1",
+    "Informações",
+    "Adaptador AC/DC*1",
+    "Manual de Instruções*1",
+    "Processador: Intel i5-6200U 2.8Ghz (Max)",
+    "Memória RAM: DDR4 8G 2666MHz",
+    "Armazenamento: 512GB SSD mSATA",
+    "Descrição das",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "interfaces e alimentação",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Alto Falantes: 8Ω 4W x 2 (estéreo)",
+    "Interface interna (placa mãe): HDMI, VGA,",
+    "Bateria UPS Integrada de 2600mAh",
+    "Audio P2, USB 3.0 x 4 e RJ45 Ethernet",
+    "Possui rede sem fio Wifi 5.0",
+    "Interface externa: USB 2.0 x 2",
+    "Audio P2, USB 2.0 x 4 e RJ45 Ethernet",
+    "Possui conectividade Bluetooth 4.2",
+    "Alimentação (entrada): 100~240Vac",
+    "Possui sistema operacional",
+    "1.6A 50/60Hz",
+    "Alimentação (saída): 19Vdc/5A",
+    "Alimentação (saída): 12Vdc/6.5A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai07"
+   ]
+  },
+  {
+   "codigo": "D-AI09",
+   "nome": "MAXIMUS i7 TELA 23.8’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Informações",
+    "Adaptador AC/DC*1",
+    "Processador: Intel Core i7-8650U 1.9-4.2Ghz",
+    "Memória RAM: 16G 1600MHz",
+    "Armazenamento: 512GB SSD m2",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Webcam: 3Mp + Microfone",
+    "Interface interna (placa mãe) : HDMI, VGA,",
+    "Placa Gráfica HD Intel",
+    "Possui rede sem fio Wifi 5.0",
+    "Possui conectividade Bluetooth 4.2",
+    "Possui sistema operacional"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai09"
+   ]
+  },
+  {
+   "codigo": "D-AI11",
+   "nome": "MAXIMUS i5 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Computador All-in-One*1",
+    "Informações",
+    "TECLADO*1",
+    "MOUSE*1",
+    "Processador: Intel Core I5-5300U 2.90Ghz (Max)",
+    "MOUSE PAD*1",
+    "Manual de Instruções*1",
+    "Memória RAM: 16GB 1600MHz",
+    "Armazenamento: 512GB SSD M.2",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "Descrição das",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "interfaces e alimentação",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Interface interna (placa mãe): HDMI, VGA,",
+    "Possui rede sem fio Wifi 5.0",
+    "Possui conectividade Bluetooth 4.2",
+    "Audio P2, USB 3.0 x 4 e RJ45 Ethernet",
+    "Possui sistema operacional",
+    "Interface externa: USB 2.0 x 2",
+    "Alimentação (entrada): 100~240Vac",
+    "1.6A 50/60Hz",
+    "Alimentação (saída): 12Vdc/5A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai11"
+   ]
+  },
+  {
+   "codigo": "D-AI12",
+   "nome": "MAXIMUS i7 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Informações",
+    "TECLADO*1",
+    "MOUSE*1",
+    "Processador: Intel Core I7-6500U 3.10GHz (Max)",
+    "MOUSE PAD*1",
+    "FONTE DE ALIMENTACAO*1",
+    "Memória RAM: 16GB 1600MHz",
+    "Armazenamento: SSD 128GB + HDD 500GB",
+    "Descrição das",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "interfaces e alimentação",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Interface interna (placa mãe): HDMI, VGA,",
+    "Possui rede sem fio Wifi 5.0",
+    "Audio P2, USB 3.0 x 4 e RJ45 Ethernet",
+    "Possui conectividade Bluetooth 4.2",
+    "Interface externa: USB 2.0 x 2",
+    "Possui sistema operacional",
+    "Alimentação (entrada): 100~240Vac",
+    "1.6A 50/60Hz",
+    "Alimentação (saída): 12Vdc/6.5A",
+    "Alimentação (saída): 19Vdc/5A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai12"
+   ]
+  },
+  {
+   "codigo": "D-AI14",
+   "nome": "MAXIMUS i5 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Informações",
+    "TECLADO*1",
+    "MOUSE*1",
+    "Processador: Intel Core I5-8250U 3.40GHz (Max)",
+    "MOUSE PAD*1",
+    "Memória RAM: DDR3 16GB 1600MHz",
+    "Armazenamento: SSD 128GB + HDD 500GB",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Interface interna (placa mãe): HDMI, VGA,",
+    "Possui rede sem fio Wifi 5.0",
+    "Possui conectividade Bluetooth 4.2",
+    "Possui sistema operacional"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai14"
+   ]
+  },
+  {
+   "codigo": "D-AI15",
+   "nome": "MAXIMUS i7 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "ALL-IN-ONE",
+    "Informações",
+    "Processador: Intel Core I7-8550U 4.00GHz (Max)",
+    "FONTE DE ALIMENTACAO*1",
+    "Memória RAM: 16GB 1600MHz",
+    "Armazenamento: SSD 128GB + HDD 500GB",
+    "Descrição das",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "interfaces e alimentação",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Possui rede sem fio Wifi 5.0",
+    "Audio P2, USB 3.0 x 4 e RJ45 Ethernet",
+    "Possui conectividade Bluetooth 4.2",
+    "Interface externa: USB 2.0 x 2",
+    "Possui sistema operacional",
+    "Alimentação (entrada): 100~240Vac",
+    "1.6A 50/60Hz",
+    "Alimentação (saída): 19Vdc/5A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai15"
+   ]
+  },
+  {
+   "codigo": "D-AI16",
+   "nome": "MAXIMUS i5 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "3MP + Microfone",
+    "ALL-IN-ONE",
+    "Computador All-in-One*1",
+    "TECLADO*1",
+    "Adaptador AC/DC*1",
+    "MOUSE*1",
+    "Informações",
+    "MOUSE PAD*1",
+    "Manual de Instruções*1",
+    "FONTE DE ALIMENTACAO*1",
+    "Processador: Intel Core i5-5300U 2.9Ghz (Max)",
+    "Descrição das",
+    "Memória RAM: 16G 1600Mhz",
+    "Armazenamento: 256GB SSD M.2",
+    "interfaces e alimentação",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "Interface int. (placa mãe): HDMI, VGA,",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Interface interna (placa mãe): HDMI, VGA,",
+    "Audio P2, USB 3.0 x 2, USB 2.0 x 2",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Audio P2, USB 3.0 x 4 e RJ45 Ethernet",
+    "e RJ45 Ethernet",
+    "Possui rede sem fio Wifi 5.0",
+    "Interface externa: USB 2.0 x 2",
+    "Possui conectividade Bluetooth 4.2",
+    "Alimentação (entrada): 100~240Vac",
+    "Possui sistema operacional",
+    "1.6A 50/60Hz",
+    "Alimentação (saída): 19Vdc/5A",
+    "Alimentação (saída): 12Vdc/6.5A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 27,
+   "imagens": [
+    "d-ai16"
+   ]
+  },
+  {
+   "codigo": "D-AI17",
+   "nome": "ALL-IN-ONE",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "3MP + Microfone",
+    "Informações",
+    "Processador: Intel Core i5-6200U 2.8Ghz (Max)",
+    "Memória RAM: 16G 1600Mhz",
+    "Armazenamento: 256GB SSD M.2",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Possui rede sem fio Wifi 5.0",
+    "Possui conectividade Bluetooth 4.2",
+    "Possui sistema operacional"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "d-ai17"
+   ]
+  },
+  {
+   "codigo": "D-AI18",
+   "nome": "MAXIMUS i5 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "3MP + Microfone",
+    "ALL-IN-ONE",
+    "Computador All-in-One*1",
+    "Adaptador AC/DC*1",
+    "Manual de Instruções*1",
+    "Informações",
+    "Processador: Intel Core i7-6500U 3.1Ghz (Max)",
+    "Descrição das",
+    "Memória RAM: 16G 1600Mhz",
+    "interfaces e alimentação",
+    "Armazenamento: 256GB SSD M.2",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "Interface int. (placa mãe): HDMI, VGA,",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Audio P2, USB 3.0 x 4 e RJ45 Ethernet",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Interface externa: USB 2.0 x 2",
+    "Alimentação (entrada): 100~240Vac",
+    "Possui rede sem fio Wifi 5.0",
+    "1.6A 50/60Hz",
+    "Possui conectividade Bluetooth 4.2",
+    "Alimentação (saída): 19Vdc/5A",
+    "Possui sistema operacional"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "d-ai18"
+   ]
+  },
+  {
+   "codigo": "D-AI19",
+   "nome": "MAXIMUS i7 TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "3MP + Microfone",
+    "ALL-IN-ONE",
+    "Computador All-in-One*1",
+    "Informações",
+    "Adaptador AC/DC*1",
+    "Manual de Instruções*1",
+    "Processador: Intel Core i7-7500U 3.5Ghz (Max)",
+    "Memória RAM: 16G 1600Mhz",
+    "Armazenamento: 256GB SSD M.2",
+    "Descrição das",
+    "Tela: 23.8’’ com resolução 1920 x 1080",
+    "interfaces e alimentação",
+    "Webcam: 3.0 Mega Pixels + Microfone",
+    "Alto Falantes: 4Ω 3W x 2 (estéreo)",
+    "Interface interna (placa mãe): HDMI, VGA,",
+    "Possui rede sem fio Wifi 5.0",
+    "Audio P2, USB 3.0 x 4 e RJ45 Ethernet",
+    "Possui conectividade Bluetooth 4.2",
+    "Interface externa: USB 2.0 x 2",
+    "Possui sistema operacional",
+    "Alimentação (entrada): 100~240Vac",
+    "1.6A 50/60Hz",
+    "Alimentação (saída): 19Vdc/5A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "d-ai19"
+   ]
+  },
+  {
+   "codigo": "A24E99-05",
+   "nome": "Tela: 23.8”",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "WIFI 5 2.4GHz/5GHz",
+    "Bluetooth 4.2",
+    "Processador: Intel Core i5-1240P",
+    "RJ45 LAN:100/1000Mbps",
+    "Memória RAM: 16G DDR4; 2666hz",
+    "O eixo giratorio pode girar em 90°",
+    "Armazenamento:512g SSD",
+    "23.8”Moldura micro estreita",
+    "Descrição das portas",
+    "TECLADO*1",
+    "Saída:HDMI / VGA",
+    "MOUSE*1",
+    "USB 3.1*4 USB 2.0*2",
+    "MOUSE PAD*1",
+    "CAIXA DE BATERIA UPS*1",
+    "LAN(RJ45)",
+    "FONTE DE ALIMENTACAO*1",
+    "Saída para microfone ou fone de ouvido",
+    "Entrada da Bateria UPS",
+    "DC IN 19.5V(Pino:5.5*2.5mm)"
+   ],
+   "qtd_caixa": 3,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "a24e99-05"
+   ]
+  },
+  {
+   "codigo": "A24E99-07",
+   "nome": "Computadores All-In-One E Portáteis",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "WIFI 5 2.4GHz/5GHz",
+    "Bluetooth 4.2",
+    "Processador: Intel Core i7-13620H",
+    "RJ45 LAN:100/1000Mbps",
+    "Memória RAM: 16G DDR4",
+    "O eixo giratorio pode girar em 90°",
+    "Armazenamento: 512G SSD",
+    "23.8”Moldura micro estreita",
+    "Descrição das portas",
+    "Saída: HDMI / VGA",
+    "USB 3.1*4",
+    "LAN(RJ45)",
+    "Saída para microfone ou fone de ouvido",
+    "Entrada da Bateria UPS",
+    "DC IN 19.5V(Pino:5.5*2.5mm)"
+   ],
+   "qtd_caixa": 3,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "a24e99-07"
+   ]
+  },
+  {
+   "codigo": "D-A24I512",
+   "nome": "TELA 23.8’’ Pro",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "WIFI 5 2.4GHz/5GHz",
+    "Tela: 23.8”",
+    "Bluetooth 4.2",
+    "Fabricação: 07/2025",
+    "ALL-IN-ONE",
+    "Processador: Intel Core i5-12450H",
+    "Memória RAM: 16GB DDR4",
+    "Módulo Wi-Fi integrado",
+    "Armazenamento: 512GB SSD",
+    "LAN: 1Gb",
+    "Descrição das portas",
+    "TECLADO*1",
+    "MOUSE*1",
+    "Saídas: HDMI",
+    "MOUSE PAD*1",
+    "USB 3.0*2 USB 2.0*2",
+    "CAIXA DE BATERIA UPS*1",
+    "FONTE DE ALIMENTACAO*1",
+    "LAN (RJ45) e COM",
+    "Saída para microfone ou fone de ouvido",
+    "Entrada de energia",
+    "Alimentação (saída): 19.5V / 6.15A"
+   ],
+   "qtd_caixa": 3,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "d-a24i512"
+   ]
+  },
+  {
+   "codigo": "D-A24I713",
+   "nome": "TELA 23.8’’",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "WIFI 5 2.4GHz/5GHz",
+    "Bluetooth 4.2",
+    "Fabricação: 07/2025",
+    "ALL-IN-ONE",
+    "Processador: Intel Core i7-13620H",
+    "Memória RAM: 16GB DDR4",
+    "Armazenamento: 512GB SSD",
+    "LAN: 1Gb",
+    "Descrição das portas",
+    "Saídas: HDMI",
+    "USB 3.0*2 USB 2.0*2",
+    "LAN (RJ45) e COM",
+    "Saída para microfone ou fone de ouvido",
+    "Entrada de energia",
+    "Alimentação (saída): 19.5V / 6.15A"
+   ],
+   "qtd_caixa": 3,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "d-a24i713"
+   ]
+  },
+  {
+   "codigo": "D-A27I512",
+   "nome": "TELA 27’’ Pro",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "WIFI 5 2.4GHz/5GHz",
+    "Bluetooth 4.2",
+    "Fabricação: 07/2025",
+    "ALL-IN-ONE",
+    "Processador: Intel Core i5-12450H",
+    "Módulo Wi-Fi integrado",
+    "Memória RAM: 16GB DDR4",
+    "LAN: 1Gb",
+    "Armazenamento: SSD 128GB + HDD 500GB",
+    "Descrição das portas",
+    "TECLADO*1",
+    "MOUSE*1",
+    "Saídas: HDMI",
+    "MOUSE PAD*1",
+    "USB 3.0*2 USB 2.0*2",
+    "FONTE DE ALIMENTACAO*1",
+    "LAN (RJ45) e COM",
+    "Saída para microfone ou fone de ouvido",
+    "Entrada de energia",
+    "Alimentação (saída): 19.5V / 6.15A"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "d-a27i512"
+   ]
+  },
+  {
+   "codigo": "D-DG85TI",
+   "nome": "TELA LCD INTERATIVA TOUCH COM SUPORTE DE METAL INCLUSO",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "85”",
+    "Android: (4GB RAM + 32GB ROM,",
+    "Sistema: Android Versão 14.0)",
+    "Windows: (8GB RAM + 256GB ROM,",
+    "Sistema: Windows 10 Taste)",
+    "Microfone: Array de 8 microfones",
+    "Câmera: 48MP (4800W)",
+    "Alto-Falantes: 2 x 15W",
+    "Acessórios: 2 canetas de Fixação Magnética",
+    "Controle Remoto e Suporte de Metal",
+    "Tensão de Entrada: AC 90-265V",
+    "Tamanho de tela suportado: 60’’ - 86’’",
+    "Tamanho padrão VESA: 200x200mm - 1000x610mm",
+    "Dimensões do produto: 1665x1060x465mm"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 29,
+   "imagens": [
+    "d-dg85ti"
+   ]
+  },
+  {
+   "codigo": "D-DG98TI",
+   "nome": "TELA LCD INTERATIVA TOUCH COM SUPORTE DE METAL INCLUSO",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "98”",
+    "Android: (4GB RAM + 32GB ROM,",
+    "Sistema: Android Versão 14.0)",
+    "Windows: (8GB RAM + 256GB ROM,",
+    "Sistema: Windows 10 Taste)",
+    "Microfone: Array de 8 microfones",
+    "Câmera: 48MP (4800W)",
+    "Alto-Falantes: 2 x 15W",
+    "Acessórios: 2 canetas de Fixação Magnética",
+    "Controle Remoto e Suporte de Metal",
+    "Tensão de Entrada: AC 90-265V",
+    "Tamanho de tela suportado: 60’’ - 150’’",
+    "Tamanho padrão VESA: 200x200mm - 1100x600mm",
+    "Dimensões do produto: 1495x1140x730mm"
+   ],
+   "qtd_caixa": 1,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 29,
+   "imagens": [
+    "d-dg98ti"
+   ]
+  },
+  {
+   "codigo": "D-MP30A",
+   "nome": "CONTROLADOR DE CARGA SOLAR - MPPT",
+   "categoria": "ENERGIA SOLAR",
+   "specs": [
+    "Corrente nominal de carga: 30A",
+    "Corrente nominal de descarga: 10A"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 30,
+   "imagens": [
+    "d-mp30a"
+   ]
+  },
+  {
+   "codigo": "D-MP40A",
+   "nome": "CONTROLADOR DE CARGA SOLAR - MPPT",
+   "categoria": "ENERGIA SOLAR",
+   "specs": [
+    "Tensão da bateria: 12V / 24V / auto",
+    "Corrente nominal de carga: 40A",
+    "Tensão máxima do circuito voltaico: 100V",
+    "Corrente nominal de descarga: 10A",
+    "Tensão máxima do circuito voltaico: 80V"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 30,
+   "imagens": [
+    "d-mp40a"
+   ]
+  },
+  {
+   "codigo": "D-5R",
+   "nome": "RADIO COMUNICADOR PROFISSIONAL",
+   "categoria": "RADIO COMUNICADORES E REFLETORES",
+   "specs": [
+    "128 Canais",
+    "20 horas de duração",
+    "Potência: 8W",
+    "Voltagem: 7.4V • Alcance de comunicação: máx 10km"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 31,
+   "imagens": [
+    "d-5r"
+   ]
+  },
+  {
+   "codigo": "D-R9700",
+   "nome": "RADIO COMUNICADOR 110*58*32MM (SEM ANTENA)",
+   "categoria": "RADIO COMUNICADORES E REFLETORES",
+   "specs": [
+    "Alimentação: 7.4Vdc",
+    "16 Canais",
+    "Bateria: 2800mAh li-ion, com até",
+    "Frequência 400-480 Mhz",
+    "Potência: 8W",
+    "À prova d’água IP67",
+    "Bateria 2800mAh / Autonomia de até 12h"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 31,
+   "imagens": [
+    "d-r9700"
+   ]
+  },
+  {
+   "codigo": "3D-777S",
+   "nome": "RADIO COMUNICADOR",
+   "categoria": "RADIO COMUNICADORES E REFLETORES",
+   "specs": [
+    "Estabilidade de frequência: +-2,5 ppm",
+    "16 Canais",
+    "Potência: 5W",
+    "Bateria: 2000mAh li-ion",
+    "Voltagem: 3.7V • Alcance da frequência: 400-470 Mhz"
+   ],
+   "qtd_caixa": 50,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 31,
+   "imagens": [
+    "3d-777s"
+   ]
+  },
+  {
+   "codigo": "D-VIGA50",
+   "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "50CM de comprimento"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": [
+    "d-viga50"
+   ]
+  },
+  {
+   "codigo": "D-VIGA96",
+   "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "96CM de comprimento"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": [
+    "d-viga96"
    ]
   }
  ]
