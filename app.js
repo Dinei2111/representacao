@@ -17,6 +17,7 @@ const estado = {
   precos: null,                           // {codigo: {de, valor, faixas}}
   perfil: null,
   pedido: carregarPedido(),
+  multiFornecedor: false,                 // true quando o catálogo tem mais de um fornecedor
 };
 
 const $ = (sel) => document.querySelector(sel);
@@ -47,8 +48,9 @@ async function iniciar() {
   estado.produtos = dados.produtos.map((p, i) => ({
     ...p,
     ordem: i,
-    procura: semAcento([p.nome, p.codigo, p.categoria, p.specs.join(" ")].join(" ")),
+    procura: semAcento([p.nome, p.codigo, p.categoria, p.fornecedor, p.specs.join(" ")].join(" ")),
   }));
+  estado.multiFornecedor = new Set(estado.produtos.map((p) => p.fornecedor)).size > 1;
 
   montarCategorias();
   ligarEventos();
@@ -207,7 +209,7 @@ function cardHTML(p) {
     <img src="${fotoDe(p, true)}" alt="${escapar(p.nome)}" loading="lazy" decoding="async">
   </button>
   <div class="card-info">
-    <div class="card-cat">${escapar(p.categoria)}</div>
+    <div class="card-cat">${escapar(p.categoria)}${estado.multiFornecedor ? ` · ${escapar(p.fornecedor)}` : ""}</div>
     <button class="card-nome" type="button" data-abrir>${escapar(p.nome)}</button>
     <div class="card-cod">${escapar(p.codigo)}</div>
     <div class="card-caixa">${escapar(textoCaixa(p))}</div>
@@ -314,15 +316,20 @@ function itensDoPedido() {
     .filter(Boolean);
 }
 
-function desenharPedido() {
-  const itens = itensDoPedido();
-  const corpo = $("#pedido-itens");
-  if (!itens.length) {
-    corpo.innerHTML = '<p class="vazio">Seu pedido está vazio.<br>Adicione produtos pelo catálogo.</p>';
-    $("#pedido-total").textContent = "";
-    return;
+/** Agrupa os itens do pedido por fornecedor — cada fornecedor é um pedido de
+    compra separado, mesmo que o cliente feche tudo numa tacada só. */
+function agruparPorFornecedor(itens) {
+  const grupos = new Map();
+  for (const item of itens) {
+    const forn = item.produto.fornecedor || "";
+    if (!grupos.has(forn)) grupos.set(forn, []);
+    grupos.get(forn).push(item);
   }
-  corpo.innerHTML = itens.map(({ produto, caixas, pecas, unit, subtotal }) => `
+  return [...grupos.entries()].sort((a, b) => a[0].localeCompare(b[0], "pt-BR"));
+}
+
+function itemPedidoHTML({ produto, caixas, pecas, unit, subtotal }) {
+  return `
     <div class="item-pedido" data-cod="${escapar(produto.codigo)}">
       <img src="${fotoDe(produto, true)}" alt="" loading="lazy">
       <div>
@@ -333,7 +340,27 @@ function desenharPedido() {
                   <b>${formatarBRL(subtotal)}</b></div>` : ""}
       </div>
       <button class="item-remover" type="button" data-remover aria-label="Remover">🗑</button>
-    </div>`).join("");
+    </div>`;
+}
+
+function desenharPedido() {
+  const itens = itensDoPedido();
+  const corpo = $("#pedido-itens");
+  if (!itens.length) {
+    corpo.innerHTML = '<p class="vazio">Seu pedido está vazio.<br>Adicione produtos pelo catálogo.</p>';
+    $("#pedido-total").textContent = "";
+    return;
+  }
+  const grupos = agruparPorFornecedor(itens);
+  corpo.innerHTML = grupos.map(([fornecedor, itensGrupo]) => {
+    if (grupos.length === 1) return itensGrupo.map(itemPedidoHTML).join("");
+    const subtotal = itensGrupo.reduce((s, i) => s + i.subtotal, 0);
+    const pecas = itensGrupo.reduce((s, i) => s + i.pecas, 0);
+    return `<div class="grupo-fornecedor">
+        <span>${escapar(fornecedor)}</span>
+        <small>${pecas} peças${estado.precos ? ` · ${formatarBRL(subtotal)}` : ""}</small>
+      </div>` + itensGrupo.map(itemPedidoHTML).join("");
+  }).join("");
 
   const totalCaixas = itens.reduce((s, i) => s + i.caixas, 0);
   const totalPecas = itens.reduce((s, i) => s + i.pecas, 0);
@@ -344,12 +371,22 @@ function desenharPedido() {
 
 function textoDoPedido(numero) {
   const itens = itensDoPedido();
+  const grupos = agruparPorFornecedor(itens);
   const linhas = [`*Pedido${numero ? ` ${numero}` : ""} — ${CFG.representante || "catálogo"}*`];
   if (estado.perfil) linhas.push(`Cliente: ${estado.perfil.razao_social} (${estado.perfil.cnpj})`);
-  linhas.push("");
-  for (const { produto, caixas, pecas, unit } of itens) {
-    const preco = unit ? ` — ${formatarBRL(unit)}/pç` : "";
-    linhas.push(`${caixas} cx (${pecas} pç) ${produto.codigo} — ${produto.nome}${preco}`);
+  for (const [fornecedor, itensGrupo] of grupos) {
+    linhas.push("");
+    if (grupos.length > 1) linhas.push(`*Fornecedor: ${fornecedor}*`);
+    for (const { produto, caixas, pecas, unit } of itensGrupo) {
+      const preco = unit ? ` — ${formatarBRL(unit)}/pç` : "";
+      linhas.push(`${caixas} cx (${pecas} pç) ${produto.codigo} — ${produto.nome}${preco}`);
+    }
+    if (grupos.length > 1) {
+      const subtotal = itensGrupo.reduce((s, i) => s + i.subtotal, 0);
+      const pecas = itensGrupo.reduce((s, i) => s + i.pecas, 0);
+      linhas.push(`Subtotal ${fornecedor}: ${pecas} peças` +
+        (estado.precos ? ` · ${formatarBRL(subtotal)}` : ""));
+    }
   }
   const total = itens.reduce((s, i) => s + i.subtotal, 0);
   linhas.push("", `Total: ${itens.reduce((s, i) => s + i.pecas, 0)} peças`);
@@ -448,7 +485,7 @@ function abrirFicha(codigo) {
   $("#ficha .ficha-conteudo").innerHTML = `
     <div class="ficha-foto"><img src="${fotoDe(p, false)}" alt="${escapar(p.nome)}"></div>
     <div class="ficha-dados">
-      <div class="card-cat">${escapar(p.categoria)}</div>
+      <div class="card-cat">${escapar(p.categoria)}${estado.multiFornecedor ? ` · ${escapar(p.fornecedor)}` : ""}</div>
       <h2>${escapar(p.nome)}</h2>
       <div class="meta">
         <span>Código: <b>${escapar(p.codigo)}</b></span>

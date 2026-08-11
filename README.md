@@ -1,12 +1,14 @@
 # Opert Representações — catálogo e pedidos
 
-Site do representante com os **821 produtos** da Knup (tabela à vista de 03/08/2026),
-usando as mesmas fotos e descrições do catálogo oficial. O cliente se cadastra, monta o
-pedido em caixas fechadas e acompanha o status; você muda o status pelo painel.
+Site do representante com os produtos da **Knup** (821, tabela à vista de 03/08/2026) e
+da **Grasep** (197, tabela à vista de 03/08/2026), usando as mesmas fotos e descrições
+dos catálogos oficiais. O cliente se cadastra, monta o pedido em caixas fechadas e
+acompanha o status; você muda o status pelo painel. Ao fechar o pedido, os itens saem
+agrupados por fornecedor — cada um é uma compra separada, mesmo levando os dois juntos.
 
 - Catálogo público **sem preço**; preços liberados por **cliente aprovado**
-- **Promoções** do catálogo (de/por) e **preço por volume** (3 cx, 5 cx, 50 pçs)
-- Venda em **caixa fechada**, como manda a política da Knup
+- **Promoções** do catálogo (de/por) e **preço por volume** (3 cx, 5 cx, 50 pçs) — Knup
+- Venda em **caixa fechada**, como manda a política de cada fornecedor
 - Pedido salvo no sistema com status: pendente → pago → faturado → enviado → entregue
 - Site estático no GitHub Pages + banco no Supabase — os dois no plano gratuito
 
@@ -62,27 +64,47 @@ Nesse ponto o site já funciona como catálogo com pedido por WhatsApp. Os preç
 
 ## Atualizar o catálogo quando sair tabela nova
 
+Cada fornecedor tem seu extrator, mas os dois fazem **merge** em `data/produtos.json`
+e `build/precos.json` — rodar um não apaga os produtos do outro.
+
 ```bash
-cp /caminho/da/nova/tabela.pdf catalogo/Knup_A_Vista_03082026.pdf
 pip install pymupdf pillow
-python3 tools/extract_catalog.py     # relê o PDF: produtos, fotos e preços
-python3 tools/sync_supabase.py       # gera supabase/precos.sql
-python3 tools/qa_report.py           # conferência: abra build/qa.html
+
+# Knup
+cp /caminho/da/nova/tabela.pdf catalogo/Knup_A_Vista_03082026.pdf
+python3 tools/extract_catalog.py         # relê o PDF: produtos, fotos e preços
+python3 tools/qa_report.py               # conferência: abra build/qa.html
+
+# Grasep
+cp /caminho/da/nova/tabela.pdf catalogo/Grasep_A_Vista_03082026.pdf
+python3 tools/extract_catalog_grasep.py  # idem, catálogo da Grasep
+python3 tools/qa_report_grasep.py        # conferência: abra build/qa-grasep.html
+
+python3 tools/sync_supabase.py           # gera supabase/precos.sql com os dois
 git add -A && git commit -m "atualiza catálogo" && git push
 ```
 
 Depois cole o `supabase/precos.sql` novo no SQL Editor. Se o arquivo do PDF mudar de
-nome, ajuste a constante `PDF` em `tools/extract_catalog.py` e a data em `config.js`.
+nome, ajuste a constante `PDF` no extrator correspondente e a data em `config.js`.
 
 **O extrator avisa quando algo não fecha** (produto sem preço, preço sem dono, quadro
-esticado). Se aparecer algum aviso, confira a página no `build/qa.html` antes de publicar.
+esticado). Se aparecer algum aviso, confira a página no `build/qa.html` (ou
+`build/qa-grasep.html`) antes de publicar.
+
+Pra adicionar um **novo fornecedor** (o terceiro, o quarto...), copie
+`tools/extract_catalog_grasep.py` como ponto de partida — o layout de cada catálogo é
+diferente, então o extrator precisa ser ajustado por fornecedor, mas o formato de saída
+(`data/produtos.json` com `fornecedor: "Nome"`) é sempre o mesmo, e o site e o
+Supabase já lidam com quantos fornecedores existirem.
 
 ## Conferência
 
 ```bash
-python3 tools/extract_catalog.py     # 821 produtos, 0 avisos
-python3 tools/qa_report.py           # build/qa.html: PDF ao lado do que foi extraído
-python3 -m http.server 8000          # site em http://localhost:8000
+python3 tools/extract_catalog.py         # 821 produtos Knup, 0 avisos
+python3 tools/extract_catalog_grasep.py  # 197 produtos Grasep, 0 avisos
+python3 tools/qa_report.py               # build/qa.html
+python3 tools/qa_report_grasep.py        # build/qa-grasep.html
+python3 -m http.server 8000              # site em http://localhost:8000
 ```
 
 As regras de segurança do banco têm teste próprio, para rodar num Postgres local:
@@ -101,16 +123,18 @@ sistema.js                           acesso ao banco (Supabase)
 politica.html                        política comercial da Knup (pág. 82 do catálogo)
 config.js                            seus dados: nome, WhatsApp, cor, chaves do Supabase
 styles.css                           estilo de todas as telas
-data/produtos.json                   821 produtos, sem preços
-assets/produtos/*.webp               fotos (grande + miniatura -t)
+data/produtos.json                   1018 produtos (Knup + Grasep), sem preços
+assets/produtos/*.webp                fotos (grande + miniatura -t)
 assets/vendor/supabase.js            biblioteca do Supabase (sem CDN)
 supabase/schema.sql                  tabelas, regras de acesso e histórico de status
-supabase/precos.sql                  preços gerados do PDF
+supabase/precos.sql                  preços gerados dos PDFs, com o fornecedor de cada um
 supabase/testes.sql                  testes das regras de acesso
-tools/extract_catalog.py             PDF → produtos, fotos e preços
-tools/sync_supabase.py               preços → SQL
-tools/qa_report.py                   relatório de conferência
-catalogo/*.pdf                       PDF de origem
+tools/extract_catalog.py             PDF Knup → produtos, fotos e preços
+tools/extract_catalog_grasep.py      PDF Grasep → idem, faz merge com o que já existe
+tools/sync_supabase.py               preços de todos os fornecedores → SQL
+tools/qa_report.py                   relatório de conferência — Knup
+tools/qa_report_grasep.py            relatório de conferência — Grasep
+catalogo/*.pdf                       PDFs de origem, um por fornecedor
 ```
 
 ## Custos
@@ -122,6 +146,6 @@ painel para religar.
 
 ---
 
-As imagens e descrições pertencem à Knup e são reproduzidas para divulgação da
-representação. Se o fabricante exigir aprovação prévia do material, confirme antes de
+As imagens e descrições pertencem à Knup e à Grasep e são reproduzidas para divulgação
+da representação. Se o fabricante exigir aprovação prévia do material, confirme antes de
 divulgar o site.
