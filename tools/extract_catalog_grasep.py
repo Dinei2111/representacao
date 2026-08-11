@@ -32,6 +32,7 @@ import argparse
 import json
 import re
 import unicodedata
+from collections import defaultdict
 from pathlib import Path
 
 import pymupdf
@@ -44,9 +45,10 @@ DIR_BUILD = RAIZ / "build"
 DIR_IMG = RAIZ / "assets" / "produtos"
 FORNECEDOR = "Grasep"
 
-RE_CODIGO = re.compile(r"^(?=[A-Z0-9]*[A-Z])[A-Z0-9]{1,8}-[A-Za-z0-9./+]+$")
-RE_CODIGO_MODELO = re.compile(r"Modelo\s*:?\s*([A-Z0-9]{1,8}-[A-Za-z0-9./+]+)$", re.I)
+RE_CODIGO = re.compile(r"^(?=[A-Z0-9]*[A-Z])[A-Z0-9]{1,8}-[A-Za-z0-9./+]+(?:\s[A-Z]{2,4})?$")
+RE_CODIGO_MODELO = re.compile(r"Modelo\s*:?\s*([A-Z0-9]{1,8}-[A-Za-z0-9./+]+)", re.I)
 RE_QTD = re.compile(r"^(\d{1,4})\s*P[ÇC]S?/?\s*CAIXA$", re.I)
+RE_QTD_BUSCA = re.compile(r"(\d{1,4})\s*P[ÇC]S?/?\s*CAIXA", re.I)
 RE_PRECO = re.compile(r"^R\$\s*([\d.\s]*\d,\d{2})$")
 RE_BULLET = re.compile(r"^[•·]")
 RE_DIMENSAO = re.compile(r"^[\d.,*x ]+(MM|CM)$", re.I)
@@ -115,13 +117,32 @@ def coletar_linhas(pagina) -> list[dict]:
     return linhas
 
 
-def extrair_codigo(texto: str) -> str | None:
+def extrair_codigo(texto: str) -> tuple[str, int | None] | None:
+    """Codigo do produto e, se a quantidade por caixa vier colada na mesma
+    linha ('Modelo: A24E99-05      3 PÇS/CAIXA'), a quantidade tambem."""
     m = RE_CODIGO_MODELO.search(texto)
     if m and any(c.isdigit() for c in m.group(1)):
-        return m.group(1).upper()
+        qm = RE_QTD_BUSCA.search(texto[m.end():])
+        return m.group(1).upper(), (int(qm.group(1)) if qm else None)
     if RE_CODIGO.match(texto) and any(c.isdigit() for c in texto) and texto.upper() not in RUIDO_CODIGO:
-        return texto.upper()
+        return texto.upper(), None
     return None
+
+
+def riscos_da_pagina(pagina) -> list:
+    """Tracos horizontais finos da pagina — e assim que o catalogo risca o
+    preco antigo numa promocao (igual ao catalogo Knup)."""
+    return [d["rect"] for d in pagina.get_drawings() if d["rect"].height <= 2.2 and d["rect"].width >= 12]
+
+
+def esta_riscado(linha: dict, riscos: list) -> bool:
+    largura = linha["x1"] - linha["x0"]
+    for r in riscos:
+        sobre = min(r.x1, linha["x1"]) - max(r.x0, linha["x0"])
+        meio = (r.y0 + r.y1) / 2
+        if sobre >= 0.5 * largura and linha["y0"] - 2 < meio < linha["y1"] + 2:
+            return True
+    return False
 
 
 def agrupar_por_y(itens: list[dict], tol: float) -> list[list[dict]]:
@@ -143,9 +164,9 @@ def montar_tiles(linhas: list[dict], altura_pag: float, largura_pag: float) -> l
     daquela linha (ou do proprio codigo, se a linha nao tiver preco perto)."""
     codigos = []
     for l in linhas:
-        cod = extrair_codigo(l["texto"])
-        if cod:
-            codigos.append({**l, "codigo": cod})
+        achado = extrair_codigo(l["texto"])
+        if achado:
+            codigos.append({**l, "codigo": achado[0], "qtd_inline": achado[1]})
     if not codigos:
         return []
     precos = [l for l in linhas if RE_PRECO.match(l["texto"])]
@@ -166,7 +187,8 @@ def montar_tiles(linhas: list[dict], altura_pag: float, largura_pag: float) -> l
         for j, c in enumerate(fila):
             esq = 0.0 if j == 0 else (fila[j - 1]["x1"] + c["x0"]) / 2
             dir_ = largura_pag if j == len(fila) - 1 else (c["x1"] + fila[j + 1]["x0"]) / 2
-            tiles.append({"codigo": c["codigo"], "cod_y0": c["y0"],
+            tiles.append({"codigo": c["codigo"], "cod_y0": c["y0"], "cod_cx": c["cx"],
+                          "qtd_inline": c["qtd_inline"],
                           "rect": (esq, topo, dir_, max(base, topo + 10))})
     return tiles
 
@@ -195,23 +217,67 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str) -> tuple[list[dict], 
 
     tiles = montar_tiles(linhas, altura_pag, largura_pag)
     imagens_pag = [im for im in pagina.get_image_info(xrefs=True) if im["xref"]]
+    riscos = riscos_da_pagina(pagina)
+
+    # numa promocao (de/por), o preco riscado fica dentro do retangulo certo,
+    # mas o preco atual do lado costuma sair desenhado largo o bastante pra
+    # invadir a coluna vizinha — por isso ele e pareado com o riscado mais
+    # proximo (na mesma linha) em vez de so olhar em que retangulo caiu
+    precos_pagina = []
+    for l in linhas:
+        m = RE_PRECO.match(l["texto"])
+        if m:
+            precos_pagina.append({"valor": m.group(1), "riscado": esta_riscado(l, riscos),
+                                  "cx": l["cx"], "cy": l["cy"], "linha": l})
+    riscados_pag = [p for p in precos_pagina if p["riscado"]]
+    normais_pag = [p for p in precos_pagina if not p["riscado"]]
+
+    usados = set()
+    pares = []
+    for r in riscados_pag:
+        candidatos = [n for n in normais_pag
+                      if id(n) not in usados and abs(n["cy"] - r["cy"]) <= 15]
+        par = min(candidatos, key=lambda n: abs(n["cx"] - r["cx"])) if candidatos else None
+        if par:
+            usados.add(id(par))
+        pares.append((r, par))
+
+    def tile_do(l: dict) -> dict | None:
+        return next((t for t in tiles if dentro(t["rect"], l)), None) \
+            or (min(tiles, key=lambda t: abs(t["cod_cx"] - l["cx"])) if tiles else None)
+
+    precos_por_tile = defaultdict(list)
+    for r, par in pares:
+        alvo = tile_do(r["linha"])
+        if not alvo:
+            continue
+        precos_por_tile[id(alvo)].append((r["valor"], True))
+        if par:
+            precos_por_tile[id(alvo)].append((par["valor"], False))
+    for n in normais_pag:
+        if id(n) in usados:
+            continue
+        candidatas = [t for t in tiles if t["rect"][1] - 3 <= n["cy"] <= t["rect"][3] + 3]
+        if not candidatas:
+            continue
+        alvo = min(candidatas, key=lambda t: abs(t["cod_cx"] - n["cx"]))
+        precos_por_tile[id(alvo)].append((n["valor"], False))
+
     avisos: list[str] = []
     produtos = []
     for tile in tiles:
         rect = tile["rect"]
         internos = [l for l in linhas if dentro(rect, l)]
 
-        preco = None
-        qtd = None
+        precos_tile = precos_por_tile.get(id(tile), [])
+        qtd = tile["qtd_inline"]
         candidatos = []
         for l in internos:
             t = l["texto"]
-            if extrair_codigo(t) == tile["codigo"]:
+            achado = extrair_codigo(t)
+            if achado and achado[0] == tile["codigo"]:
                 continue
-            m = RE_PRECO.match(t)
-            if m:
-                if preco is None:
-                    preco = m.group(1)
+            if RE_PRECO.match(t):
                 continue
             m = RE_QTD.match(t)
             if m:
@@ -222,6 +288,20 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str) -> tuple[list[dict], 
             if l["tam"] < 4.5 or RE_DIMENSAO.match(t):
                 continue                       # fragmento minusculo ou so dimensao: ruido
             candidatos.append(l)
+
+        # promocao: preco riscado e o antigo ('de'), o outro e o atual
+        riscados = [v for v, r in precos_tile if r]
+        normais = [v for v, r in precos_tile if not r]
+        de, preco = None, None
+        if riscados and normais:
+            de, preco = riscados[0], normais[0]
+        elif normais:
+            preco = normais[0]
+        elif riscados:
+            preco = riscados[0]
+        sobras = normais[1:] + riscados[1:] if (riscados and normais) else (normais[1:] or riscados[1:])
+        if sobras:
+            avisos.append(f"pág {pno}: preço sem dono em {tile['codigo']}: {sobras}")
 
         # nome: so a primeira leva de linhas grandes antes do codigo — o
         # resto (specs, outro rotulo tipo "MAXIMUS i5") volta pra descricao
@@ -278,7 +358,7 @@ def extrair_pagina(pagina, pno: int, categoria_atual: str) -> tuple[list[dict], 
 
         produtos.append({
             "codigo": tile["codigo"], "nome": nome, "specs": specs,
-            "preco_valor": preco, "qtd_caixa": qtd,
+            "preco_valor": preco, "preco_de": de, "qtd_caixa": qtd,
             "categoria": categoria_atual, "pagina": pno, "area_foto": area,
         })
     return produtos, categoria_atual, avisos
@@ -354,6 +434,26 @@ def main() -> None:
         produtos.extend(novos)
         avisos.extend(novos_avisos)
 
+    # pág 20: "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED" (50CM e 96CM) não tem
+    # código próprio no catálogo — ficam colados no tile do painel vizinho
+    # (D-EXT50100P2.976), que também acaba herdando o preço errado (o da
+    # viga, não o seu). Ajusta os dois manualmente; conferido direto no PDF.
+    if inicio <= 20 <= fim:
+        for p in produtos:
+            if p["codigo"] == "D-EXT50100P2.976":
+                p["preco_valor"] = "2980,00"
+                p["nome"] = "Painel Externo de LED"
+                p["qtd_caixa"] = 6
+                p["specs"] = [s for s in p["specs"] if "de comprimento" not in s]
+        produtos += [
+            {"codigo": "D-VIGA50", "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
+             "specs": ["50CM de comprimento"], "preco_valor": "180,00", "preco_de": None,
+             "qtd_caixa": 8, "categoria": "PAINÉIS DE LED E SUPORTES", "pagina": 20, "area_foto": None},
+            {"codigo": "D-VIGA96", "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
+             "specs": ["96CM de comprimento"], "preco_valor": "320,00", "preco_de": None,
+             "qtd_caixa": 2, "categoria": "PAINÉIS DE LED E SUPORTES", "pagina": 20, "area_foto": None},
+        ]
+
     # mesmo codigo pode se repetir (variante de cor na mesma foto, tabela de
     # cartoes de memoria): fica so a primeira ocorrencia, como no Knup
     finais, vistos = [], set()
@@ -374,11 +474,11 @@ def main() -> None:
             if destino.exists() or salvar_foto(doc[p["pagina"] - 1], p["area_foto"], destino, thumb):
                 imagens.append(ident)
         if p["preco_valor"]:
-            precos_novos[p["codigo"]] = {"de": None, "valor": p["preco_valor"], "faixas": []}
+            precos_novos[p["codigo"]] = {"de": p["preco_de"], "valor": p["preco_valor"], "faixas": []}
         catalogo_novo.append({
             "codigo": p["codigo"], "nome": p["nome"], "categoria": p["categoria"],
             "specs": p["specs"], "qtd_caixa": p["qtd_caixa"],
-            "lancamento": False, "promocao": False,
+            "lancamento": False, "promocao": bool(p["preco_de"]),
             "fornecedor": FORNECEDOR, "pagina": p["pagina"], "imagens": imagens,
         })
 

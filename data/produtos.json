@@ -17453,7 +17453,7 @@
    ],
    "qtd_caixa": 1,
    "lancamento": false,
-   "promocao": false,
+   "promocao": true,
    "fornecedor": "Grasep",
    "pagina": 3,
    "imagens": [
@@ -17607,7 +17607,7 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
-   "promocao": false,
+   "promocao": true,
    "fornecedor": "Grasep",
    "pagina": 4,
    "imagens": [
@@ -17625,7 +17625,7 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
-   "promocao": false,
+   "promocao": true,
    "fornecedor": "Grasep",
    "pagina": 4,
    "imagens": [
@@ -17643,7 +17643,7 @@
    ],
    "qtd_caixa": 4,
    "lancamento": false,
-   "promocao": false,
+   "promocao": true,
    "fornecedor": "Grasep",
    "pagina": 4,
    "imagens": [
@@ -18075,14 +18075,7 @@
     "10W de potência total",
     "Conexão por cabo aux",
     "150Hz ~ 20KHz",
-    "1,3m de cabo",
-    "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
-    "2 alto-falantes de 2,5’’",
-    "1 alto-falantes de 3,5’’",
-    "18W de potência total",
-    "60Hz ~ 20KHz",
-    "1,5m de cabo",
-    "D-GP301 BT"
+    "1,3m de cabo"
    ],
    "qtd_caixa": 20,
    "lancamento": false,
@@ -18102,26 +18095,9 @@
     "Faixa de resposta",
     "2 alto-falantes de 2’’",
     "10W de potência total",
-    "70*93*205mm x2",
     "Conexão por cabo aux",
-    "60Hz ~ 20KHz",
     "150Hz ~ 20KHz",
-    "1,5m de cabo",
-    "1,3m de cabo",
-    "D-GP204 BT",
-    "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
-    "8W + 5w",
-    "20W + 10W",
-    "x2",
-    "2 alto-falantes de 3’’",
-    "1 alto-falantes de 3’’",
-    "1 alto-falantes de 5’’",
-    "18W de potência total",
-    "30W de potência total",
-    "72*70*97mm x2",
-    "100*112*155mm x2",
-    "D-GP302 BT",
-    "D-GP303 BT"
+    "1,3m de cabo"
    ],
    "qtd_caixa": 20,
    "lancamento": false,
@@ -18130,6 +18106,102 @@
    "pagina": 8,
    "imagens": [
     "d-gp209"
+   ]
+  },
+  {
+   "codigo": "D-GP204 BT",
+   "nome": "MINI SOUNDBAR PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "5Wx2",
+    "Faixa de resposta",
+    "2 alto-falantes de 2’’",
+    "10W de potência total",
+    "70*93*205mm x2",
+    "Conexão por cabo aux",
+    "60Hz ~ 20KHz",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 20,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp204-bt"
+   ]
+  },
+  {
+   "codigo": "D-GP301 BT",
+   "nome": "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "2 alto-falantes de 2,5’’",
+    "Faixa de resposta",
+    "1 alto-falantes de 3,5’’",
+    "18W de potência total",
+    "60Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp301-bt"
+   ]
+  },
+  {
+   "codigo": "D-GP302 BT",
+   "nome": "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "8W + 5w",
+    "x2",
+    "2 alto-falantes de 2’’",
+    "Faixa de resposta",
+    "1 alto-falantes de 3’’",
+    "18W de potência total",
+    "60Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 12,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp302-bt"
+   ]
+  },
+  {
+   "codigo": "D-GP303 BT",
+   "nome": "MINI CAIXA SUBWOOFER 2.1CH PARA PC",
+   "categoria": "CAIXA DE SOM",
+   "specs": [
+    "8W + 5w",
+    "20W + 10W",
+    "x2",
+    "2 alto-falantes de 3’’",
+    "Faixa de resposta",
+    "1 alto-falantes de 5’’",
+    "30W de potência total",
+    "150Hz ~ 20KHz",
+    "Conexão por cabo aux",
+    "72*70*97mm x2",
+    "100*112*155mm x2",
+    "1,5m de cabo"
+   ],
+   "qtd_caixa": 4,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 8,
+   "imagens": [
+    "d-gp303-bt"
    ]
   },
   {
@@ -19680,7 +19752,7 @@
   },
   {
    "codigo": "D-EXT50100P2.976",
-   "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED Painel Externo de LED",
+   "nome": "Painel Externo de LED",
    "categoria": "PAINÉIS DE LED E SUPORTES",
    "specs": [
     "15kg",
@@ -19697,8 +19769,6 @@
     "Cores do píxel (R/G/B): 1/1/1",
     "Nível de Escala de Cinza: 16bit",
     "Modelo do LED (SMD): SMD1415",
-    "96CM de comprimento",
-    "50CM de comprimento",
     "Taxa de Atualização: > 7680",
     "Píxels do módulo: 84*84",
     "Ângulo de Visão Horizontal: > 130°",
@@ -19714,7 +19784,7 @@
     "Temperatura de Trabalho: -20°C~60°C",
     "Brilho: 4500 cd/m2"
    ],
-   "qtd_caixa": 8,
+   "qtd_caixa": 6,
    "lancamento": false,
    "promocao": false,
    "fornecedor": "Grasep",
@@ -21028,33 +21098,57 @@
    ]
   },
   {
-   "codigo": "A24E99-07",
+   "codigo": "A24E99-05",
    "nome": "Tela: 23.8”",
    "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
    "specs": [
     "WIFI 5 2.4GHz/5GHz",
     "Bluetooth 4.2",
-    "Modelo: A24E99-05 3 PÇS/CAIXA",
-    "Processador: Intel Core i7-13620H",
-    "RJ45 LAN:100/1000Mbps",
     "Processador: Intel Core i5-1240P",
-    "Memória RAM: 16G DDR4",
-    "O eixo giratorio pode girar em 90°",
+    "RJ45 LAN:100/1000Mbps",
     "Memória RAM: 16G DDR4; 2666hz",
-    "Armazenamento: 512G SSD",
+    "O eixo giratorio pode girar em 90°",
     "Armazenamento:512g SSD",
     "23.8”Moldura micro estreita",
     "Descrição das portas",
     "TECLADO*1",
-    "Saída: HDMI / VGA",
     "Saída:HDMI / VGA",
     "MOUSE*1",
-    "USB 3.1*4",
     "USB 3.1*4 USB 2.0*2",
     "MOUSE PAD*1",
-    "LAN(RJ45)",
     "CAIXA DE BATERIA UPS*1",
+    "LAN(RJ45)",
     "FONTE DE ALIMENTACAO*1",
+    "Saída para microfone ou fone de ouvido",
+    "Entrada da Bateria UPS",
+    "DC IN 19.5V(Pino:5.5*2.5mm)"
+   ],
+   "qtd_caixa": 3,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 28,
+   "imagens": [
+    "a24e99-05"
+   ]
+  },
+  {
+   "codigo": "A24E99-07",
+   "nome": "Computadores All-In-One E Portáteis",
+   "categoria": "COMPUTADORES ALL-IN-ONE E PORTÁTEIS",
+   "specs": [
+    "WIFI 5 2.4GHz/5GHz",
+    "Bluetooth 4.2",
+    "Processador: Intel Core i7-13620H",
+    "RJ45 LAN:100/1000Mbps",
+    "Memória RAM: 16G DDR4",
+    "O eixo giratorio pode girar em 90°",
+    "Armazenamento: 512G SSD",
+    "23.8”Moldura micro estreita",
+    "Descrição das portas",
+    "Saída: HDMI / VGA",
+    "USB 3.1*4",
+    "LAN(RJ45)",
     "Saída para microfone ou fone de ouvido",
     "Entrada da Bateria UPS",
     "DC IN 19.5V(Pino:5.5*2.5mm)"
@@ -21325,6 +21419,34 @@
    "imagens": [
     "3d-777s"
    ]
+  },
+  {
+   "codigo": "D-VIGA50",
+   "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "50CM de comprimento"
+   ],
+   "qtd_caixa": 8,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": []
+  },
+  {
+   "codigo": "D-VIGA96",
+   "nome": "VIGA SUSPENSA P/ PAINEL EXTERIOR DE LED",
+   "categoria": "PAINÉIS DE LED E SUPORTES",
+   "specs": [
+    "96CM de comprimento"
+   ],
+   "qtd_caixa": 2,
+   "lancamento": false,
+   "promocao": false,
+   "fornecedor": "Grasep",
+   "pagina": 20,
+   "imagens": []
   }
  ]
 }

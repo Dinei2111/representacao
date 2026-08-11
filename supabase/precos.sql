@@ -1,12 +1,13 @@
 -- Tabela de preços gerada por tools/sync_supabase.py — não editar à mão.
 -- Cole no SQL Editor do Supabase depois do schema.sql.
--- 1018 produtos · fornecedores: Grasep, Knup
+-- 1025 produtos · fornecedores: Grasep, Knup
 
 begin;
 delete from public.precos where fornecedor = 'Grasep';
 delete from public.precos where fornecedor = 'Knup';
 insert into public.precos (codigo, de, valor, faixas, fornecedor) values
   ('3D-777S', null, '75,00', '[]'::jsonb, 'Grasep'),
+  ('A24E99-05', null, '4152,00', '[]'::jsonb, 'Grasep'),
   ('A24E99-07', null, '5040,00', '[]'::jsonb, 'Grasep'),
   ('BX2204', null, '28,00', '[]'::jsonb, 'Knup'),
   ('BX2205', null, '30,00', '[]'::jsonb, 'Knup'),
@@ -77,7 +78,7 @@ insert into public.precos (codigo, de, valor, faixas, fornecedor) values
   ('D-DM01', null, '560,00', '[]'::jsonb, 'Grasep'),
   ('D-DM02', null, '620,00', '[]'::jsonb, 'Grasep'),
   ('D-DM03', null, '850,00', '[]'::jsonb, 'Grasep'),
-  ('D-EXT50100P2.976', null, '180,00', '[]'::jsonb, 'Grasep'),
+  ('D-EXT50100P2.976', null, '2980,00', '[]'::jsonb, 'Grasep'),
   ('D-F8', null, '74,00', '[]'::jsonb, 'Grasep'),
   ('D-F9', null, '74,00', '[]'::jsonb, 'Grasep'),
   ('D-G102', null, '140,00', '[]'::jsonb, 'Grasep'),
@@ -107,11 +108,15 @@ insert into public.precos (codigo, de, valor, faixas, fornecedor) values
   ('D-GP201', null, '27,50', '[]'::jsonb, 'Grasep'),
   ('D-GP202', null, '27,00', '[]'::jsonb, 'Grasep'),
   ('D-GP203', null, '24,50', '[]'::jsonb, 'Grasep'),
+  ('D-GP204 BT', null, '65,00', '[]'::jsonb, 'Grasep'),
   ('D-GP205', null, '60,00', '[]'::jsonb, 'Grasep'),
   ('D-GP206', null, '38,00', '[]'::jsonb, 'Grasep'),
   ('D-GP207', null, '62,00', '[]'::jsonb, 'Grasep'),
   ('D-GP208', null, '80,00', '[]'::jsonb, 'Grasep'),
-  ('D-GP209', null, '65,00', '[]'::jsonb, 'Grasep'),
+  ('D-GP209', null, '82,00', '[]'::jsonb, 'Grasep'),
+  ('D-GP301 BT', null, '105,00', '[]'::jsonb, 'Grasep'),
+  ('D-GP302 BT', null, '90,00', '[]'::jsonb, 'Grasep'),
+  ('D-GP303 BT', null, '200,00', '[]'::jsonb, 'Grasep'),
   ('D-GP304', null, '55,00', '[]'::jsonb, 'Grasep'),
   ('D-GP305', null, '75,00', '[]'::jsonb, 'Grasep'),
   ('D-GR270', null, '640,00', '[]'::jsonb, 'Grasep'),
@@ -165,12 +170,14 @@ insert into public.precos (codigo, de, valor, faixas, fornecedor) values
   ('D-TELA13', null, '345,00', '[]'::jsonb, 'Grasep'),
   ('D-TELA14', null, '880,00', '[]'::jsonb, 'Grasep'),
   ('D-TF08', null, '15,00', '[]'::jsonb, 'Grasep'),
+  ('D-VIGA50', null, '180,00', '[]'::jsonb, 'Grasep'),
+  ('D-VIGA96', null, '320,00', '[]'::jsonb, 'Grasep'),
   ('D-X001', null, '245,00', '[]'::jsonb, 'Grasep'),
   ('D-X006', null, '155,00', '[]'::jsonb, 'Grasep'),
   ('D-X007', null, '185,00', '[]'::jsonb, 'Grasep'),
   ('D-X008', null, '110,00', '[]'::jsonb, 'Grasep'),
   ('D-X009', null, '190,00', '[]'::jsonb, 'Grasep'),
-  ('D-X010', null, '1080,00', '[]'::jsonb, 'Grasep'),
+  ('D-X010', '1080,00', '980,00', '[]'::jsonb, 'Grasep'),
   ('D-X011', null, '580,00', '[]'::jsonb, 'Grasep'),
   ('D-X608', null, '248,00', '[]'::jsonb, 'Grasep'),
   ('D-X612', null, '225,00', '[]'::jsonb, 'Grasep'),
@@ -185,9 +192,9 @@ insert into public.precos (codigo, de, valor, faixas, fornecedor) values
   ('D-XK205', null, '255,00', '[]'::jsonb, 'Grasep'),
   ('D-XK306', null, '290,00', '[]'::jsonb, 'Grasep'),
   ('D-XK307', null, '275,00', '[]'::jsonb, 'Grasep'),
-  ('D-XK308', null, '700,00', '[]'::jsonb, 'Grasep'),
-  ('D-XK309', null, '640,00', '[]'::jsonb, 'Grasep'),
-  ('D-XK310', null, '600,00', '[]'::jsonb, 'Grasep'),
+  ('D-XK308', '700,00', '640,00', '[]'::jsonb, 'Grasep'),
+  ('D-XK309', '660,00', '600,00', '[]'::jsonb, 'Grasep'),
+  ('D-XK310', '620,00', '560,00', '[]'::jsonb, 'Grasep'),
   ('D-XK312', null, '360,00', '[]'::jsonb, 'Grasep'),
   ('D-XK421', null, '1600,00', '[]'::jsonb, 'Grasep'),
   ('D-XK422', null, '1200,00', '[]'::jsonb, 'Grasep'),
